@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on The Thinking Tree</title>
+    <link>https://thinkingtree.codefra.in/projects/</link>
+    <description>Recent content in Projects on The Thinking Tree</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-in</language>
+    <copyright>&amp;copy; 2018 CodeFRA</copyright>
+    <lastBuildDate>Tue, 17 Jul 2018 23:40:05 +0530</lastBuildDate>
+    
+	<atom:link href="https://thinkingtree.codefra.in/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Programming</title>
+      <link>https://thinkingtree.codefra.in/projects/programming/</link>
+      <pubDate>Tue, 17 Jul 2018 23:40:05 +0530</pubDate>
+      
+      <guid>https://thinkingtree.codefra.in/projects/programming/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
