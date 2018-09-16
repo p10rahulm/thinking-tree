@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Topics on The Thinking Tree</title>
-    <link>https://thinkingtree.codefra.in/topics/</link>
+    <link>http://www.thinkingtree.me/topics/</link>
     <description>Recent content in Topics on The Thinking Tree</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-in</language>
     <copyright>&amp;copy; 2018 CodeFRA</copyright>
     <lastBuildDate>Fri, 08 Jun 2018 19:44:35 +0530</lastBuildDate>
     
-	<atom:link href="https://thinkingtree.codefra.in/topics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.thinkingtree.me/topics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Management</title>
-      <link>https://thinkingtree.codefra.in/topics/management/</link>
+      <link>http://www.thinkingtree.me/topics/management/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>https://thinkingtree.codefra.in/topics/management/</guid>
+      <guid>http://www.thinkingtree.me/topics/management/</guid>
       <description></description>
     </item>
     
