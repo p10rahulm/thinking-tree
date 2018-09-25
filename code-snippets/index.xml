@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Thinking Tree</title>
-    <link>http://www.thinkingtree.me/code-snippets/</link>
-    <description>Recent content on The Thinking Tree</description>
+    <title>Your Website Name</title>
+    <link>http://www.yourdomain.com/code-snippets/</link>
+    <description>Recent content on Your Website Name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-in</language>
-    <copyright>&amp;copy; 2018 CodeFRA</copyright>
+    <copyright>&amp;copy; 2018 YourCompany</copyright>
     <lastBuildDate>Fri, 08 Jun 2018 19:44:35 +0530</lastBuildDate>
     
-	<atom:link href="http://www.thinkingtree.me/code-snippets/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.yourdomain.com/code-snippets/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2tododo</title>
-      <link>http://www.thinkingtree.me/code-snippets/snip2/</link>
+      <link>http://www.yourdomain.com/code-snippets/snip2/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/code-snippets/snip2/</guid>
+      <guid>http://www.yourdomain.com/code-snippets/snip2/</guid>
       <description>This is how we do code Sample bash code
 $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
@@ -25,10 +25,10 @@ $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
     
     <item>
       <title>5-MI</title>
-      <link>http://www.thinkingtree.me/code-snippets/snip5/</link>
+      <link>http://www.yourdomain.com/code-snippets/snip5/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/code-snippets/snip5/</guid>
+      <guid>http://www.yourdomain.com/code-snippets/snip5/</guid>
       <description>This is how we do code Sample bash code
 $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
@@ -36,10 +36,10 @@ $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
     
     <item>
       <title>Ashta Lakshmi</title>
-      <link>http://www.thinkingtree.me/code-snippets/snip8/</link>
+      <link>http://www.yourdomain.com/code-snippets/snip8/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/code-snippets/snip8/</guid>
+      <guid>http://www.yourdomain.com/code-snippets/snip8/</guid>
       <description>This is how we do code Sample bash code
 $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
@@ -47,10 +47,10 @@ $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
     
     <item>
       <title>Das Vidanya</title>
-      <link>http://www.thinkingtree.me/code-snippets/snip10/</link>
+      <link>http://www.yourdomain.com/code-snippets/snip10/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/code-snippets/snip10/</guid>
+      <guid>http://www.yourdomain.com/code-snippets/snip10/</guid>
       <description>This is how we do code Sample bash code
 $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
@@ -58,10 +58,10 @@ $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
     
     <item>
       <title>Nou veau Riche</title>
-      <link>http://www.thinkingtree.me/code-snippets/snip9/</link>
+      <link>http://www.yourdomain.com/code-snippets/snip9/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/code-snippets/snip9/</guid>
+      <guid>http://www.yourdomain.com/code-snippets/snip9/</guid>
       <description>This is how we do code Sample bash code
 $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
@@ -69,10 +69,10 @@ $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
     
     <item>
       <title>che by chefs rule</title>
-      <link>http://www.thinkingtree.me/code-snippets/snip6/</link>
+      <link>http://www.yourdomain.com/code-snippets/snip6/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/code-snippets/snip6/</guid>
+      <guid>http://www.yourdomain.com/code-snippets/snip6/</guid>
       <description>This is how we do code Sample bash code
 $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
@@ -80,10 +80,10 @@ $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
     
     <item>
       <title>fourza monza</title>
-      <link>http://www.thinkingtree.me/code-snippets/snip4/</link>
+      <link>http://www.yourdomain.com/code-snippets/snip4/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/code-snippets/snip4/</guid>
+      <guid>http://www.yourdomain.com/code-snippets/snip4/</guid>
       <description>This is how we do code Sample bash code
 $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
@@ -91,10 +91,10 @@ $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
     
     <item>
       <title>hum sab saath saath hain</title>
-      <link>http://www.thinkingtree.me/code-snippets/snip7/</link>
+      <link>http://www.yourdomain.com/code-snippets/snip7/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/code-snippets/snip7/</guid>
+      <guid>http://www.yourdomain.com/code-snippets/snip7/</guid>
       <description>This is how we do code Sample bash code
 $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
@@ -102,10 +102,10 @@ $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
     
     <item>
       <title>ondho</title>
-      <link>http://www.thinkingtree.me/code-snippets/snip1/</link>
+      <link>http://www.yourdomain.com/code-snippets/snip1/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/code-snippets/snip1/</guid>
+      <guid>http://www.yourdomain.com/code-snippets/snip1/</guid>
       <description>This is how we do code Sample bash code
 $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
@@ -113,10 +113,10 @@ $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
     
     <item>
       <title>threelala</title>
-      <link>http://www.thinkingtree.me/code-snippets/snip3/</link>
+      <link>http://www.yourdomain.com/code-snippets/snip3/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/code-snippets/snip3/</guid>
+      <guid>http://www.yourdomain.com/code-snippets/snip3/</guid>
       <description>This is how we do code Sample bash code
 $&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>

@@ -1,105 +1,215 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming on The Thinking Tree</title>
-    <link>http://www.thinkingtree.me/categories/programming/</link>
-    <description>Recent content in Programming on The Thinking Tree</description>
+    <title>Programming on Your Website Name</title>
+    <link>http://www.yourdomain.com/categories/programming/</link>
+    <description>Recent content in Programming on Your Website Name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-in</language>
-    <copyright>&amp;copy; 2018 CodeFRA</copyright>
+    <copyright>&amp;copy; 2018 YourCompany</copyright>
     <lastBuildDate>Tue, 17 Jul 2018 23:40:05 +0530</lastBuildDate>
     
-	<atom:link href="http://www.thinkingtree.me/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.yourdomain.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Carbon Monoxide: To Boldly Go Where NO Has Gone Before.</title>
-      <link>http://www.thinkingtree.me/publications/pub7/</link>
+      <link>http://www.yourdomain.com/publications/pub7/</link>
       <pubDate>Tue, 17 Jul 2018 23:40:05 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/publications/pub7/</guid>
+      <guid>http://www.yourdomain.com/publications/pub7/</guid>
       <description>We have created a framework for analyzing subscription based businesses in terms of a unified metric which we call SCV (single customer value). The major advance in this paper is to model customer churn as an exponential decay variable, which directly follows from experimental data relating to subscription based businesses.</description>
     </item>
     
     <item>
       <title>Correlations study of laziness with coding</title>
-      <link>http://www.thinkingtree.me/publications/pub6/</link>
+      <link>http://www.yourdomain.com/publications/pub6/</link>
       <pubDate>Tue, 17 Jul 2018 23:40:05 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/publications/pub6/</guid>
+      <guid>http://www.yourdomain.com/publications/pub6/</guid>
       <description>We have created a framework for analyzing subscription based businesses in terms of a unified metric which we call SCV (single customer value). The major advance in this paper is to model customer churn as an exponential decay variable, which directly follows from experimental data relating to subscription based businesses.</description>
     </item>
     
     <item>
       <title>Effects of direct taxation on our wellbeing</title>
-      <link>http://www.thinkingtree.me/publications/pub4/</link>
+      <link>http://www.yourdomain.com/publications/pub4/</link>
       <pubDate>Tue, 17 Jul 2018 23:40:05 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/publications/pub4/</guid>
+      <guid>http://www.yourdomain.com/publications/pub4/</guid>
       <description>We have created a framework for analyzing subscription based businesses in terms of a unified metric which we call SCV (single customer value). The major advance in this paper is to model customer churn as an exponential decay variable, which directly follows from experimental data relating to subscription based businesses.</description>
     </item>
     
     <item>
       <title>Finding the square root of me and u, mu</title>
-      <link>http://www.thinkingtree.me/publications/pub1/</link>
+      <link>http://www.yourdomain.com/publications/pub1/</link>
       <pubDate>Tue, 17 Jul 2018 23:40:05 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/publications/pub1/</guid>
+      <guid>http://www.yourdomain.com/publications/pub1/</guid>
       <description>We have created a framework for analyzing subscription based businesses in terms of a unified metric which we call SCV (single customer value). The major advance in this paper is to model customer churn as an exponential decay variable, which directly follows from experimental data relating to subscription based businesses.</description>
     </item>
     
     <item>
       <title>Interplanetary copulatory comparisons between Uranus and Europa</title>
-      <link>http://www.thinkingtree.me/publications/pub5/</link>
+      <link>http://www.yourdomain.com/publications/pub5/</link>
       <pubDate>Tue, 17 Jul 2018 23:40:05 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/publications/pub5/</guid>
+      <guid>http://www.yourdomain.com/publications/pub5/</guid>
       <description>We have created a framework for analyzing subscription based businesses in terms of a unified metric which we call SCV (single customer value). The major advance in this paper is to model customer churn as an exponential decay variable, which directly follows from experimental data relating to subscription based businesses.</description>
     </item>
     
     <item>
       <title>One giant leap for mankind? A cost-utility analysis of abolishing the law of gravity.</title>
-      <link>http://www.thinkingtree.me/publications/pub9/</link>
+      <link>http://www.yourdomain.com/publications/pub9/</link>
       <pubDate>Tue, 17 Jul 2018 23:40:05 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/publications/pub9/</guid>
+      <guid>http://www.yourdomain.com/publications/pub9/</guid>
       <description>We have created a framework for analyzing subscription based businesses in terms of a unified metric which we call SCV (single customer value). The major advance in this paper is to model customer churn as an exponential decay variable, which directly follows from experimental data relating to subscription based businesses.</description>
     </item>
     
     <item>
       <title>Technology: go ahead, make my DNA.</title>
-      <link>http://www.thinkingtree.me/publications/pub8/</link>
+      <link>http://www.yourdomain.com/publications/pub8/</link>
       <pubDate>Tue, 17 Jul 2018 23:40:05 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/publications/pub8/</guid>
+      <guid>http://www.yourdomain.com/publications/pub8/</guid>
       <description>We have created a framework for analyzing subscription based businesses in terms of a unified metric which we call SCV (single customer value). The major advance in this paper is to model customer churn as an exponential decay variable, which directly follows from experimental data relating to subscription based businesses.</description>
     </item>
     
     <item>
       <title>The barrier potential of our own thoughts</title>
-      <link>http://www.thinkingtree.me/publications/pub3/</link>
+      <link>http://www.yourdomain.com/publications/pub3/</link>
       <pubDate>Tue, 17 Jul 2018 23:40:05 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/publications/pub3/</guid>
+      <guid>http://www.yourdomain.com/publications/pub3/</guid>
       <description>We have created a framework for analyzing subscription based businesses in terms of a unified metric which we call SCV (single customer value). The major advance in this paper is to model customer churn as an exponential decay variable, which directly follows from experimental data relating to subscription based businesses.</description>
     </item>
     
     <item>
       <title>The intentional sublimation of causality</title>
-      <link>http://www.thinkingtree.me/publications/pub2/</link>
+      <link>http://www.yourdomain.com/publications/pub2/</link>
       <pubDate>Tue, 17 Jul 2018 23:40:05 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/publications/pub2/</guid>
+      <guid>http://www.yourdomain.com/publications/pub2/</guid>
       <description>We have created a framework for analyzing subscription based businesses in terms of a unified metric which we call SCV (single customer value). The major advance in this paper is to model customer churn as an exponential decay variable, which directly follows from experimental data relating to subscription based businesses.</description>
     </item>
     
     <item>
       <title>The tooth, the whole tooth and nothing but the tooth</title>
-      <link>http://www.thinkingtree.me/publications/pub10/</link>
+      <link>http://www.yourdomain.com/publications/pub10/</link>
       <pubDate>Tue, 17 Jul 2018 23:40:05 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/publications/pub10/</guid>
+      <guid>http://www.yourdomain.com/publications/pub10/</guid>
       <description>We have created a framework for analyzing subscription based businesses in terms of a unified metric which we call SCV (single customer value). The major advance in this paper is to model customer churn as an exponential decay variable, which directly follows from experimental data relating to subscription based businesses.</description>
+    </item>
+    
+    <item>
+      <title>2tododo</title>
+      <link>http://www.yourdomain.com/code-snippets/snip2/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/code-snippets/snip2/</guid>
+      <description>This is how we do code Sample bash code
+$&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
+    </item>
+    
+    <item>
+      <title>5-MI</title>
+      <link>http://www.yourdomain.com/code-snippets/snip5/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/code-snippets/snip5/</guid>
+      <description>This is how we do code Sample bash code
+$&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
+    </item>
+    
+    <item>
+      <title>Ashta Lakshmi</title>
+      <link>http://www.yourdomain.com/code-snippets/snip8/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/code-snippets/snip8/</guid>
+      <description>This is how we do code Sample bash code
+$&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
+    </item>
+    
+    <item>
+      <title>Das Vidanya</title>
+      <link>http://www.yourdomain.com/code-snippets/snip10/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/code-snippets/snip10/</guid>
+      <description>This is how we do code Sample bash code
+$&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
+    </item>
+    
+    <item>
+      <title>Nou veau Riche</title>
+      <link>http://www.yourdomain.com/code-snippets/snip9/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/code-snippets/snip9/</guid>
+      <description>This is how we do code Sample bash code
+$&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
+    </item>
+    
+    <item>
+      <title>che by chefs rule</title>
+      <link>http://www.yourdomain.com/code-snippets/snip6/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/code-snippets/snip6/</guid>
+      <description>This is how we do code Sample bash code
+$&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
+    </item>
+    
+    <item>
+      <title>fourza monza</title>
+      <link>http://www.yourdomain.com/code-snippets/snip4/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/code-snippets/snip4/</guid>
+      <description>This is how we do code Sample bash code
+$&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
+    </item>
+    
+    <item>
+      <title>hum sab saath saath hain</title>
+      <link>http://www.yourdomain.com/code-snippets/snip7/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/code-snippets/snip7/</guid>
+      <description>This is how we do code Sample bash code
+$&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
+    </item>
+    
+    <item>
+      <title>ondho</title>
+      <link>http://www.yourdomain.com/code-snippets/snip1/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/code-snippets/snip1/</guid>
+      <description>This is how we do code Sample bash code
+$&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
+    </item>
+    
+    <item>
+      <title>threelala</title>
+      <link>http://www.yourdomain.com/code-snippets/snip3/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/code-snippets/snip3/</guid>
+      <description>This is how we do code Sample bash code
+$&amp;gt; sudo visudo $&amp;gt; echo &amp;quot;l33t h@x0r&amp;quot;  Sample html
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;marquee&amp;gt;A scrolling text created with HTML Marquee element.</description>
     </item>
     
   </channel>

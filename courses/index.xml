@@ -1,113 +1,113 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Courses on The Thinking Tree</title>
-    <link>http://www.thinkingtree.me/courses/</link>
-    <description>Recent content in Courses on The Thinking Tree</description>
+    <title>Courses on Your Website Name</title>
+    <link>http://www.yourdomain.com/courses/</link>
+    <description>Recent content in Courses on Your Website Name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-in</language>
-    <copyright>&amp;copy; 2018 CodeFRA</copyright>
+    <copyright>&amp;copy; 2018 YourCompany</copyright>
     <lastBuildDate>Fri, 08 Jun 2018 19:44:35 +0530</lastBuildDate>
     
-	<atom:link href="http://www.thinkingtree.me/courses/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.yourdomain.com/courses/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A review on Management topics</title>
-      <link>http://www.thinkingtree.me/courses/course1/</link>
+      <link>http://www.yourdomain.com/courses/course1/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/courses/course1/</guid>
+      <guid>http://www.yourdomain.com/courses/course1/</guid>
       <description>About the course This is an awesome course. Get there or be square.
 Bachelor of Arts popularly known as B.A. Course is an undergraduate program in liberal arts, the sciences.</description>
     </item>
     
     <item>
       <title>Aat man</title>
-      <link>http://www.thinkingtree.me/courses/course8/</link>
+      <link>http://www.yourdomain.com/courses/course8/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/courses/course8/</guid>
+      <guid>http://www.yourdomain.com/courses/course8/</guid>
       <description>About the course This is an awesome course. Get there or be square.
 Bachelor of Arts popularly known as B.A. Course is an undergraduate program in liberal arts, the sciences.</description>
     </item>
     
     <item>
       <title>Chal chal chal mere haathi mere saath</title>
-      <link>http://www.thinkingtree.me/courses/course7/</link>
+      <link>http://www.yourdomain.com/courses/course7/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/courses/course7/</guid>
+      <guid>http://www.yourdomain.com/courses/course7/</guid>
       <description>About the course This is an awesome course. Get there or be square.
 Bachelor of Arts popularly known as B.A. Course is an undergraduate program in liberal arts, the sciences.</description>
     </item>
     
     <item>
       <title>Che Guevera</title>
-      <link>http://www.thinkingtree.me/courses/course6/</link>
+      <link>http://www.yourdomain.com/courses/course6/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/courses/course6/</guid>
+      <guid>http://www.yourdomain.com/courses/course6/</guid>
       <description>About the course This is an awesome course. Get there or be square.
 Bachelor of Arts popularly known as B.A. Course is an undergraduate program in liberal arts, the sciences.</description>
     </item>
     
     <item>
       <title>Dus ka dum</title>
-      <link>http://www.thinkingtree.me/courses/course10/</link>
+      <link>http://www.yourdomain.com/courses/course10/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/courses/course10/</guid>
+      <guid>http://www.yourdomain.com/courses/course10/</guid>
       <description>About the course This is an awesome course. Get there or be square.
 Bachelor of Arts popularly known as B.A. Course is an undergraduate program in liberal arts, the sciences.</description>
     </item>
     
     <item>
       <title>Ek Duje ke liye</title>
-      <link>http://www.thinkingtree.me/courses/course2/</link>
+      <link>http://www.yourdomain.com/courses/course2/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/courses/course2/</guid>
+      <guid>http://www.yourdomain.com/courses/course2/</guid>
       <description>About the course This is an awesome course. Get there or be square.
 Bachelor of Arts popularly known as B.A. Course is an undergraduate program in liberal arts, the sciences.</description>
     </item>
     
     <item>
       <title>Four Baba</title>
-      <link>http://www.thinkingtree.me/courses/course4/</link>
+      <link>http://www.yourdomain.com/courses/course4/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/courses/course4/</guid>
+      <guid>http://www.yourdomain.com/courses/course4/</guid>
       <description>About the course This is an awesome course. Get there or be square.
 Bachelor of Arts popularly known as B.A. Course is an undergraduate program in liberal arts, the sciences.</description>
     </item>
     
     <item>
       <title>Nava da</title>
-      <link>http://www.thinkingtree.me/courses/course9/</link>
+      <link>http://www.yourdomain.com/courses/course9/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/courses/course9/</guid>
+      <guid>http://www.yourdomain.com/courses/course9/</guid>
       <description>About the course This is an awesome course. Get there or be square.
 Bachelor of Arts popularly known as B.A. Course is an undergraduate program in liberal arts, the sciences.</description>
     </item>
     
     <item>
       <title>Panch Garden</title>
-      <link>http://www.thinkingtree.me/courses/course5/</link>
+      <link>http://www.yourdomain.com/courses/course5/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/courses/course5/</guid>
+      <guid>http://www.yourdomain.com/courses/course5/</guid>
       <description>About the course This is an awesome course. Get there or be square.
 Bachelor of Arts popularly known as B.A. Course is an undergraduate program in liberal arts, the sciences.</description>
     </item>
     
     <item>
       <title>Three Blind Mice</title>
-      <link>http://www.thinkingtree.me/courses/course3/</link>
+      <link>http://www.yourdomain.com/courses/course3/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/courses/course3/</guid>
+      <guid>http://www.yourdomain.com/courses/course3/</guid>
       <description>About the course This is an awesome course. Get there or be square.
 Bachelor of Arts popularly known as B.A. Course is an undergraduate program in liberal arts, the sciences.</description>
     </item>

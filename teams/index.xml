@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Teams on The Thinking Tree</title>
-    <link>http://www.thinkingtree.me/teams/</link>
-    <description>Recent content in Teams on The Thinking Tree</description>
+    <title>Teams on Your Website Name</title>
+    <link>http://www.yourdomain.com/teams/</link>
+    <description>Recent content in Teams on Your Website Name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-in</language>
-    <copyright>&amp;copy; 2018 CodeFRA</copyright>
+    <copyright>&amp;copy; 2018 YourCompany</copyright>
     
-	<atom:link href="http://www.thinkingtree.me/teams/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.yourdomain.com/teams/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Leadership</title>
-      <link>http://www.thinkingtree.me/teams/leadership/</link>
+      <link>http://www.yourdomain.com/teams/leadership/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.thinkingtree.me/teams/leadership/</guid>
+      <guid>http://www.yourdomain.com/teams/leadership/</guid>
       <description></description>
     </item>
     

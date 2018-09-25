@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mytag on The Thinking Tree</title>
-    <link>http://www.thinkingtree.me/tags/mytag/</link>
-    <description>Recent content in Mytag on The Thinking Tree</description>
+    <title>Mytag on Your Website Name</title>
+    <link>http://www.yourdomain.com/tags/mytag/</link>
+    <description>Recent content in Mytag on Your Website Name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-in</language>
-    <copyright>&amp;copy; 2018 CodeFRA</copyright>
+    <copyright>&amp;copy; 2018 YourCompany</copyright>
     <lastBuildDate>Fri, 08 Jun 2018 19:44:35 +0530</lastBuildDate>
     
-	<atom:link href="http://www.thinkingtree.me/tags/mytag/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.yourdomain.com/tags/mytag/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>5S Organizational Principles</title>
-      <link>http://www.thinkingtree.me/books/book1/</link>
+      <link>http://www.yourdomain.com/books/book1/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/books/book1/</guid>
+      <guid>http://www.yourdomain.com/books/book1/</guid>
       <description>The book is a comprehensive book on everything under the sun. How many roads must a man walk down
 Before you call him a man?</description>
     </item>

@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Artists on The Thinking Tree</title>
-    <link>http://www.thinkingtree.me/artists/</link>
-    <description>Recent content in Artists on The Thinking Tree</description>
+    <title>Artists on Your Website Name</title>
+    <link>http://www.yourdomain.com/artists/</link>
+    <description>Recent content in Artists on Your Website Name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-in</language>
-    <copyright>&amp;copy; 2018 CodeFRA</copyright>
+    <copyright>&amp;copy; 2018 YourCompany</copyright>
     
-	<atom:link href="http://www.thinkingtree.me/artists/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.yourdomain.com/artists/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>K S Madhavan</title>
-      <link>http://www.thinkingtree.me/artists/k-s-madhavan/</link>
+      <title>Firstname Lastname</title>
+      <link>http://www.yourdomain.com/artists/firstname-lastname/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/artists/k-s-madhavan/</guid>
+      <guid>http://www.yourdomain.com/artists/firstname-lastname/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Madhav Ajjampur</title>
-      <link>http://www.thinkingtree.me/artists/madhav-ajjampur/</link>
+      <title>Madhav Thebard</title>
+      <link>http://www.yourdomain.com/artists/madhav-thebard/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/artists/madhav-ajjampur/</guid>
+      <guid>http://www.yourdomain.com/artists/madhav-thebard/</guid>
       <description></description>
     </item>
     

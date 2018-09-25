@@ -1,105 +1,115 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on The Thinking Tree</title>
-    <link>http://www.thinkingtree.me/posts/</link>
-    <description>Recent content in Posts on The Thinking Tree</description>
+    <title>Posts on Your Website Name</title>
+    <link>http://www.yourdomain.com/posts/</link>
+    <description>Recent content in Posts on Your Website Name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-in</language>
-    <copyright>&amp;copy; 2018 CodeFRA</copyright>
-    <lastBuildDate>Fri, 08 Jun 2018 19:44:46 +0530</lastBuildDate>
+    <copyright>&amp;copy; 2018 YourCompany</copyright>
+    <lastBuildDate>Fri, 08 Jun 2018 19:44:35 +0530</lastBuildDate>
     
-	<atom:link href="http://www.thinkingtree.me/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.yourdomain.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Post10</title>
-      <link>http://www.thinkingtree.me/posts/post10/</link>
-      <pubDate>Fri, 08 Jun 2018 19:44:46 +0530</pubDate>
+      <title>Antonio Vivaldi</title>
+      <link>http://www.yourdomain.com/posts/post7/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/posts/post10/</guid>
-      <description>This is a post on the effects of workplace sustenance Workplace work makes jack a dull boy.</description>
+      <guid>http://www.yourdomain.com/posts/post7/</guid>
+      <description>On Coding Claude Debussy: &amp;ldquo;Works of art make rules; rules do not make works of art.&amp;rdquo;
+Leonard Bernstein: &amp;ldquo;To achieve great things, two things are needed; a plan, and not quite enough time.</description>
     </item>
     
     <item>
-      <title>Post9</title>
-      <link>http://www.thinkingtree.me/posts/post9/</link>
-      <pubDate>Fri, 08 Jun 2018 19:44:45 +0530</pubDate>
+      <title>Claude Debussy</title>
+      <link>http://www.yourdomain.com/posts/post9/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/posts/post9/</guid>
-      <description>This is a post on the effects of workplace sustenance Workplace work makes jack a dull boy.</description>
+      <guid>http://www.yourdomain.com/posts/post9/</guid>
+      <description>On Coding Claude Debussy: &amp;ldquo;Works of art make rules; rules do not make works of art.&amp;rdquo;
+Leonard Bernstein: &amp;ldquo;To achieve great things, two things are needed; a plan, and not quite enough time.</description>
     </item>
     
     <item>
-      <title>Post8</title>
-      <link>http://www.thinkingtree.me/posts/post8/</link>
-      <pubDate>Fri, 08 Jun 2018 19:44:44 +0530</pubDate>
+      <title>Franz Schubert</title>
+      <link>http://www.yourdomain.com/posts/post10/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/posts/post8/</guid>
-      <description>This is a post on the effects of workplace sustenance Workplace work makes jack a dull boy.</description>
+      <guid>http://www.yourdomain.com/posts/post10/</guid>
+      <description>On Coding Claude Debussy: &amp;ldquo;Works of art make rules; rules do not make works of art.&amp;rdquo;
+Leonard Bernstein: &amp;ldquo;To achieve great things, two things are needed; a plan, and not quite enough time.</description>
     </item>
     
     <item>
-      <title>Post7</title>
-      <link>http://www.thinkingtree.me/posts/post7/</link>
-      <pubDate>Fri, 08 Jun 2018 19:44:42 +0530</pubDate>
+      <title>Frederic Chopin</title>
+      <link>http://www.yourdomain.com/posts/post6/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/posts/post7/</guid>
-      <description>This is a post on the effects of workplace sustenance Workplace work makes jack a dull boy.</description>
+      <guid>http://www.yourdomain.com/posts/post6/</guid>
+      <description>On Coding Claude Debussy: &amp;ldquo;Works of art make rules; rules do not make works of art.&amp;rdquo;
+Leonard Bernstein: &amp;ldquo;To achieve great things, two things are needed; a plan, and not quite enough time.</description>
     </item>
     
     <item>
-      <title>Post6</title>
-      <link>http://www.thinkingtree.me/posts/post6/</link>
-      <pubDate>Fri, 08 Jun 2018 19:44:41 +0530</pubDate>
+      <title>George Frideric Handel</title>
+      <link>http://www.yourdomain.com/posts/post8/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/posts/post6/</guid>
-      <description>This is a post on the effects of workplace sustenance Workplace work makes jack a dull boy.</description>
+      <guid>http://www.yourdomain.com/posts/post8/</guid>
+      <description>On Coding Claude Debussy: &amp;ldquo;Works of art make rules; rules do not make works of art.&amp;rdquo;
+Leonard Bernstein: &amp;ldquo;To achieve great things, two things are needed; a plan, and not quite enough time.</description>
     </item>
     
     <item>
-      <title>Post5</title>
-      <link>http://www.thinkingtree.me/posts/post5/</link>
-      <pubDate>Fri, 08 Jun 2018 19:44:40 +0530</pubDate>
+      <title>Johann Sebastian Bach</title>
+      <link>http://www.yourdomain.com/posts/post4/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/posts/post5/</guid>
-      <description>This is a post on the effects of workplace sustenance Workplace work makes jack a dull boy.</description>
+      <guid>http://www.yourdomain.com/posts/post4/</guid>
+      <description>On Coding Claude Debussy: &amp;ldquo;Works of art make rules; rules do not make works of art.&amp;rdquo;
+Leonard Bernstein: &amp;ldquo;To achieve great things, two things are needed; a plan, and not quite enough time.</description>
     </item>
     
     <item>
-      <title>Post4</title>
-      <link>http://www.thinkingtree.me/posts/post4/</link>
-      <pubDate>Fri, 08 Jun 2018 19:44:39 +0530</pubDate>
+      <title>Johannes Brahms</title>
+      <link>http://www.yourdomain.com/posts/post5/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/posts/post4/</guid>
-      <description>This is a post on the effects of workplace sustenance Workplace work makes jack a dull boy.</description>
+      <guid>http://www.yourdomain.com/posts/post5/</guid>
+      <description>On Coding Claude Debussy: &amp;ldquo;Works of art make rules; rules do not make works of art.&amp;rdquo;
+Leonard Bernstein: &amp;ldquo;To achieve great things, two things are needed; a plan, and not quite enough time.</description>
     </item>
     
     <item>
-      <title>Post3</title>
-      <link>http://www.thinkingtree.me/posts/post3/</link>
-      <pubDate>Fri, 08 Jun 2018 19:44:38 +0530</pubDate>
+      <title>Ludwig van Beethoven</title>
+      <link>http://www.yourdomain.com/posts/post2/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/posts/post3/</guid>
-      <description>This is a post on the effects of workplace sustenance Workplace work makes jack a dull boy.</description>
+      <guid>http://www.yourdomain.com/posts/post2/</guid>
+      <description>On Coding Claude Debussy: &amp;ldquo;Works of art make rules; rules do not make works of art.&amp;rdquo;
+Leonard Bernstein: &amp;ldquo;To achieve great things, two things are needed; a plan, and not quite enough time.</description>
     </item>
     
     <item>
-      <title>Post2</title>
-      <link>http://www.thinkingtree.me/posts/post2/</link>
-      <pubDate>Fri, 08 Jun 2018 19:44:37 +0530</pubDate>
+      <title>Pyotr Ilyich Tchaikovsky</title>
+      <link>http://www.yourdomain.com/posts/post1/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/posts/post2/</guid>
-      <description>This is a post on the effects of workplace sustenance Workplace work makes jack a dull boy.</description>
+      <guid>http://www.yourdomain.com/posts/post1/</guid>
+      <description>On Coding Claude Debussy: &amp;ldquo;Works of art make rules; rules do not make works of art.&amp;rdquo;
+Leonard Bernstein: &amp;ldquo;To achieve great things, two things are needed; a plan, and not quite enough time.</description>
     </item>
     
     <item>
-      <title>Post1</title>
-      <link>http://www.thinkingtree.me/posts/post1/</link>
-      <pubDate>Fri, 08 Jun 2018 19:44:36 +0530</pubDate>
+      <title>Wolfgang Amadeus Mozart</title>
+      <link>http://www.yourdomain.com/posts/post3/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/posts/post1/</guid>
-      <description>This is a post on the effects of workplace sustenance Workplace work makes jack a dull boy.</description>
+      <guid>http://www.yourdomain.com/posts/post3/</guid>
+      <description>On Coding Claude Debussy: &amp;ldquo;Works of art make rules; rules do not make works of art.&amp;rdquo;
+Leonard Bernstein: &amp;ldquo;To achieve great things, two things are needed; a plan, and not quite enough time.</description>
     </item>
     
   </channel>

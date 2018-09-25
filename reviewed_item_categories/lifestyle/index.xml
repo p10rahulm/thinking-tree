@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lifestyle on The Thinking Tree</title>
-    <link>http://www.thinkingtree.me/reviewed_item_categories/lifestyle/</link>
-    <description>Recent content in Lifestyle on The Thinking Tree</description>
+    <title>Lifestyle on Your Website Name</title>
+    <link>http://www.yourdomain.com/reviewed_item_categories/lifestyle/</link>
+    <description>Recent content in Lifestyle on Your Website Name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-in</language>
-    <copyright>&amp;copy; 2018 CodeFRA</copyright>
+    <copyright>&amp;copy; 2018 YourCompany</copyright>
     <lastBuildDate>Fri, 08 Jun 2018 19:44:35 +0530</lastBuildDate>
     
-	<atom:link href="http://www.thinkingtree.me/reviewed_item_categories/lifestyle/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.yourdomain.com/reviewed_item_categories/lifestyle/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://www.thinkingtree.me/reviews/review10/</link>
+      <link>http://www.yourdomain.com/reviews/review10/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/reviews/review10/</guid>
+      <guid>http://www.yourdomain.com/reviews/review10/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://www.thinkingtree.me/reviews/review12/</link>
+      <link>http://www.yourdomain.com/reviews/review12/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/reviews/review12/</guid>
+      <guid>http://www.yourdomain.com/reviews/review12/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://www.thinkingtree.me/reviews/review3/</link>
+      <link>http://www.yourdomain.com/reviews/review3/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/reviews/review3/</guid>
+      <guid>http://www.yourdomain.com/reviews/review3/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://www.thinkingtree.me/reviews/review6/</link>
+      <link>http://www.yourdomain.com/reviews/review6/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/reviews/review6/</guid>
+      <guid>http://www.yourdomain.com/reviews/review6/</guid>
       <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     

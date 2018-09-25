@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Management on The Thinking Tree</title>
-    <link>http://www.thinkingtree.me/subjects/management/</link>
-    <description>Recent content in Management on The Thinking Tree</description>
+    <title>Management on Your Website Name</title>
+    <link>http://www.yourdomain.com/subjects/management/</link>
+    <description>Recent content in Management on Your Website Name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-in</language>
-    <copyright>&amp;copy; 2018 CodeFRA</copyright>
+    <copyright>&amp;copy; 2018 YourCompany</copyright>
     <lastBuildDate>Fri, 08 Jun 2018 19:44:35 +0530</lastBuildDate>
     
-	<atom:link href="http://www.thinkingtree.me/subjects/management/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.yourdomain.com/subjects/management/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A review on Management topics</title>
-      <link>http://www.thinkingtree.me/courses/course1/</link>
+      <link>http://www.yourdomain.com/courses/course1/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.thinkingtree.me/courses/course1/</guid>
+      <guid>http://www.yourdomain.com/courses/course1/</guid>
       <description>About the course This is an awesome course. Get there or be square.
 Bachelor of Arts popularly known as B.A. Course is an undergraduate program in liberal arts, the sciences.</description>
     </item>
