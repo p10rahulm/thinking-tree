@@ -2927,7 +2927,7 @@
     <url>
         
         <loc>
-            /projects/programming/
+            /categories/programming/
         </loc>
         
             <lastmod>
@@ -2948,7 +2948,7 @@
     <url>
         
         <loc>
-            /categories/programming/
+            /projects/programming/
         </loc>
         
             <lastmod>
@@ -3256,8 +3256,12 @@
     <url>
         
         <loc>
-            /divisions/technology/
+            /reviewed_item_categories/technology/
         </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
         
         
         
@@ -3273,12 +3277,8 @@
     <url>
         
         <loc>
-            /reviewed_item_categories/technology/
+            /divisions/technology/
         </loc>
-        
-            <lastmod>
-                2018-06-08T19:44:35+05:30
-            </lastmod>
         
         
         
