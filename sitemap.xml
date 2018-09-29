@@ -2518,27 +2518,6 @@
     <url>
         
         <loc>
-            /artists/firstname-lastname/
-        </loc>
-        
-            <lastmod>
-                2018-06-08T19:44:35+05:30
-            </lastmod>
-        
-        
-        
-            <priority>
-                0
-            </priority>
-        
-    </url>
-    
-    
-    
-    
-    <url>
-        
-        <loc>
             /genres/
         </loc>
         
@@ -2927,6 +2906,27 @@
     <url>
         
         <loc>
+            /tags/programming/
+        </loc>
+        
+            <lastmod>
+                2018-07-17T23:40:05+05:30
+            </lastmod>
+        
+        
+        
+            <priority>
+                0
+            </priority>
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /categories/programming/
         </loc>
         
@@ -2970,27 +2970,6 @@
         
         <loc>
             /subjects/programming/
-        </loc>
-        
-            <lastmod>
-                2018-07-17T23:40:05+05:30
-            </lastmod>
-        
-        
-        
-            <priority>
-                0
-            </priority>
-        
-    </url>
-    
-    
-    
-    
-    <url>
-        
-        <loc>
-            /tags/programming/
         </loc>
         
             <lastmod>
@@ -3256,12 +3235,8 @@
     <url>
         
         <loc>
-            /reviewed_item_categories/technology/
+            /divisions/technology/
         </loc>
-        
-            <lastmod>
-                2018-06-08T19:44:35+05:30
-            </lastmod>
         
         
         
@@ -3277,8 +3252,12 @@
     <url>
         
         <loc>
-            /divisions/technology/
+            /reviewed_item_categories/technology/
         </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
         
         
         
@@ -3408,6 +3387,27 @@
         </loc>
         
         
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /artists/yourname/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+            <priority>
+                0
+            </priority>
         
     </url>
     

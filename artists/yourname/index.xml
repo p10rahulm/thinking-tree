@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yourname on Your Website Name</title>
+    <link>http://www.yourdomain.com/artists/yourname/</link>
+    <description>Recent content in Yourname on Your Website Name</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-in</language>
+    <copyright>&amp;copy; 2018 yourCompanyName</copyright>
+    <lastBuildDate>Fri, 08 Jun 2018 19:44:35 +0530</lastBuildDate>
+    
+	<atom:link href="http://www.yourdomain.com/artists/yourname/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>And she is a tambourine woman</title>
+      <link>http://www.yourdomain.com/audios/audio9/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/audios/audio9/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit ante, accumsan mattis sollicitudin eget, dignissim suscipit nisi. Morbi scelerisque lectus sed neque facilisis egestas. Quisque sodales at libero ut semper.</description>
+    </item>
+    
+    <item>
+      <title>The answer is blowin&#39; in the wind</title>
+      <link>http://www.yourdomain.com/audios/audio8/</link>
+      <pubDate>Fri, 08 Jun 2018 18:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/audios/audio8/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit ante, accumsan mattis sollicitudin eget, dignissim suscipit nisi. Morbi scelerisque lectus sed neque facilisis egestas. Quisque sodales at libero ut semper.</description>
+    </item>
+    
+    <item>
+      <title>The answer, my friend</title>
+      <link>http://www.yourdomain.com/audios/audio7/</link>
+      <pubDate>Fri, 08 Jun 2018 17:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/audios/audio7/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit ante, accumsan mattis sollicitudin eget, dignissim suscipit nisi. Morbi scelerisque lectus sed neque facilisis egestas. Quisque sodales at libero ut semper.</description>
+    </item>
+    
+    <item>
+      <title>Before they&#39;re forever banned?</title>
+      <link>http://www.yourdomain.com/audios/audio6/</link>
+      <pubDate>Fri, 08 Jun 2018 16:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/audios/audio6/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit ante, accumsan mattis sollicitudin eget, dignissim suscipit nisi. Morbi scelerisque lectus sed neque facilisis egestas. Quisque sodales at libero ut semper.</description>
+    </item>
+    
+    <item>
+      <title>How many times must cannonballs fly</title>
+      <link>http://www.yourdomain.com/audios/audio5/</link>
+      <pubDate>Fri, 08 Jun 2018 15:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/audios/audio5/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit ante, accumsan mattis sollicitudin eget, dignissim suscipit nisi. Morbi scelerisque lectus sed neque facilisis egestas. Quisque sodales at libero ut semper.</description>
+    </item>
+    
+    <item>
+      <title>Before she sleeps in the sand?</title>
+      <link>http://www.yourdomain.com/audios/audio4/</link>
+      <pubDate>Fri, 08 Jun 2018 14:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/audios/audio4/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit ante, accumsan mattis sollicitudin eget, dignissim suscipit nisi. Morbi scelerisque lectus sed neque facilisis egestas. Quisque sodales at libero ut semper.</description>
+    </item>
+    
+    <item>
+      <title>How many seas must a white dove sail</title>
+      <link>http://www.yourdomain.com/audios/audio3/</link>
+      <pubDate>Fri, 08 Jun 2018 13:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/audios/audio3/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit ante, accumsan mattis sollicitudin eget, dignissim suscipit nisi. Morbi scelerisque lectus sed neque facilisis egestas. Quisque sodales at libero ut semper.</description>
+    </item>
+    
+    <item>
+      <title>Before you can call him a man?</title>
+      <link>http://www.yourdomain.com/audios/audio2/</link>
+      <pubDate>Fri, 08 Jun 2018 12:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/audios/audio2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit ante, accumsan mattis sollicitudin eget, dignissim suscipit nisi. Morbi scelerisque lectus sed neque facilisis egestas. Quisque sodales at libero ut semper.</description>
+    </item>
+    
+    <item>
+      <title>How many roads must a man walk down</title>
+      <link>http://www.yourdomain.com/audios/audio1/</link>
+      <pubDate>Fri, 08 Jun 2018 11:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/audios/audio1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit ante, accumsan mattis sollicitudin eget, dignissim suscipit nisi. Morbi scelerisque lectus sed neque facilisis egestas. Quisque sodales at libero ut semper.</description>
+    </item>
+    
+  </channel>
+</rss>

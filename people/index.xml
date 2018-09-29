@@ -6,7 +6,7 @@
     <description>Recent content in Our Strength on Your Website Name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-in</language>
-    <copyright>&amp;copy; 2018 YourCompany</copyright>
+    <copyright>&amp;copy; 2018 yourCompanyName</copyright>
     
 	<atom:link href="http://www.yourdomain.com/people/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.yourdomain.com/people/person1/</guid>
-      <description>Biography FirstName LastName founded YourCompany as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
+      <description>Biography yourName founded yourCompanyName as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.yourdomain.com/people/person10/</guid>
-      <description>Biography FirstName LastName founded YourCompany as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
+      <description>Biography yourName founded yourCompanyName as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.yourdomain.com/people/person2/</guid>
-      <description>Biography FirstName LastName founded YourCompany as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
+      <description>Biography yourName founded yourCompanyName as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.yourdomain.com/people/person3/</guid>
-      <description>Biography FirstName LastName founded YourCompany as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
+      <description>Biography yourName founded yourCompanyName as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
     </item>
     
     <item>
@@ -53,7 +53,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.yourdomain.com/people/person4/</guid>
-      <description>Biography FirstName LastName founded YourCompany as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
+      <description>Biography yourName founded yourCompanyName as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
     </item>
     
     <item>
@@ -62,7 +62,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.yourdomain.com/people/person5/</guid>
-      <description>Biography FirstName LastName founded YourCompany as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
+      <description>Biography yourName founded yourCompanyName as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
     </item>
     
     <item>
@@ -71,7 +71,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.yourdomain.com/people/person6/</guid>
-      <description>Biography FirstName LastName founded YourCompany as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
+      <description>Biography yourName founded yourCompanyName as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
     </item>
     
     <item>
@@ -80,7 +80,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.yourdomain.com/people/person7/</guid>
-      <description>Biography FirstName LastName founded YourCompany as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
+      <description>Biography yourName founded yourCompanyName as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
     </item>
     
     <item>
@@ -89,7 +89,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.yourdomain.com/people/person8/</guid>
-      <description>Biography FirstName LastName founded YourCompany as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
+      <description>Biography yourName founded yourCompanyName as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
     </item>
     
     <item>
@@ -98,7 +98,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.yourdomain.com/people/person9/</guid>
-      <description>Biography FirstName LastName founded YourCompany as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
+      <description>Biography yourName founded yourCompanyName as a means to work on problems that take time and are more difficult to address than traditional start-ups would allow.</description>
     </item>
     
   </channel>
