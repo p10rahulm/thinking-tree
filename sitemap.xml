@@ -686,6 +686,23 @@
     <url>
         
         <loc>
+            /docs/understanding_hugo/introduction/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /notes/note1/
         </loc>
         
@@ -2442,6 +2459,27 @@
     <url>
         
         <loc>
+            /docs/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+            <priority>
+                0
+            </priority>
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /tags/dreyfus/
         </loc>
         
@@ -2906,7 +2944,7 @@
     <url>
         
         <loc>
-            /tags/programming/
+            /subjects/programming/
         </loc>
         
             <lastmod>
@@ -2927,7 +2965,7 @@
     <url>
         
         <loc>
-            /categories/programming/
+            /tags/programming/
         </loc>
         
             <lastmod>
@@ -2969,7 +3007,7 @@
     <url>
         
         <loc>
-            /subjects/programming/
+            /categories/programming/
         </loc>
         
             <lastmod>
@@ -3235,8 +3273,12 @@
     <url>
         
         <loc>
-            /divisions/technology/
+            /reviewed_item_categories/technology/
         </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
         
         
         
@@ -3252,12 +3294,8 @@
     <url>
         
         <loc>
-            /reviewed_item_categories/technology/
+            /divisions/technology/
         </loc>
-        
-            <lastmod>
-                2018-06-08T19:44:35+05:30
-            </lastmod>
         
         
         
