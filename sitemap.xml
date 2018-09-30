@@ -2758,7 +2758,7 @@
     <url>
         
         <loc>
-            /topics/management/
+            /subjects/management/
         </loc>
         
             <lastmod>
@@ -2779,7 +2779,7 @@
     <url>
         
         <loc>
-            /subjects/management/
+            /topics/management/
         </loc>
         
             <lastmod>
@@ -2944,7 +2944,7 @@
     <url>
         
         <loc>
-            /subjects/programming/
+            /categories/programming/
         </loc>
         
             <lastmod>
@@ -3007,7 +3007,7 @@
     <url>
         
         <loc>
-            /categories/programming/
+            /subjects/programming/
         </loc>
         
             <lastmod>
@@ -3273,12 +3273,8 @@
     <url>
         
         <loc>
-            /reviewed_item_categories/technology/
+            /divisions/technology/
         </loc>
-        
-            <lastmod>
-                2018-06-08T19:44:35+05:30
-            </lastmod>
         
         
         
@@ -3294,8 +3290,12 @@
     <url>
         
         <loc>
-            /divisions/technology/
+            /reviewed_item_categories/technology/
         </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
         
         
         
