@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Understand Static Sites on Your Website Name</title>
+    <link>http://www.yourdomain.com/docs/understand_static_sites/</link>
+    <description>Recent content in Understand Static Sites on Your Website Name</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-in</language>
+    <copyright>&amp;copy; 2018 yourCompanyName</copyright>
+    <lastBuildDate>Fri, 08 Jun 2018 19:44:35 +0530</lastBuildDate>
+    
+	<atom:link href="http://www.yourdomain.com/docs/understand_static_sites/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Static Website Generator Example: Hugo</title>
+      <link>http://www.yourdomain.com/docs/understand_static_sites/static_generator_example_hugo/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/understand_static_sites/static_generator_example_hugo/</guid>
+      <description>The last section should have given you a good idea of what a static website generator is. In fact, the directory structure and page creation methods we looked at were that of Hugo.</description>
+    </item>
+    
+    <item>
+      <title>Assembling a website: Putting it all together</title>
+      <link>http://www.yourdomain.com/docs/understand_static_sites/assembling_webpage/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/understand_static_sites/assembling_webpage/</guid>
+      <description>From the perspective of the static generator there are the following stages in assembling a website.
+Stage 1: Load Site level configuration  Load all the site level configuration defaults from the template Load all the site level configuration specified as markup (json, yaml or toml) that are input by the user overriding template defaults if necessary  This is done through standard markup parsers available in the templating engine of the static website generator   Stage 2: Create html for each content page in the content directory  Load page level configuration by parsing the input markup (json, yaml or toml) Load page level content into memory by parsing the markdown into html.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Static Sites with Hugo</title>
+      <link>http://www.yourdomain.com/docs/understand_static_sites/introduction/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/understand_static_sites/introduction/</guid>
+      <description>This document is aimed at someone who has not built a website before, so if this is too simple, then bear with me, or skim through this section.</description>
+    </item>
+    
+    <item>
+      <title>Retrieving a Webpage from the internet</title>
+      <link>http://www.yourdomain.com/docs/understand_static_sites/retrieving_a_webpage/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/understand_static_sites/retrieving_a_webpage/</guid>
+      <description>what happens between you typing an address into your browser and the browser displaying the website? This forms the crux of what is the internet, or how something that exists remotely is displayed on your browser.</description>
+    </item>
+    
+    <item>
+      <title>Static Website Generators</title>
+      <link>http://www.yourdomain.com/docs/understand_static_sites/static_website_generators/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/understand_static_sites/static_website_generators/</guid>
+      <description>In this section we get into the details of how a static website generator works. On one side there is a user (website creator) writing content that they want displayed.</description>
+    </item>
+    
+    <item>
+      <title>Static Websites: Implications and Constraints</title>
+      <link>http://www.yourdomain.com/docs/understand_static_sites/static_website/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/understand_static_sites/static_website/</guid>
+      <description>In the section Parts of a webpage we mentioned how a site can be made dynamic by adding javascript on the client side. From the last section we understood a site can be statically served or dynamically served on the server side.</description>
+    </item>
+    
+    <item>
+      <title>The parts of a regular webpage - HTML, CSS and Javascript</title>
+      <link>http://www.yourdomain.com/docs/understand_static_sites/parts_of_webpage/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/understand_static_sites/parts_of_webpage/</guid>
+      <description>There are three basic parts to every website as you see it on your browser. The content, the styling and the logic. These are described by three parts, html, css and javascript.</description>
+    </item>
+    
+    <item>
+      <title>Website Templates and the need for them</title>
+      <link>http://www.yourdomain.com/docs/understand_static_sites/website_templates/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/understand_static_sites/website_templates/</guid>
+      <description>When you open a Word document to write something, you just open it and start writing. There is no friction between you thinking a thought and getting it in a computer readable format.</description>
+    </item>
+    
+  </channel>
+</rss>

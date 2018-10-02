@@ -42,7 +42,7 @@
 
 <meta itemprop="name" content="Audio Clips and Podcasts - Your Website Name">
 <meta itemprop="description" content="-273.15K. So Cool.">
-<meta itemprop="image" content="http://www.yourdomain.com/thinking_tree2.jpg">
+<meta itemprop="image" content="http://www.yourdomain.com/logo.jpg">
 
 
 
@@ -52,13 +52,13 @@
 <meta name="twitter:description" content="-273.15K. So Cool.">
  <meta name="twitter:creator" content="@yourName" >
 
-<meta name="twitter:image" content="http://www.yourdomain.com/thinking_tree2.jpg">
+<meta name="twitter:image" content="http://www.yourdomain.com/logo.jpg">
 
 
 <meta property="og:title" content="@yourWebsite" >
 <meta property="og:type" content="article" >
 <meta property="og:url" content="/audios/" >
-<meta property="og:image" content="http://www.yourdomain.com/thinking_tree2.jpg">
+<meta property="og:image" content="http://www.yourdomain.com/logo.jpg">
 <meta property="og:description" content="-273.15K. So Cool.">
 <meta property="og:site_name" content="Your Website Name">
 
@@ -120,10 +120,6 @@ nav#navbar-main{
 body p {
     font-family: 'EB Garamond', serif;
     font-size: 1.1rem;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lora', serif;
 }
 
 html {
@@ -215,34 +211,23 @@ ul, ol, dl {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
-    margin-bottom: .5rem;
+    font-weight: 600;
+    margin: 18px 0 10px 0;
     line-height: 1.25;
     color: #313131;
     text-rendering: optimizeLegibility;
     overflow-wrap: break-word; /* Ensures very long heading words do not overflow into content. */
+    font-family: "EB Garamond", "Lora", serif;
 }
 
-h1 {
-    font-size: 2.25rem;
-}
 
-h2 {
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.12em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
 
-h3 {
-    font-weight: 700;
-    margin-top: 1.5rem;
-    font-size: 1.25rem;
-}
-
-h4, h5, h6 {
-    font-weight: 700;
-    margin-top: 1rem;
-    font-size: 1rem;
-}
 
 a,
 h3.article-title a:hover {
@@ -272,6 +257,13 @@ video {
 .img-responsive {
     /* Extend Bootstrap declaration with centering. */
     margin: 0 auto;
+}
+:target::before {
+    /* So that internal html anchors are not behind fixed headers */
+    content: "";
+    display: block;
+    height: 80px; /* fixed header height*/
+    margin: -80px 0 0; /* negative fixed header height */
 }
 
 figcaption {
@@ -303,8 +295,9 @@ figcaption h4 {
 pre,
 code {
     font-family: 'Roboto Mono', monospace;
-    color: #c7254e;
-    background-color: #f9f2f4;
+    color: #7da925;
+    background-color: #f4f4f4;
+    font-size: 0.85rem;
 }
 
 pre {
@@ -312,10 +305,13 @@ pre {
     background-color: rgb(248, 248, 248); /* Match default highlight theme. */
     border-color: rgb(248, 248, 248);
 }
-
-pre code {
-    white-space: pre; /* Override Bootstrap to preserve line breaks in code. */
-    overflow-x: auto;
+pre {
+    /*Wrap long code lines by default*/
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
 hr {
@@ -612,7 +608,8 @@ small,
     .page_pdf_embed {
         height: calc(100vh - 81px - 33px - 40px);
     }
-}</style>
+}
+</style>
 
 <link rel="stylesheet" type="text/css" href="/styles.css">
 
@@ -883,7 +880,7 @@ nav .navbar-container {
                 <div id="nav_logo">
                     <a class="navbar-logo-link" href="/">
                         
-                        <img class = "logo_image" src="/thinking_tree2.jpg" alt="Your Website Name">
+                        <img class = "logo_image" src="/logo.jpg" alt="Your Website Name">
                         
                     </a>
                 </div>

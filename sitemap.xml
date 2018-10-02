@@ -737,6 +737,23 @@
     <url>
         
         <loc>
+            /docs/understand_static_sites/static_generator_example_hugo/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /courses/course1/
         </loc>
         
@@ -772,6 +789,23 @@
         
         <loc>
             /courses/course8/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/add_content/
         </loc>
         
             <lastmod>
@@ -873,6 +907,40 @@
     <url>
         
         <loc>
+            /docs/understand_static_sites/assembling_webpage/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/setup_godaddy/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /courses/course7/
         </loc>
         
@@ -907,7 +975,92 @@
     <url>
         
         <loc>
+            /docs/create_your_website/upload_to_github/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /posts/post9/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/config_files/config_toml/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/connect_github_godaddy/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/config_files/contact_page/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/config_files/contact_success_page/
         </loc>
         
             <lastmod>
@@ -1027,6 +1180,40 @@
         
         <loc>
             /presentations/presentation8/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/download_essentials/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/download_template/
         </loc>
         
             <lastmod>
@@ -1179,6 +1366,23 @@
     <url>
         
         <loc>
+            /docs/create_your_website/config_files/front_page_settings/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /posts/post8/
         </loc>
         
@@ -1196,7 +1400,58 @@
     <url>
         
         <loc>
+            /docs/create_your_website/setup_github/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /workshops/workshop6/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/implement_static_website_godaddy_github/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/understand_static_sites/introduction/
         </loc>
         
             <lastmod>
@@ -1366,6 +1621,23 @@
     <url>
         
         <loc>
+            /docs/create_your_website/modify_settings/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /workshops/workshop10/
         </loc>
         
@@ -1451,7 +1723,92 @@
     <url>
         
         <loc>
+            /docs/create_your_website/plan_website/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/config_files/popup_success_page/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/config_files/privacy_terms/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /posts/post1/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/understand_static_sites/retrieving_a_webpage/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/preview_site/
         </loc>
         
             <lastmod>
@@ -1502,6 +1859,40 @@
     <url>
         
         <loc>
+            /docs/understand_static_sites/static_website_generators/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/understand_static_sites/static_website/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /workshops/workshop4/
         </loc>
         
@@ -1520,6 +1911,40 @@
         
         <loc>
             /notes/note10/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/config_files/terms_of_service/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/understand_static_sites/parts_of_webpage/
         </loc>
         
             <lastmod>
@@ -1571,6 +1996,23 @@
         
         <loc>
             /books/book2/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/understand_static_sites/website_templates/
         </loc>
         
             <lastmod>
@@ -2442,6 +2884,44 @@
     <url>
         
         <loc>
+            /docs/
+        </loc>
+        
+        
+        
+            <priority>
+                0
+            </priority>
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /tags/documentation/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+            <priority>
+                0
+            </priority>
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /tags/dreyfus/
         </loc>
         
@@ -2568,6 +3048,44 @@
             <priority>
                 0
             </priority>
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /tags/hugo/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+            <priority>
+                0
+            </priority>
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
         
     </url>
     
@@ -2906,27 +3424,6 @@
     <url>
         
         <loc>
-            /subjects/programming/
-        </loc>
-        
-            <lastmod>
-                2018-07-17T23:40:05+05:30
-            </lastmod>
-        
-        
-        
-            <priority>
-                0
-            </priority>
-        
-    </url>
-    
-    
-    
-    
-    <url>
-        
-        <loc>
             /categories/programming/
         </loc>
         
@@ -2948,7 +3445,7 @@
     <url>
         
         <loc>
-            /tags/programming/
+            /projects/programming/
         </loc>
         
             <lastmod>
@@ -2969,7 +3466,28 @@
     <url>
         
         <loc>
-            /projects/programming/
+            /subjects/programming/
+        </loc>
+        
+            <lastmod>
+                2018-07-17T23:40:05+05:30
+            </lastmod>
+        
+        
+        
+            <priority>
+                0
+            </priority>
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /tags/programming/
         </loc>
         
             <lastmod>
@@ -3138,6 +3656,27 @@
     <url>
         
         <loc>
+            /tags/setup/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+            <priority>
+                0
+            </priority>
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /notes/
         </loc>
         
@@ -3160,6 +3699,27 @@
         
             <lastmod>
                 2018-07-17T23:40:05+05:30
+            </lastmod>
+        
+        
+        
+            <priority>
+                0
+            </priority>
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /tags/static-sites/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
             </lastmod>
         
         
@@ -3235,12 +3795,8 @@
     <url>
         
         <loc>
-            /reviewed_item_categories/technology/
+            /divisions/technology/
         </loc>
-        
-            <lastmod>
-                2018-06-08T19:44:35+05:30
-            </lastmod>
         
         
         
@@ -3256,8 +3812,12 @@
     <url>
         
         <loc>
-            /divisions/technology/
+            /reviewed_item_categories/technology/
         </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
         
         
         
@@ -3350,6 +3910,65 @@
         
             <lastmod>
                 2018-07-17T23:40:05+05:30
+            </lastmod>
+        
+        
+        
+            <priority>
+                0
+            </priority>
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/understand_static_sites/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /categories/website/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+            <priority>
+                0
+            </priority>
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /tags/websites/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
             </lastmod>
         
         

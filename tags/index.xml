@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Documentation</title>
+      <link>http://www.yourdomain.com/tags/documentation/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/tags/documentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dreyfus</title>
       <link>http://www.yourdomain.com/tags/dreyfus/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
@@ -45,6 +54,15 @@
       <pubDate>Tue, 17 Jul 2018 23:40:05 +0530</pubDate>
       
       <guid>http://www.yourdomain.com/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://www.yourdomain.com/tags/hugo/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/tags/hugo/</guid>
       <description></description>
     </item>
     
@@ -85,11 +103,29 @@
     </item>
     
     <item>
+      <title>Setup</title>
+      <link>http://www.yourdomain.com/tags/setup/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/tags/setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Show Time</title>
       <link>http://www.yourdomain.com/tags/show-time/</link>
       <pubDate>Tue, 17 Jul 2018 23:40:05 +0530</pubDate>
       
       <guid>http://www.yourdomain.com/tags/show-time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Sites</title>
+      <link>http://www.yourdomain.com/tags/static-sites/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/tags/static-sites/</guid>
       <description></description>
     </item>
     
@@ -108,6 +144,15 @@
       <pubDate>Tue, 17 Jul 2018 23:40:05 +0530</pubDate>
       
       <guid>http://www.yourdomain.com/tags/type/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Websites</title>
+      <link>http://www.yourdomain.com/tags/websites/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/tags/websites/</guid>
       <description></description>
     </item>
     
