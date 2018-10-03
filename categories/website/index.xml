@@ -27,8 +27,7 @@
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
       <guid>http://www.yourdomain.com/docs/create_your_website/add_content/</guid>
-      <description>The main steps for creating your own website are as follows:
- Download Git Bash, Hugo and a text editor Setup Github Download the template files Preview the site Modify Basic Settings Check site and Upload to github Buy the domain and setup godaddy Connect github and Godaddy Plan your website Add your own content  </description>
+      <description>At this stage you are ready to start running your website on your own. We will in this last section look at some more things that you may want to know - how to modify single page settings, gotchas with respect to git</description>
     </item>
     
     <item>
@@ -39,6 +38,26 @@
       <guid>http://www.yourdomain.com/docs/understand_static_sites/assembling_webpage/</guid>
       <description>From the perspective of the static generator there are the following stages in assembling a website.
 Stage 1: Load Site level configuration  Load all the site level configuration defaults from the template Load all the site level configuration specified as markup (json, yaml or toml) that are input by the user overriding template defaults if necessary  This is done through standard markup parsers available in the templating engine of the static website generator   Stage 2: Create html for each content page in the content directory  Load page level configuration by parsing the input markup (json, yaml or toml) Load page level content into memory by parsing the markdown into html.</description>
+    </item>
+    
+    <item>
+      <title>Audio Page Parameters</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/audio_page_parameters/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/audio_page_parameters/</guid>
+      <description>Below are the additional settings to be specified for Audio pages
+# 1. The main artist is mentioned under the field &amp;quot;artist&amp;quot;. This plays the same role as artist on other pages artist = &amp;quot;Madhav theBard&amp;quot; # 2.</description>
+    </item>
+    
+    <item>
+      <title>Books Page Parameters</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/books_page_parameters/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/books_page_parameters/</guid>
+      <description>Some additional settings need to be specified for books pages
+# 1. tagline is some small snippet about the book that will come just below the title tagline = &amp;quot;The last book you&#39;ll ever need&amp;quot; # 2.</description>
     </item>
     
     <item>
@@ -57,6 +76,34 @@ Stage 1: Load Site level configuration  Load all the site level configuration de
       
       <guid>http://www.yourdomain.com/docs/create_your_website/upload_to_github/</guid>
       <description>So the files are now all with your settings and basic configurations have been changed, it&amp;rsquo;s a good time to preview the site and then upload to github</description>
+    </item>
+    
+    <item>
+      <title>Code-snippets Page Parameters</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/code_snippets_page_parameters/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/code_snippets_page_parameters/</guid>
+      <description>Code snippets need a small number of additional settings
+# 1. Do you use Math in the Code Page. If so, use math=true below. The math display is based on [mathjax](https://www.</description>
+    </item>
+    
+    <item>
+      <title>Common Page Parameters</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/git_gotchas/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/git_gotchas/</guid>
+      <description>There are various things that can go wrong when updating git. Because github also hosts our site apart from being a version control system, we have to be doubly careful.</description>
+    </item>
+    
+    <item>
+      <title>Common Page Parameters</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/common_page_parameters/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/common_page_parameters/</guid>
+      <description>Our templates contain both the contents as well as configurations for the pages we are creating. Some of the configurations are common across the page types and some are specific to the type of page.</description>
     </item>
     
     <item>
@@ -98,6 +145,16 @@ The following settings need to be changed in the file:</description>
     </item>
     
     <item>
+      <title>Courses Page Parameters</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/courses_page_parameters/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/courses_page_parameters/</guid>
+      <description>Courses, similar to books, have a number of additional optional settings that may be input
+# 1. The &amp;quot;faculty&amp;quot; for the course is a similar option to author name in the regular pages faculty = &amp;quot;yourName and Goody Two Shoes&amp;quot; # 2.</description>
+    </item>
+    
+    <item>
       <title>Deciding what to put on your website: My experience</title>
       <link>http://www.yourdomain.com/docs/create_your_website/config_files/list_index_file/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
@@ -132,6 +189,16 @@ The following settings need to be changed in the file:</description>
       
       <guid>http://www.yourdomain.com/docs/create_your_website/download_template/</guid>
       <description>Open a bash/terminal/command prompt create (mkdir) a folder where you want to keep your website files. For example, type mkdir c:\users\yourname\website. Note that you need to use forward slash if working in mac or linux environments.</description>
+    </item>
+    
+    <item>
+      <title>Events Page Parameters</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/events_page_parameters/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/events_page_parameters/</guid>
+      <description>The events pages unlike other pages do not contain many of the common settings. Instead they may contain a few additional (self-explanatory) settings
+# 1. A short description of the event that goes below the title tagline = &amp;quot;The beats are coming to town&amp;quot; # 2.</description>
     </item>
     
     <item>
@@ -181,6 +248,15 @@ The following settings need to be changed in the file:</description>
     </item>
     
     <item>
+      <title>People Page Parameters</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/people_page_parameters/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/people_page_parameters/</guid>
+      <description>The people pages have a large number of additional settings over and above the common settings. This is similar to the about section on the front page.</description>
+    </item>
+    
+    <item>
       <title>Plan your website and contents</title>
       <link>http://www.yourdomain.com/docs/create_your_website/plan_website/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
@@ -208,12 +284,42 @@ The following settings need to be changed in the file:</description>
     </item>
     
     <item>
+      <title>Presentations Page Parameters</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/presentations_page_parameters/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/presentations_page_parameters/</guid>
+      <description>The presentations pages are mainly about the presentation pdf itself. They may optionally contain some writeup below the presentation.
+# 1. The tagline goes below the title and is a brief description of the presentation tagline = &amp;quot;An in-depth look at management with a specific view on Marketing&amp;quot; # 2.</description>
+    </item>
+    
+    <item>
+      <title>Publications Page Parameters</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/publications_page_parameters/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/publications_page_parameters/</guid>
+      <description>The publications pages use a bunch of new parameters including a few categorizations.
+# 1. We list the authors in these pages with links to their personal pages (which could be outside of the site itself) authors = [ { name = &amp;quot;yourName&amp;quot;, url = &amp;quot;/people/person1&amp;quot; }, { name = &amp;quot;Ankit Mathgenius&amp;quot;, url = &amp;quot;/people/person2&amp;quot; }, { name = &amp;quot;Sailesh Tripper&amp;quot;, url = &amp;quot;/people/person3&amp;quot; } ] # 2.</description>
+    </item>
+    
+    <item>
       <title>Retrieving a Webpage from the internet</title>
       <link>http://www.yourdomain.com/docs/understand_static_sites/retrieving_a_webpage/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
       <guid>http://www.yourdomain.com/docs/understand_static_sites/retrieving_a_webpage/</guid>
       <description>what happens between you typing an address into your browser and the browser displaying the website? This forms the crux of what is the internet, or how something that exists remotely is displayed on your browser.</description>
+    </item>
+    
+    <item>
+      <title>Reviews Page Parameters</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/reviews_page_parameters/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/reviews_page_parameters/</guid>
+      <description>The reviews pages mostly contain new configurations regarding the product or item being reviewed
+# 1. Firstly enter some basic details about the item being reviewed including the name, the maker, and the item link reviewed_item = &amp;quot;Opel Astra Car&amp;quot; reviewed_item_maker = &amp;quot;General Motors&amp;quot; reviewed_item_link = &amp;quot;https://en.</description>
     </item>
     
     <item>
@@ -262,12 +368,31 @@ The following settings need to be changed in the file:</description>
     </item>
     
     <item>
+      <title>Thoughts Page Parameters</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/thoughts_page_parameters/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/thoughts_page_parameters/</guid>
+      <description>These are the only pages where the configurations include styling elements. The thought layout would contain some content placed on a background image
+# 1. Please change the image used for the background_image.</description>
+    </item>
+    
+    <item>
       <title>Website Templates and the need for them</title>
       <link>http://www.yourdomain.com/docs/understand_static_sites/website_templates/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
       <guid>http://www.yourdomain.com/docs/understand_static_sites/website_templates/</guid>
       <description>When you open a Word document to write something, you just open it and start writing. There is no friction between you thinking a thought and getting it in a computer readable format.</description>
+    </item>
+    
+    <item>
+      <title>Workshops Page Parameters</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/workshops_page_parameters/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/workshops_page_parameters/</guid>
+      <description>Workshops pages contain a good number of new configurations apart from the common ones.We may have come across some of these in different Page Types already</description>
     </item>
     
   </channel>

@@ -924,6 +924,40 @@
     <url>
         
         <loc>
+            /docs/create_your_website/page_parameters/audio_page_parameters/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/page_parameters/books_page_parameters/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /docs/create_your_website/setup_godaddy/
         </loc>
         
@@ -1009,6 +1043,57 @@
     <url>
         
         <loc>
+            /docs/create_your_website/page_parameters/code_snippets_page_parameters/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/git_gotchas/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/page_parameters/common_page_parameters/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /docs/create_your_website/config_files/config_toml/
         </loc>
         
@@ -1061,6 +1146,23 @@
         
         <loc>
             /docs/create_your_website/config_files/contact_success_page/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/page_parameters/courses_page_parameters/
         </loc>
         
             <lastmod>
@@ -1316,6 +1418,23 @@
         
         <loc>
             /courses/course2/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/page_parameters/events_page_parameters/
         </loc>
         
             <lastmod>
@@ -1757,6 +1876,23 @@
     <url>
         
         <loc>
+            /docs/create_your_website/page_parameters/people_page_parameters/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /docs/create_your_website/plan_website/
         </loc>
         
@@ -1808,6 +1944,40 @@
     <url>
         
         <loc>
+            /docs/create_your_website/page_parameters/presentations_page_parameters/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/page_parameters/publications_page_parameters/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /posts/post1/
         </loc>
         
@@ -1826,6 +1996,23 @@
         
         <loc>
             /docs/understand_static_sites/retrieving_a_webpage/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/page_parameters/reviews_page_parameters/
         </loc>
         
             <lastmod>
@@ -2012,6 +2199,23 @@
     <url>
         
         <loc>
+            /docs/create_your_website/page_parameters/thoughts_page_parameters/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /courses/course3/
         </loc>
         
@@ -2081,6 +2285,23 @@
         
         <loc>
             /posts/post3/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/page_parameters/workshops_page_parameters/
         </loc>
         
             <lastmod>
@@ -3272,7 +3493,7 @@
     <url>
         
         <loc>
-            /topics/management/
+            /subjects/management/
         </loc>
         
             <lastmod>
@@ -3293,7 +3514,7 @@
     <url>
         
         <loc>
-            /subjects/management/
+            /topics/management/
         </loc>
         
             <lastmod>
@@ -3458,6 +3679,27 @@
     <url>
         
         <loc>
+            /categories/programming/
+        </loc>
+        
+            <lastmod>
+                2018-07-17T23:40:05+05:30
+            </lastmod>
+        
+        
+        
+            <priority>
+                0
+            </priority>
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /subjects/programming/
         </loc>
         
@@ -3480,27 +3722,6 @@
         
         <loc>
             /tags/programming/
-        </loc>
-        
-            <lastmod>
-                2018-07-17T23:40:05+05:30
-            </lastmod>
-        
-        
-        
-            <priority>
-                0
-            </priority>
-        
-    </url>
-    
-    
-    
-    
-    <url>
-        
-        <loc>
-            /categories/programming/
         </loc>
         
             <lastmod>

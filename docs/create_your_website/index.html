@@ -1361,9 +1361,9 @@ nav .navbar-container {
             </div>
             
             <div class ="details_cards">
-                <a href="/docs/create_your_website/download_essentials/">
+                <a href="/docs/create_your_website/git_gotchas/">
                     <div class="card_title left_align">
-                        Download Git Bash, Hugo and a text editor
+                        Common Page Parameters
                     </div>
                 </a>
                     <div class="card_summary left_align">
@@ -1373,9 +1373,9 @@ nav .navbar-container {
             </div>
             
             <div class ="details_cards">
-                <a href="/docs/create_your_website/config_files/front_page_settings/">
+                <a href="/docs/create_your_website/page_parameters/common_page_parameters/">
                     <div class="card_title left_align">
-                        Front Page Settings
+                        Common Page Parameters
                     </div>
                 </a>
                     <div class="card_summary left_align">
@@ -1385,9 +1385,9 @@ nav .navbar-container {
             </div>
             
             <div class ="details_cards">
-                <a href="/docs/create_your_website/config_files/contact_page/">
+                <a href="/docs/create_your_website/page_parameters/audio_page_parameters/">
                     <div class="card_title left_align">
-                        Contact Page Settings
+                        Audio Page Parameters
                     </div>
                 </a>
                     <div class="card_summary left_align">
@@ -1397,9 +1397,9 @@ nav .navbar-container {
             </div>
             
             <div class ="details_cards">
-                <a href="/docs/create_your_website/setup_github/">
+                <a href="/docs/create_your_website/page_parameters/books_page_parameters/">
                     <div class="card_title left_align">
-                        Get Github login and setup Github
+                        Books Page Parameters
                     </div>
                 </a>
                     <div class="card_summary left_align">
@@ -1511,6 +1511,10 @@ nav .navbar-container {
         
             <li class="paginationed_list"><a href="/docs/create_your_website/page/2/" >2</a></li>
         
+            <li class="paginationed_list"><a href="/docs/create_your_website/page/3/" >3</a></li>
+        
+            <li class="paginationed_list"><a href="/docs/create_your_website/page/4/" >4</a></li>
+        
     </ul>
     <div class="page_load_status">
         <div class="loading_dots_container view_more_request">
@@ -1533,7 +1537,7 @@ var view_more_button_container = document.querySelector('.view_more_button_conta
 var loading_dots_container = document.querySelector('.loading_dots_container');
 var error_message_div = document.querySelector('.view_more_error');
 
-var total_pages = 2;
+var total_pages = 4;
 var current_page_num = 1;
 var num_errors = 0;
 
@@ -1543,6 +1547,10 @@ var pages = [];
     pages.push("/docs/create_your_website/");
 
     pages.push("/docs/create_your_website/page/2/");
+
+    pages.push("/docs/create_your_website/page/3/");
+
+    pages.push("/docs/create_your_website/page/4/");
 
  console.log("pages = " + pages);
 var jquery_request = function() {

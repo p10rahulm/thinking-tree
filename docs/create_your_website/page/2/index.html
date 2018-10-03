@@ -1289,9 +1289,9 @@ nav .navbar-container {
         <div id="docs_cards" class="cardList">
             
             <div class ="details_cards">
-                <a href="/docs/create_your_website/setup_godaddy/">
+                <a href="/docs/create_your_website/page_parameters/code_snippets_page_parameters/">
                     <div class="card_title left_align">
-                        Buy the domain and setup godaddy
+                        Code-snippets Page Parameters
                     </div>
                 </a>
                     <div class="card_summary left_align">
@@ -1301,9 +1301,9 @@ nav .navbar-container {
             </div>
             
             <div class ="details_cards">
-                <a href="/docs/create_your_website/config_files/contact_success_page/">
+                <a href="/docs/create_your_website/page_parameters/courses_page_parameters/">
                     <div class="card_title left_align">
-                        Contact Success Page Settings
+                        Courses Page Parameters
                     </div>
                 </a>
                     <div class="card_summary left_align">
@@ -1313,9 +1313,9 @@ nav .navbar-container {
             </div>
             
             <div class ="details_cards">
-                <a href="/docs/create_your_website/download_template/">
+                <a href="/docs/create_your_website/page_parameters/events_page_parameters/">
                     <div class="card_title left_align">
-                        Download the template files
+                        Events Page Parameters
                     </div>
                 </a>
                     <div class="card_summary left_align">
@@ -1325,9 +1325,9 @@ nav .navbar-container {
             </div>
             
             <div class ="details_cards">
-                <a href="/docs/create_your_website/config_files/popup_success_page/">
+                <a href="/docs/create_your_website/page_parameters/people_page_parameters/">
                     <div class="card_title left_align">
-                        Popup Success Page Settings
+                        People Page Parameters
                     </div>
                 </a>
                     <div class="card_summary left_align">
@@ -1337,9 +1337,9 @@ nav .navbar-container {
             </div>
             
             <div class ="details_cards">
-                <a href="/docs/create_your_website/config_files/privacy_terms/">
+                <a href="/docs/create_your_website/page_parameters/presentations_page_parameters/">
                     <div class="card_title left_align">
-                        Popup Success Page Settings
+                        Presentations Page Parameters
                     </div>
                 </a>
                     <div class="card_summary left_align">
@@ -1349,9 +1349,9 @@ nav .navbar-container {
             </div>
             
             <div class ="details_cards">
-                <a href="/docs/create_your_website/preview_site/">
+                <a href="/docs/create_your_website/page_parameters/publications_page_parameters/">
                     <div class="card_title left_align">
-                        Setup local server and preview the site
+                        Publications Page Parameters
                     </div>
                 </a>
                     <div class="card_summary left_align">
@@ -1361,9 +1361,9 @@ nav .navbar-container {
             </div>
             
             <div class ="details_cards">
-                <a href="/docs/create_your_website/modify_settings/">
+                <a href="/docs/create_your_website/page_parameters/reviews_page_parameters/">
                     <div class="card_title left_align">
-                        Modify Settings and site configurations
+                        Reviews Page Parameters
                     </div>
                 </a>
                     <div class="card_summary left_align">
@@ -1373,9 +1373,9 @@ nav .navbar-container {
             </div>
             
             <div class ="details_cards">
-                <a href="/docs/create_your_website/config_files/terms_of_service/">
+                <a href="/docs/create_your_website/page_parameters/thoughts_page_parameters/">
                     <div class="card_title left_align">
-                        Terms of Service Page
+                        Thoughts Page Parameters
                     </div>
                 </a>
                     <div class="card_summary left_align">
@@ -1385,9 +1385,9 @@ nav .navbar-container {
             </div>
             
             <div class ="details_cards">
-                <a href="/docs/create_your_website/upload_to_github/">
+                <a href="/docs/create_your_website/page_parameters/workshops_page_parameters/">
                     <div class="card_title left_align">
-                        Check site and Upload to github
+                        Workshops Page Parameters
                     </div>
                 </a>
                     <div class="card_summary left_align">
@@ -1397,9 +1397,9 @@ nav .navbar-container {
             </div>
             
             <div class ="details_cards">
-                <a href="/docs/create_your_website/connect_github_godaddy/">
+                <a href="/docs/create_your_website/download_essentials/">
                     <div class="card_title left_align">
-                        Connect github and Godaddy: the website goes live
+                        Download Git Bash, Hugo and a text editor
                     </div>
                 </a>
                     <div class="card_summary left_align">
@@ -1511,6 +1511,10 @@ nav .navbar-container {
         
             <li class="paginationed_list active"><a href="/docs/create_your_website/page/2/" class="active">2</a></li>
         
+            <li class="paginationed_list"><a href="/docs/create_your_website/page/3/" >3</a></li>
+        
+            <li class="paginationed_list"><a href="/docs/create_your_website/page/4/" >4</a></li>
+        
     </ul>
     <div class="page_load_status">
         <div class="loading_dots_container view_more_request">
@@ -1533,7 +1537,7 @@ var view_more_button_container = document.querySelector('.view_more_button_conta
 var loading_dots_container = document.querySelector('.loading_dots_container');
 var error_message_div = document.querySelector('.view_more_error');
 
-var total_pages = 2;
+var total_pages = 4;
 var current_page_num = 1;
 var num_errors = 0;
 
@@ -1543,6 +1547,10 @@ var pages = [];
     pages.push("/docs/create_your_website/");
 
     pages.push("/docs/create_your_website/page/2/");
+
+    pages.push("/docs/create_your_website/page/3/");
+
+    pages.push("/docs/create_your_website/page/4/");
 
  console.log("pages = " + pages);
 var jquery_request = function() {
