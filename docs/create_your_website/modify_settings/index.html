@@ -305,7 +305,7 @@ figcaption h4 {
 pre,
 code {
     font-family: 'Roboto Mono', monospace;
-    color: #7da925;
+    color: #ba6425;
     background-color: #f4f4f4;
     font-size: 0.85rem;
 }
@@ -1278,6 +1278,43 @@ nav .navbar-container {
     
 
     
+    
+    
+
+
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+
+
+
+
+
+    
+        
+        
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" ></script>
+
+
+        
+            
+            
+
+
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js" ></script>
+
+
+        
+        <script type="text/javascript" async defer>
+            document.addEventListener('DOMContentLoaded', function(){
+    hljs.initHighlightingOnLoad();
+});
+        </script>
+    
+
 
 
 
@@ -1397,7 +1434,7 @@ nav .navbar-container {
 }
 pre, code {
     font-family: 'Roboto Mono', monospace;
-    color: #7dba25;
+    color: #ba6425;
     background-color: #f4f4f4;
     font-size: 0.85rem;
 }
@@ -1607,13 +1644,15 @@ document.addEventListener('DOMContentLoaded', function() {
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/setup_github/">Setup Github</a></div>
             
+            <div class="docs_menu_item"><a href="/docs/create_your_website/setup_godaddy/">Buy the domain and setup godaddy</a></div>
+            
             <div class="docs_menu_item"><a href="/docs/create_your_website/download_template/">Download the template files</a></div>
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/preview_site/">Preview the site</a></div>
             
-            <div class="docs_menu_item"><a href="/docs/create_your_website/upload_to_github/">Check site and Upload to github</a></div>
+            <div class="docs_menu_item"><a href="/docs/create_your_website/modify_settings/">Modify Site Settings</a></div>
             
-            <div class="docs_menu_item"><a href="/docs/create_your_website/setup_godaddy/">Buy the domain and setup godaddy</a></div>
+            <div class="docs_menu_item"><a href="/docs/create_your_website/upload_to_github/">Check site and Upload to github</a></div>
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/connect_github_godaddy/">Connect github and Godaddy</a></div>
             
@@ -1649,13 +1688,24 @@ document.addEventListener('DOMContentLoaded', function() {
 <li><a href="/docs/create_your_website/config_files/terms_of_service/">termservice.md</a></li>
 </ol>
 
-<h2 id="how-to-modify">How to modify</h2>
+<p>You may want to go through the above links to know what each of the files do and how to modify them. The recommended method for settings modification is to peruse the files above and change them. There are some things that you would want to necessarily modify and some things that you can modify if you want.</p>
+
+<p>If you are in a hurry though, you should come back to the above later and for now do a find and replace to change settings based on some keywords that must be replaced.</p>
+
+<h2 id="how-to-modify-quickly">How to modify quickly</h2>
 
 <ol>
-<li><p>At this stage, you should ensure you modify the following words to your own</p>
+<li>Before you start modifying the files, check your <code>public</code> folder. In case it has lots of directories, that means your the static files for site have been built. In that case, <em>you would want to delete the <code>public</code> folder</em> in case you have already built your site. Don&rsquo;t worry we&rsquo;ll get this folder back! (Thank you github!)
 
 <ul>
-<li>yourdomain</li>
+<li>This is because a single config may be used in hundreds of output pages</li>
+<li>If you are doing a find and replace, then instead of finding every instance in the output page, you might as well just change the config and then rebuild the site</li>
+</ul></li>
+
+<li><p>At this stage, you should ensure you modify the following words to your own. You can choose to do a Replace All in your favorite text editor. Instructions for some text editors are in the <a href="#replace-all-instructions-in-different-text-editors">next section</a> below</p>
+
+<ul>
+<li>yourdomain.com</li>
 <li>Your Website Name</li>
 <li>your_username</li>
 <li>yourWebsite</li>
@@ -1667,16 +1717,94 @@ document.addEventListener('DOMContentLoaded', function() {
 <li>Company1, Company2, Company3, Company4, Company5</li>
 <li>University1, University2</li>
 <li>logo.jpg (to your logo file in static folder)</li>
-<li>UA-123456789-1 (google analytics)</li>
+<li>googleAnalytics</li>
 <li>map_api_key, latitude, longitude (google maps)</li>
 <li>favicon.jpg (to your favicon file in static folder)</li>
 </ul>
 
 <p>Note that the context of usage at each occurance of above words may be different. For example yourName may occur for your email id as <em>yourName@gmail.com</em> or even as an author of website. So you may not want a simple replace all function without going through context of usage.</p></li>
 
-<li><p>On a good text editor this can be done by pressing ctrl+shift+F or ctrl+shift+R, where the replace all occurances in project is available. Note that for this you may have to choose your project folder (to enable search in this folder). Depending on your editor you may have to look up google for instructions for Replace All</p></li>
+<li><p>You may have noticed that disqus Shortname, google analytics key and maps api key require you to go to the specific sites and get your own key</p>
 
-<li><p>Ensure favicon and logo are changed</p></li>
+<ol>
+<li>disqusShortname:
+
+<ul>
+<li>disqus is the third party application we will be using for comments.</li>
+<li>Get your own disqus shortname here: <a href="https://disqus.com/admin/create/" target="_blank">https://disqus.com/admin/create/</a> and fill it in the place given</li>
+</ul></li>
+<li>googleAnalytics:
+
+<ul>
+<li>the static site uses a third party application - <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/" target="_blank">google analytics</a>, to enable analytics about the customer.</li>
+<li>These analytics can include things like what are the parts and pages of the website your visitor spent time on, how they arrived at your site, what geography they are from and sometimes even the demographics of the customer</li>
+<li>enabling Google Analytics on your site enables you to track site usage, referrers and various other statistics.</li>
+<li>See how to get your google analytics ID <a href="https://support.google.com/analytics/answer/1042508?hl=en" target="_blank">here</a> and fill it in config.toml at the place given for googleAnalytics</li>
+</ul></li>
+<li>maps_api_key:
+
+<ul>
+<li>We use a third party application, google maps, to show a map in the front page in the contact section</li>
+<li>Get your key from <a href="https://developers.google.com/maps/documentation/javascript/get-api-key" target="_blank">here</a> and fill it in the place requiring &lsquo;map_api_key&rsquo; in config.toml</li>
+<li>To get your coordinates, right-click on <a href="https://www.google.com/maps" target="_blank">Google Maps</a> and choose &ldquo;What&rsquo;s here?&rdquo;. The coords will show up at the bottom. Fill in &lsquo;latitude&rsquo; and &lsquo;longitude&rsquo; based on these</li>
+</ul></li>
+</ol></li>
+
+<li><p>Ensure favicon.jpg and logo.jpg are changed to your own</p></li>
+
+<li><p>After doing the replacements, in case you had deleted the <code>public</code> folder, you would want it back.</p>
+
+<ul>
+<li>Open bash/terminal and cd into your website folder</li>
+
+<li><p>Run the <code>rebuild_public.sh</code> script. In windows you may want to replace the forward slash with backslash</p>
+
+<pre><code class="language-bash">./rebuild_public.sh
+</code></pre></li>
+
+<li><p>Check to see that your public folder is back as normal</p></li>
+</ul></li>
+</ol>
+
+<h3 id="replace-all-instructions-in-different-text-editors">Replace All Instructions in different text editors</h3>
+
+<p>On a good text editor this can be done by pressing ctrl+shift+F or ctrl+shift+R, where the replace all occurances in project is available. Note that for this you may have to choose your project folder (to enable search in this folder). Depending on your editor you may have to look up google for instructions for Replace All. We will look at three text editors: Atom, VS Code and Webstorm</p>
+
+<h4 id="atom">Atom</h4>
+
+<p>Replace All function is not that good in Atom as you have to go file by file to replace. Instructions below:</p>
+
+<ol>
+<li>Note that you would have to exclude the public folder else you would be overwhelmed with results (ensure that you have done step 1 <a href="#how-to-modify">here</a>)</li>
+<li>You can choose &lsquo;Add Project Folder&rsquo; with the shortcut Ctrl+Shift+A in the file menu. Choose your website folder.</li>
+<li>Then if you press Ctrl+Shift+F you can choose the word you want replaced. For example, lets say you choose &lsquo;yourdomain.com&rsquo;. Add the word you want to replace with but don&rsquo;t press &lsquo;Replace All&rsquo; yet.</li>
+<li>Choose the Find All option and a window will open up with the options</li>
+<li>In this window, clicking each result will show you the context of the word in a separate window and you can replace it with anything you want. In this case, you would want to replace yourdomain.com with yourrealdomainname.com.</li>
+<li>If you are satisfied with all contexts, you can click Replace All or otherwise replace context by context</li>
+</ol>
+
+<h4 id="vs-code">VS Code</h4>
+
+<p>Replace all function is an absolute pleasure in VS Code. If you didn&rsquo;t <a href="https://code.visualstudio.com/download" target="_blank">download it</a> before, now may be a good time.</p>
+
+<ol>
+<li>Note that you would have to delete the public folder before this step else you would be overwhelmed with results (ensure that you have done step 1 <a href="#how-to-modify">here</a>)</li>
+<li>First, you can choose &lsquo;Open Folder&rsquo; in the File menu (or use the shortcut Ctrl+K+Ctrl+O). Choose your website folder.</li>
+<li>Then if you press Ctrl+Shift+F a frame opens up on the left. Type the word you want replaced. For example, lets say you choose &lsquo;yourdomain.com&rsquo; and press Enter</li>
+<li>You would see a bunch of results in this frame. At this point, if you are satisfied with the results, you can click the small arrow next to the text box right on top and a <em>Replace</em> option would open up.</li>
+<li>Now pointing to any result would give you two options - &lsquo;Replace&rsquo; and &lsquo;Dismiss&rsquo;. You can click the result to see the context and then choose appropriately. Since the results are organized by file, you can do this for entire files at once also if necessary.</li>
+</ol>
+
+<h4 id="webstorm">Webstorm</h4>
+
+<p>For any project related work, like find and replace across the project, <a href="https://www.jetbrains.com/webstorm/" target="_blank">Jetbrains</a> is my go to editor. The only drawback is that the Ultimate Edition is available only as a paid option. Also looks-wise it is not top of line. But it&rsquo;s good for projects and there is a free version available.</p>
+
+<ol>
+<li>Get rid of &lsquo;public&rsquo; folder: Needed so that you don&rsquo;t get overwhelmed with search results. So basically ensure that you have done step 1 <a href="#how-to-modify">here</a></li>
+<li>Open Project: When you open the editor it asks for the directory to open by default. If not, click &gt; File &gt; Open and choose your folder</li>
+<li>Find All: Choose Ctrl+Shift+F to open global search. type in the word you want to search. First time you use webstorm it may take a while, but after indexing it is super fast.</li>
+<li>Clicking on each result shows you the context. If you are happy you are searching for the right thing, then type Ctrl+Shift+R. Now you can type the word you want to replace with.</li>
+<li>At the bottom right of the screen you see a button for replace. Replace or replace all as appropriate. Skipping a result means you have to click the next entry (or press down arrow)</li>
 </ol>
 
             </div>

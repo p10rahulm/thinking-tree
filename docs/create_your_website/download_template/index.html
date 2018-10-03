@@ -305,7 +305,7 @@ figcaption h4 {
 pre,
 code {
     font-family: 'Roboto Mono', monospace;
-    color: #7da925;
+    color: #ba6425;
     background-color: #f4f4f4;
     font-size: 0.85rem;
 }
@@ -1283,7 +1283,7 @@ nav .navbar-container {
 
 
 
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css">
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
 
 
 
@@ -1434,7 +1434,7 @@ nav .navbar-container {
 }
 pre, code {
     font-family: 'Roboto Mono', monospace;
-    color: #7dba25;
+    color: #ba6425;
     background-color: #f4f4f4;
     font-size: 0.85rem;
 }
@@ -1644,13 +1644,15 @@ document.addEventListener('DOMContentLoaded', function() {
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/setup_github/">Setup Github</a></div>
             
+            <div class="docs_menu_item"><a href="/docs/create_your_website/setup_godaddy/">Buy the domain and setup godaddy</a></div>
+            
+            <div class="docs_menu_item"><a href="/docs/create_your_website/download_template/">Download the template files</a></div>
+            
             <div class="docs_menu_item"><a href="/docs/create_your_website/preview_site/">Preview the site</a></div>
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/modify_settings/">Modify Site Settings</a></div>
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/upload_to_github/">Check site and Upload to github</a></div>
-            
-            <div class="docs_menu_item"><a href="/docs/create_your_website/setup_godaddy/">Buy the domain and setup godaddy</a></div>
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/connect_github_godaddy/">Connect github and Godaddy</a></div>
             
@@ -1671,14 +1673,14 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class = "page_main_section">
             <div class="page_content">
                 <ol>
-<li>Open a command prompt</li>
+<li>Open a bash/terminal/command prompt</li>
 <li>create (mkdir) a folder where you want to keep your website files. For example, type <code>mkdir c:\users\yourname\website</code>. Note that you need to use forward slash if working in mac or linux environments.</li>
 <li>Go to that folder <code>cd c:\users\yourname\website</code></li>
 
-<li><p>Use git to download the files. Then we will be changing the remote url names to the ones you created in the step where you <a href="#step-4-getting-a-version-control-system-or-login-to-github">setup the version control system</a></p>
+<li><p>Use git to download the files. <strong>It&rsquo;s important to follow the below steps in order</strong></p>
 
 <pre><code class="language-bash"># 1. Clone the site into your directory
-git clone --recurse-submodules -j8 https://github.com/p10rahulm/yourWebsite.git .
+git clone https://github.com/p10rahulm/your-static-website.git .
 
 # 2. Change the remote url (origin) to the template repo you created
 git remote set-url origin https://github.com/yourusername/yourblogname-template-files.git
@@ -1686,25 +1688,50 @@ git remote set-url origin https://github.com/yourusername/yourblogname-template-
 # 3. Listing your existing remote urls should indicate whether the change was successful
 git remote -v
 
-# 4. The output files will eventually be created in a directory called 'public'. 
-# #  We will create a submodule to link to your blog repo
-git submodule add https://github.com/yourusername/yourblogname.git public
+# 4. The output files will eventually be created in a directory called 'public'.
+# #  We will add the submodule setting to the file called .gitmodules
+git config --file=.gitmodules submodule.public.url https://github.com/yourusername/yourblogname.git
 
-# 5. Send your files into your git repository through script (you may have to 
+# 5. Sync and update the submodule to ensure all files (like .git/config) also 
+# #  have the updated setting
+git submodule sync
+git submodule init
+git submodule update
+# #  You should see 'warning: You appear to have cloned an empty repository.' and
+# #  'fatal: no matching remote head'. This is expected.
+
+# 6. Check the remote repository url in the public folder
+cd public
+git remote -v
+# This should show something like https://github.com/yourusername/yourblogname.git
+
+# 7. Go back to main directory
+cd ..
+
+# 8. Send your files into your git repository through script (you may have to
 # #  use backslash on windows). You may be asked for username and password now
 ./commit.sh
 
-# 6. Ensure deploy function is working
-./deploy.sh
-
-# 7. Check your repos to see that everything is in place
-# #  Browse to https://github.com/yourusername/yourblogname-template-files/ 
-# #  and https://github.com/yourusername/yourblogname/ to see that everything 
-# #  is updated there
+# 9. Now on your browser, check your template repository at
+# #  https://github.com/yourusername/yourblogname-template-files/
+# #  to see that everything is updated there
 </code></pre></li>
 </ol>
 
-<p>Note: More advanced users may want to use ssh method for login, but that will not be covered here. You can find <a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/" target="_blank">good resources</a> from github itself on how to do this</p>
+<p>Note:</p>
+
+<ol>
+<li><p>The first time you use a git command to upload, it will ask you for your username and password. The password should appear in a small additional popup window that maintains encryption. It should only ask for your password the first time you are uploading. More advanced users may want to use ssh method for login, but that will not be covered here. You can find <a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/" target="_blank">good resources</a> from github on how to do this at a later point.</p></li>
+
+<li><p>You have another repository at <a href="https://github.com/yourusername/yourblogname/" target="_blank">https://github.com/yourusername/yourblogname/</a> for our output files. As of now we have not yet deployed our site and so this will not be updated. We will come back here in the <a href="/docs/create_your_website/upload_to_github/">Upload to github</a> step</p></li>
+
+<li><p>If some part of above has failed, it is likely due to the step 4. We can do this manually by creating adding the following text to the <code>.gitmodules</code> file in the main website folder</p>
+
+<pre><code class="language-bash">[submodule &quot;public&quot;]
+path = public
+url = https://github.com/yourusername/yourblogname.git
+</code></pre></li>
+</ol>
 
             </div>
         </div>
@@ -1716,7 +1743,7 @@ git submodule add https://github.com/yourusername/yourblogname.git public
         <div class="prev_next_page">
             <div class="previous_page">
             
-            <a href="/docs/create_your_website/setup_github/"><i class="fa fa-chevron-left icon_left"></i> Setup Github</a>
+            <a href="/docs/create_your_website/setup_godaddy/"><i class="fa fa-chevron-left icon_left"></i> Buy the domain and setup godaddy</a>
             
             </div>
             

@@ -305,7 +305,7 @@ figcaption h4 {
 pre,
 code {
     font-family: 'Roboto Mono', monospace;
-    color: #7da925;
+    color: #ba6425;
     background-color: #f4f4f4;
     font-size: 0.85rem;
 }
@@ -1278,6 +1278,43 @@ nav .navbar-container {
     
 
     
+    
+    
+
+
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+
+
+
+
+
+    
+        
+        
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" ></script>
+
+
+        
+            
+            
+
+
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js" ></script>
+
+
+        
+        <script type="text/javascript" async defer>
+            document.addEventListener('DOMContentLoaded', function(){
+    hljs.initHighlightingOnLoad();
+});
+        </script>
+    
+
 
 
 
@@ -1397,7 +1434,7 @@ nav .navbar-container {
 }
 pre, code {
     font-family: 'Roboto Mono', monospace;
-    color: #7dba25;
+    color: #ba6425;
     background-color: #f4f4f4;
     font-size: 0.85rem;
 }
@@ -1607,6 +1644,8 @@ document.addEventListener('DOMContentLoaded', function() {
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/setup_github/">Setup Github</a></div>
             
+            <div class="docs_menu_item"><a href="/docs/create_your_website/setup_godaddy/">Buy the domain and setup godaddy</a></div>
+            
             <div class="docs_menu_item"><a href="/docs/create_your_website/download_template/">Download the template files</a></div>
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/preview_site/">Preview the site</a></div>
@@ -1615,9 +1654,9 @@ document.addEventListener('DOMContentLoaded', function() {
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/upload_to_github/">Check site and Upload to github</a></div>
             
-            <div class="docs_menu_item"><a href="/docs/create_your_website/setup_godaddy/">Buy the domain and setup godaddy</a></div>
-            
             <div class="docs_menu_item"><a href="/docs/create_your_website/connect_github_godaddy/">Connect github and Godaddy</a></div>
+            
+            <div class="docs_menu_item"><a href="/docs/create_your_website/plan_website/">Plan your website</a></div>
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/add_content/">Add your content to the website</a></div>
             
@@ -1633,20 +1672,112 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="mid_section">
         <div class = "page_main_section">
             <div class="page_content">
-                The main steps for creating your own website are as follows:</p>
+                <p>Now that you have seen your site scaffold and seen what you can do with it, it is time for you to <strong><em>start planning</em></strong> what you want to launch your website with.</p>
+
+<p>The original motivation for this template I created was to <a href="/docs/create_your_website/what_page_templates/">present any and all output that I would produce</a>. But your website may be completely different and may be about fiction, or art. So the question is:</p>
+
+<h2 id="what-pages-can-you-create">What pages can you create</h2>
+
+<h3 id="the-single-pages">The single pages</h3>
+
+<p>We have 15 different types of pages available. These are listed below in approximately alphabetical order:</p>
 
 <ol>
-<li>Download Git Bash, Hugo and a text editor</li>
-<li>Setup Github</li>
-<li>Download the template files</li>
-<li>Preview the site</li>
-<li>Modify Basic Settings</li>
-<li>Check site and Upload to github</li>
-<li>Buy the domain and setup godaddy</li>
-<li>Connect github and Godaddy</li>
-<li>Plan your website</li>
-<li>Add your own content</li>
+<li><a href="https://template.thinkingtree.me/audios/" target="_blank">Audios</a>: This is for any recordings you might have taken including songs or podcasts</li>
+<li><a href="https://template.thinkingtree.me/books/" target="_blank">Books</a>: This is meant for any books you have written</li>
+<li><a href="https://template.thinkingtree.me/code-snippets/" target="_blank">Code-Snippets</a>: This is meant for a mix of content and code.</li>
+<li><a href="https://template.thinkingtree.me/courses/" target="_blank">Courses</a>: This is meant to showcase any courses that one has created</li>
+<li><a href="https://template.thinkingtree.me/docs/understand_static_sites/" target="_blank">Docs</a>: This is meant for any documentation. Like the one you are reading presently.</li>
+<li><a href="https://template.thinkingtree.me/events/" target="_blank">Events</a>: This page type can be used for showcasing events like concerts</li>
+<li><a href="https://template.thinkingtree.me/notes/" target="_blank">Notes</a>: This is meant for a short content piece. Comes without a banner image</li>
+<li><a href="https://template.thinkingtree.me/people/" target="_blank">People</a>: This is for writing about people, possibly in your team or company</li>
+<li><a href="https://template.thinkingtree.me/posts/" target="_blank">Posts</a>: This is meant for long generic content pieces. Comes with a banner image on top</li>
+<li><a href="https://template.thinkingtree.me/presentations/" target="_blank">Presentations</a>: This is meant to showcase presentation pdfs that you may have made</li>
+<li><a href="https://template.thinkingtree.me/publications/" target="_blank">Publications</a>: You can link any publications (journals or otherwise) that you have made here</li>
+<li><a href="https://template.thinkingtree.me/reviews/" target="_blank">Reviews</a>: You can review any kinds of websites, products, movies etc here.</li>
+<li><a href="https://template.thinkingtree.me/thoughts/" target="_blank">Thoughts</a>: This is meant for noting down any (profound) thoughts you may have</li>
+<li><a href="https://template.thinkingtree.me/workshops/" target="_blank">Workshops</a>: You can showcase any workshops (short courses) in these pages.</li>
+<li>Default: This is a default setting for simple markdown.</li>
 </ol>
+
+<p>Given these page types, for starters, you may want to add <em>content that you have already created before</em> that falls into these categories. Further you may find that some kinds of pages, even if they don&rsquo;t directly fit into the above scheme may be coaxed into them. Lastly if you feel there are certain kinds of pages that just don&rsquo;t have a solution in the above pages, leave a comment below and I&rsquo;ll look to add them into the template.</p>
+
+<h3 id="the-front-page">The front page</h3>
+
+<p>The most important part of your website may be your front page, and it&rsquo;s possible you may want to have certain sections and leave out others. You may also want to change the text and content to be your own. You can make these changes in <a href="/docs/create_your_website/config_files/front_page_settings/">_index.md</a></p>
+
+<h3 id="the-list-pages">The list pages</h3>
+
+<p>We have 17 different types of list layouts, three types of pagination and various other settings that you can change. While the defaults of these are set already, you can have a look at <a href="/docs/create_your_website/config_files/list_index_file">how to change these settings</a>.</p>
+
+<h2 id="how-to-add-content-to-your-site">How to add content to your site</h2>
+
+<p>At this point, let&rsquo;s say you know what content you want to put on your website. In such a case, what are the steps you want to take?</p>
+
+<p>1) Delete existing single page content
+2) Create a new content piece</p>
+
+<h3 id="delete-existing-single-page-content">Delete existing single page content</h3>
+
+<p>We have a script for this which should allow you to view and delete <strong><em>all</em></strong> single page content without removing the directory structure or the _index (list layout) files for each content folder.</p>
+
+<ol>
+<li>Open your bash/terminal/command prompt and cd into your website directory</li>
+
+<li><p>Type the below into your prompt</p>
+
+<pre><code class="language-bash"># 1. View the files that you are going to be deleting
+./find_non_index_content_files.sh
+# 2. Delete the files once you are satisfied that none of your personal files are in the list
+./delete_non_index_content_files.sh
+</code></pre></li>
+
+<li><p>Note that on windows you may need backslash instead of forward slash</p></li>
+
+<li><p>Open a file explorer and check to see that all the files from the content subfolders (for example <code>content/posts/post1.md</code>) are indeed gone</p></li>
+</ol>
+
+<h3 id="create-a-new-single-page-content-piece">Create a new single page content piece</h3>
+
+<p>Hugo provides us with archetypes for each kind of page that you simply need to modify rather than writing the whole settings for each page out yourself. Adding a new page is simple in hugo. Let us take an example type <code>post</code> that you want to create called <code>My New Post</code></p>
+
+<ol>
+<li>Open your bash/terminal/command prompt and cd into your website directory. For example, if your website files are at <code>c:\users\yourname\website</code>, type
+<code>bash
+cd c:\users\yourname\website
+</code></li>
+
+<li><p>type the below into your prompt</p>
+
+<pre><code class="language-bash">hugo new posts/my-new-post.md
+</code></pre></li>
+
+<li><p>You should have a new file at <code>c:\users\yourname\website\content\posts\my-new-post-md</code>. Open this with your favorite text editor</p></li>
+
+<li><p>You would find a whole set of options are already filled in. We will look at what they mean in the next section. For now, you can just leave them as is. At the bottom of the page, below the three plus marks <code>+++</code> is where you can fill in your content.</p></li>
+
+<li><p>Note that between the three plus signs on the top of the page and the three plus signs at the bottom of that page are where the <code>page configurations</code> are found. All parameters that are set here can be used to generate the html content.</p></li>
+</ol>
+
+<h3 id="deploying-your-pages">Deploying your pages</h3>
+
+<p>Keep adding pages till you like. At any point, if you want to view it on your live website, you can deploy it.</p>
+
+<ol>
+<li>Open a bash/terminal/command prompt and cd into your website directory</li>
+<li>type <code>./deploy.sh</code> and then <code>./commit.sh</code></li>
+<li>If you added a post called my-new-post.md (as mentioned in the last section), then you should find this on your website at <a href="https://www.yourdomain.com/posts/my-new-post/" target="_blank">https://www.yourdomain.com/posts/my-new-post/</a></li>
+</ol>
+
+<p><strong>Note</strong>: If you want to create this post at a different location (inside <a href="https://www.yourdomain.com/posts" target="_blank">https://www.yourdomain.com/posts</a>), then you would have to place it in the appropriate directory in the content folder</p>
+
+<ul>
+<li>For example, let&rsquo;s say you want to create a new post named &ldquo;My New Post&rdquo; in a directory called <code>politics</code>, then when creating the file, you would have to type into your prompt
+<code>bash
+hugo new posts/politics/my-new-post.md
+</code></li>
+<li>Then the output file can be viewed (after <code>deploy.sh</code>) at <a href="https://www.yourdomain.com/posts/politics/my-new-post/" target="_blank">https://www.yourdomain.com/posts/politics/my-new-post/</a></li>
+</ul>
 
             </div>
         </div>

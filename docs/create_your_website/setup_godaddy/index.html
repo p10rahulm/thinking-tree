@@ -305,7 +305,7 @@ figcaption h4 {
 pre,
 code {
     font-family: 'Roboto Mono', monospace;
-    color: #7da925;
+    color: #ba6425;
     background-color: #f4f4f4;
     font-size: 0.85rem;
 }
@@ -1397,7 +1397,7 @@ nav .navbar-container {
 }
 pre, code {
     font-family: 'Roboto Mono', monospace;
-    color: #7dba25;
+    color: #ba6425;
     background-color: #f4f4f4;
     font-size: 0.85rem;
 }
@@ -1607,6 +1607,8 @@ document.addEventListener('DOMContentLoaded', function() {
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/setup_github/">Setup Github</a></div>
             
+            <div class="docs_menu_item"><a href="/docs/create_your_website/setup_godaddy/">Buy the domain and setup godaddy</a></div>
+            
             <div class="docs_menu_item"><a href="/docs/create_your_website/download_template/">Download the template files</a></div>
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/preview_site/">Preview the site</a></div>
@@ -1633,19 +1635,40 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="mid_section">
         <div class = "page_main_section">
             <div class="page_content">
-                The main steps for creating your own website are as follows:</p>
+                <p>Ok this section is technically simple, but it&rsquo;s going to take a while. You need to decide your website name and go buy the domain from <a href="https://www.godaddy.com/" target="_blank">godaddy</a>. Feel free to buy it from <a href="https://makeawebsitehub.com/reviews/domain-registrars/" target="_blank">other sites</a> (namecheap, google domains), but godaddy i&rsquo;ve found to be cheap and just about effective.</p>
+
+<p>Note: Godaddy may try a bunch of upsells on you like privacy protection and hosting with charges. You don&rsquo;t need any of these, just buy the domain and in case you need anything you can get it later.</p>
+
+<p>The process of buying a domain is not easy, one needs to decide a name and a suffix. A &lsquo;.com&rsquo; is not necessary for every site, but <a href="http://www.paulgraham.com/name.html" target="_blank">Paul Graham</a> suggests using it for a site you expect to become famous. But <a href="https://www.forbes.com/sites/christophersteiner/2017/05/03/most-startups-still-believe-they-need-a-dot-com-domain-but-that-is-changing/" target="_blank">that</a> seems to be changing.</p>
+
+<p>Personally, for any personal site i would go for a cheaper domain name as long as it&rsquo;s small and people can remember it. Most traffic is going to come from google or social media anyway (and not word of mouth) and that doesn&rsquo;t depend on domain name. On the other hand, if you&rsquo;re a startup and want to become rich and famous one day, the dot-com seems to be the way to go.</p>
+
+<h3 id="go-buy-the-domain">Go buy the domain</h3>
 
 <ol>
-<li>Download Git Bash, Hugo and a text editor</li>
-<li>Setup Github</li>
-<li>Download the template files</li>
-<li>Preview the site</li>
-<li>Modify Basic Settings</li>
-<li>Check site and Upload to github</li>
-<li>Buy the domain and setup godaddy</li>
-<li>Connect github and Godaddy</li>
-<li>Plan your website</li>
-<li>Add your own content</li>
+<li>Go to godaddy.com</li>
+<li>Search for preferred domain name</li>
+<li>Add to cart and buy. Just choose one domain for now, you can always add more later. Let&rsquo;s call this domain as &ldquo;your-domain.com&rdquo;. Of course note that &ldquo;.com&rdquo; could be any other suffix like &ldquo;.org&rdquo; or some such.</li>
+<li>Go to <a href="https://account.godaddy.com/products/" target="_blank">https://account.godaddy.com/products/</a></li>
+<li>You should be able to see your domain.</li>
+<li>Typically you may see three buttons here next to your domain: Privacy DNS and Manage.</li>
+<li>Click on the DNS button. It should open up another window with the domain you are managing. We will call this Your DNS page from now. Bookmark it if necessary or leave open.</li>
+</ol>
+
+<h4 id="create-a-forward-from-yourdomain-com-into-the-www-yourdomain-com">Create a forward from yourdomain.com into the www.yourdomain.com</h4>
+
+<ol>
+<li>On Your DNS page, if you scroll fown, you should see a Forwarding section.</li>
+<li>You are presently going to create a DNS forwarding from the yourdomain.com into the www.yourdomain.com</li>
+<li>Click on the button next to domain. The options to be input are as follows:
+
+<ol>
+<li>In the Forward to option, in the blank space next to http:// type &ldquo;www.your-domain.com&rdquo;. This means that it is going to forward from <a href="http://your-domain.com" target="_blank">http://your-domain.com</a> to <a href="http://www.your-domain.com" target="_blank">http://www.your-domain.com</a></li>
+<li>In options use forward type: Permanent (301)</li>
+<li>In options use settings: Forward only</li>
+</ol></li>
+<li>click on save</li>
+<li>Leave this browser window open as we will have to come back here.</li>
 </ol>
 
             </div>
@@ -1658,11 +1681,11 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="prev_next_page">
             <div class="previous_page">
             
-            <a href="/docs/create_your_website/upload_to_github/"><i class="fa fa-chevron-left icon_left"></i> Check site and Upload to github</a>
+            <a href="/docs/create_your_website/setup_github/"><i class="fa fa-chevron-left icon_left"></i> Setup Github</a>
             
             </div>
             
-            <div class="next_page"><a href="/docs/create_your_website/connect_github_godaddy/">Connect github and Godaddy<i class="fa fa-chevron-right icon_right"></i></a></div>
+            <div class="next_page"><a href="/docs/create_your_website/download_template/">Download the template files<i class="fa fa-chevron-right icon_right"></i></a></div>
             
         </div>
 

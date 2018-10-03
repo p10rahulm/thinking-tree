@@ -305,7 +305,7 @@ figcaption h4 {
 pre,
 code {
     font-family: 'Roboto Mono', monospace;
-    color: #7da925;
+    color: #ba6425;
     background-color: #f4f4f4;
     font-size: 0.85rem;
 }
@@ -1278,6 +1278,52 @@ nav .navbar-container {
     
 
     
+    
+    
+
+
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+
+
+
+
+
+    
+        
+        
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" ></script>
+
+
+        
+            
+            
+
+
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js" ></script>
+
+
+        
+            
+            
+
+
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/html.min.js" ></script>
+
+
+        
+        <script type="text/javascript" async defer>
+            document.addEventListener('DOMContentLoaded', function(){
+    hljs.initHighlightingOnLoad();
+});
+        </script>
+    
+
 
 
 
@@ -1397,7 +1443,7 @@ nav .navbar-container {
 }
 pre, code {
     font-family: 'Roboto Mono', monospace;
-    color: #7dba25;
+    color: #ba6425;
     background-color: #f4f4f4;
     font-size: 0.85rem;
 }
@@ -1607,13 +1653,15 @@ document.addEventListener('DOMContentLoaded', function() {
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/setup_github/">Setup Github</a></div>
             
+            <div class="docs_menu_item"><a href="/docs/create_your_website/setup_godaddy/">Buy the domain and setup godaddy</a></div>
+            
             <div class="docs_menu_item"><a href="/docs/create_your_website/download_template/">Download the template files</a></div>
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/preview_site/">Preview the site</a></div>
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/modify_settings/">Modify Site Settings</a></div>
             
-            <div class="docs_menu_item"><a href="/docs/create_your_website/setup_godaddy/">Buy the domain and setup godaddy</a></div>
+            <div class="docs_menu_item"><a href="/docs/create_your_website/upload_to_github/">Check site and Upload to github</a></div>
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/connect_github_godaddy/">Connect github and Godaddy</a></div>
             
@@ -1633,19 +1681,70 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="mid_section">
         <div class = "page_main_section">
             <div class="page_content">
-                The main steps for creating your own website are as follows:</p>
+                <p>So the files are now all with your settings and basic configurations have been changed, it&rsquo;s a good time to preview the site and then upload to github</p>
 
 <ol>
-<li>Download Git Bash, Hugo and a text editor</li>
-<li>Setup Github</li>
-<li>Download the template files</li>
-<li>Preview the site</li>
-<li>Modify Basic Settings</li>
-<li>Check site and Upload to github</li>
-<li>Buy the domain and setup godaddy</li>
-<li>Connect github and Godaddy</li>
-<li>Plan your website</li>
-<li>Add your own content</li>
+<li>Open a bash/terminal/command prompt and cd into your website folder
+
+<ul>
+<li>For example if your website files are at <code>c:\users\yourname\website</code>, then type <code>cd c:\users\yourname\website</code></li>
+</ul></li>
+
+<li><p>We will now create a server and check files. Type into the prompt</p>
+
+<pre><code class="language-bash">hugo server -D -p 1313
+</code></pre></li>
+
+<li><p>The above command will create a local server at port 1313. You can check your site by going to <code>http://localhost:1313</code> on your browser and perusing all the links there for sanity check</p></li>
+
+<li><p>Now if all the files are fine, we can commit the templates and deploy the output to our output repository</p></li>
+
+<li><p>You have already gone through steps 1-4 below while <a href="/docs/create_your_website/download_template/">downloading the template</a>, so you can skip it here if you want</p>
+
+<pre><code class="language-bash"># 1. Check your remote url for template folder. They should point to the 
+# #  repositories *you* created
+git remote -v
+# #  make sure you see something like 
+# #  https://github.com/yourusername/yourblogname-template-files.git here
+# 2. Check your remote url for public folder
+cd public
+
+git remote -v
+# #  make sure you see something like
+# #  https://github.com/yourusername/yourblogname.git here
+
+# 3. Go back to the main folder
+cd ..
+
+# 4. Deploy the files (replace forward with backslash in windows)
+./deploy.sh
+# # Note: Sometimes you will find that hugo fails on the first run throwing errors like 'runtime.throw(0xf5c376, 0x21)'. For such cases, stop the run where it is failing by pressing Ctrl+C and then rerun the command.
+
+# 5. Commit template files to github also
+./commit.sh
+
+# 6. Check your repos to see that everything is in place
+# #  Browse to https://github.com/yourusername/yourblogname-template-files/ 
+# #  and https://github.com/yourusername/yourblogname/ to see that everything
+# #  is updated recently there
+</code></pre></li>
+</ol>
+
+<h3 id="in-case-of-error">In case of error</h3>
+
+<p>This has been tested and should work. If you find normal error messages, try to fix them. If you find really bad (!!) error messages try the following:</p>
+
+<ol>
+<li>First backup your website folder by <a href="https://stackoverflow.com/questions/14922562/how-do-i-copy-folder-with-files-to-another-folder-in-unix-linux" target="_blank">copying it</a>. In windows this is easy enough through windows explorer</li>
+<li>Repeat the instructions <a href="/docs/create_your_website/download_template/">here</a></li>
+<li>Replace in this new directory from your older copy:
+
+<ol>
+<li>the whole content folder</li>
+<li>config.toml file</li>
+<li>favicon and logo and any other images</li>
+</ol></li>
+<li>Then rerun <code>./deploy.sh</code> and <code>./commit.sh</code></li>
 </ol>
 
             </div>
@@ -1662,7 +1761,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             </div>
             
-            <div class="next_page"><a href="/docs/create_your_website/setup_godaddy/">Buy the domain and setup godaddy<i class="fa fa-chevron-right icon_right"></i></a></div>
+            <div class="next_page"><a href="/docs/create_your_website/connect_github_godaddy/">Connect github and Godaddy<i class="fa fa-chevron-right icon_right"></i></a></div>
             
         </div>
 
