@@ -1739,7 +1739,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <h3 id="create-a-new-single-page-content-piece">Create a new single page content piece</h3>
 
-<p>Hugo provides us with archetypes for each kind of page that you simply need to modify rather than writing the whole settings for each page out yourself. Adding a new page is simple in hugo. Let us take an example type <code>post</code> that you want to create called <code>My First Post</code></p>
+<p>Hugo provides us with archetypes for each kind of page that you simply need to modify rather than writing the whole settings for each page out yourself. Adding a new page is simple in hugo. Let us take an example type <code>post</code> that you want to create called <code>My New Post</code></p>
 
 <ol>
 <li>Open your bash/terminal/command prompt and cd into your website directory. For example, if your website files are at <code>c:\users\yourname\website</code>, type
@@ -1761,7 +1761,23 @@ cd c:\users\yourname\website
 
 <h3 id="deploying-your-pages">Deploying your pages</h3>
 
-<p>Keep adding pages till you like. At any point, if you want to view it on your live website, you can view it</p>
+<p>Keep adding pages till you like. At any point, if you want to view it on your live website, you can deploy it.</p>
+
+<ol>
+<li>Open a bash/terminal/command prompt and cd into your website directory</li>
+<li>type <code>./deploy.sh</code> and then <code>./commit.sh</code></li>
+<li>If you added a post called my-new-post.md (as mentioned in the last section), then you should find this on your website at <a href="https://www.yourdomain.com/posts/my-new-post/" target="_blank">https://www.yourdomain.com/posts/my-new-post/</a></li>
+</ol>
+
+<p><strong>Note</strong>: If you want to create this post at a different location (inside <a href="https://www.yourdomain.com/posts" target="_blank">https://www.yourdomain.com/posts</a>), then you would have to place it in the appropriate directory in the content folder</p>
+
+<ul>
+<li>For example, let&rsquo;s say you want to create a new post named &ldquo;My New Post&rdquo; in a directory called <code>politics</code>, then when creating the file, you would have to type into your prompt
+<code>bash
+hugo new posts/politics/my-new-post.md
+</code></li>
+<li>Then the output file can be viewed (after <code>deploy.sh</code>) at <a href="https://www.yourdomain.com/posts/politics/my-new-post/" target="_blank">https://www.yourdomain.com/posts/politics/my-new-post/</a></li>
+</ul>
 
             </div>
         </div>

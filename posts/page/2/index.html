@@ -1475,45 +1475,6 @@ Generally I don&rsquo;t say much. But know this is true
             
             <div class ="details_cards">
                 <div class="border_box">
-                    <a href="/posts/my-new-post/">
-                        <div class="overlay">
-                        </div>
-                    </a>
-                    <a href="/posts/my-new-post/">
-                        <img src="/placeholder.jpg" data-src="/img/bubbles.jpg" class="card_img lazy" alt="My New Post">
-                    </a>
-                    
-                    
-                    
-
-                    
-                    
-
-                    <div class="card_title card_title center_align">
-                        
-                        <a href="/posts/my-new-post/">
-                            My New Post
-                        </a>
-                        
-                    </div>
-
-                    
-                    
-                    
-
-                    <div class="card_summary card_summary center_align">
-                        
-                        This is a post on the effects of workplace sustenance Workplace work makes jack a dull boy.
-                        
-                    </div>
-
-                    
-                    
-                </div>
-            </div>
-            
-            <div class ="details_cards">
-                <div class="border_box">
                     <a href="/posts/post1/">
                         <div class="overlay">
                         </div>
@@ -1532,6 +1493,46 @@ Generally I don&rsquo;t say much. But know this is true
                         
                         <a href="/posts/post1/">
                             Pyotr Ilyich Tchaikovsky
+                        </a>
+                        
+                    </div>
+
+                    
+                    
+                    
+
+                    <div class="card_summary card_summary center_align">
+                        
+                        The book is very very good. It needs to be read by one and all.
+Generally I don&rsquo;t say much. But know this is true
+                        
+                    </div>
+
+                    
+                    
+                </div>
+            </div>
+            
+            <div class ="details_cards">
+                <div class="border_box">
+                    <a href="/posts/post3/">
+                        <div class="overlay">
+                        </div>
+                    </a>
+                    <a href="/posts/post3/">
+                        <img src="/placeholder.jpg" data-src="/img/dog_popup_thanks3.jpg" class="card_img lazy" alt="Wolfgang Amadeus Mozart">
+                    </a>
+                    
+                    
+                    
+
+                    
+                    
+
+                    <div class="card_title card_title center_align">
+                        
+                        <a href="/posts/post3/">
+                            Wolfgang Amadeus Mozart
                         </a>
                         
                     </div>
@@ -1655,8 +1656,6 @@ Generally I don&rsquo;t say much. But know this is true
         
             <li class="paginationed_list active"><a href="/posts/page/2/" class="active">2</a></li>
         
-            <li class="paginationed_list"><a href="/posts/page/3/" >3</a></li>
-        
     </ul>
     <div class="page_load_status">
         <div class="loading_dots_container view_more_request">
@@ -1679,18 +1678,16 @@ var view_more_button_container = document.querySelector('.view_more_button_conta
 var loading_dots_container = document.querySelector('.loading_dots_container');
 var error_message_div = document.querySelector('.view_more_error');
 
-var total_pages = 3;
+var total_pages = 2;
 var current_page_num = 1;
 var num_errors = 0;
 
 var base_url = window.location.href;
 var pages = [];
 
-    pages.push("http://www.yourdomain.com/posts/");
+    pages.push("/posts/");
 
-    pages.push("http://www.yourdomain.com/posts/page/2/");
-
-    pages.push("http://www.yourdomain.com/posts/page/3/");
+    pages.push("/posts/page/2/");
 
  console.log("pages = " + pages);
 var jquery_request = function() {

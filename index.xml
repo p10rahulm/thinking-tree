@@ -26,28 +26,10 @@
         
         
             <lastBuildDate>
-                Wed, 03 Oct 2018 22:25:08 +0530
+                Tue, 17 Jul 2018 23:40:05 +0530
             </lastBuildDate>
         
         <atom:link href="/" rel="self" type="application/rss+xml"/>
-        
-            <item>
-                <title>My New Post</title>
-                <link>/posts/my-new-post/</link>
-                <pubDate>Wed, 03 Oct 2018 22:25:08 +0530</pubDate>
-                    
-                <guid>
-                    /posts/my-new-post/
-                </guid>
-                <description>
-                    
-
-&lt;h1 id=&#34;this-is-a-post-on-the-effects-of-workplace-sustenance&#34;&gt;This is a post on the effects of workplace sustenance&lt;/h1&gt;
-
-&lt;p&gt;Workplace work makes jack a dull boy.&lt;/p&gt;
-
-                </description>
-            </item>
         
             <item>
                 <title>Carbon Monoxide: To Boldly Go Where NO Has Gone Before.</title>
@@ -244,6 +226,22 @@
                     
                 <guid>
                     /thoughts/thought3/
+                </guid>
+                <description>
+                    &lt;p&gt;This is an example of a thought. It&amp;rsquo;s a thought for the day. From all things hard comes learning.&lt;/p&gt;
+
+&lt;p&gt;Pot calling the kettle black is racism.&lt;/p&gt;
+
+                </description>
+            </item>
+        
+            <item>
+                <title>I&#39;m only human after all</title>
+                <link>/thoughts/thought6/</link>
+                <pubDate>Fri, 08 Jun 2018 19:44:36 +0530</pubDate>
+                    
+                <guid>
+                    /thoughts/thought6/
                 </guid>
                 <description>
                     &lt;p&gt;This is an example of a thought. It&amp;rsquo;s a thought for the day. From all things hard comes learning.&lt;/p&gt;
