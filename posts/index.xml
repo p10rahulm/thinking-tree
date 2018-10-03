@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-in</language>
     <copyright>&amp;copy; 2018 yourCompanyName</copyright>
-    <lastBuildDate>Fri, 08 Jun 2018 19:44:35 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 03 Oct 2018 22:25:08 +0530</lastBuildDate>
     
 	<atom:link href="http://www.yourdomain.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My New Post</title>
+      <link>http://www.yourdomain.com/posts/my-new-post/</link>
+      <pubDate>Wed, 03 Oct 2018 22:25:08 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/posts/my-new-post/</guid>
+      <description>This is a post on the effects of workplace sustenance Workplace work makes jack a dull boy.</description>
+    </item>
     
     <item>
       <title>Antonio Vivaldi</title>
