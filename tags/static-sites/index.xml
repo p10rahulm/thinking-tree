@@ -151,7 +151,7 @@ The following settings need to be changed in the file:</description>
       
       <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/courses_page_parameters/</guid>
       <description>Courses, similar to books, have a number of additional optional settings that may be input
-# 1. The &amp;quot;faculty&amp;quot; for the course is a similar option to author name in the regular pages faculty = &amp;quot;yourName and Goody Two Shoes&amp;quot; # 2.</description>
+# 1. The &amp;quot;faculty&amp;quot; for the course is a similar option to author name in the regular pages faculty = &amp;quot;yourName and anotherName&amp;quot; # 2.</description>
     </item>
     
     <item>
