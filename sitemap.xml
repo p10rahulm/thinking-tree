@@ -941,7 +941,7 @@
     <url>
         
         <loc>
-            /docs/create_your_website/page_parameters/books_page_parameters/
+            /docs/create_your_website/page_parameters/book_page_parameters/
         </loc>
         
             <lastmod>
@@ -1043,24 +1043,7 @@
     <url>
         
         <loc>
-            /docs/create_your_website/page_parameters/code_snippets_page_parameters/
-        </loc>
-        
-            <lastmod>
-                2018-06-08T19:44:35+05:30
-            </lastmod>
-        
-        
-        
-    </url>
-    
-    
-    
-    
-    <url>
-        
-        <loc>
-            /docs/create_your_website/git_gotchas/
+            /docs/create_your_website/page_parameters/code_snippet_page_parameters/
         </loc>
         
             <lastmod>
@@ -1162,7 +1145,24 @@
     <url>
         
         <loc>
-            /docs/create_your_website/page_parameters/courses_page_parameters/
+            /docs/create_your_website/page_parameters/course_page_parameters/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/create_template_example/
         </loc>
         
             <lastmod>
@@ -1282,6 +1282,23 @@
         
         <loc>
             /presentations/presentation2/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/page_parameters/doc_page_parameters/
         </loc>
         
             <lastmod>
@@ -1434,7 +1451,7 @@
     <url>
         
         <loc>
-            /docs/create_your_website/page_parameters/events_page_parameters/
+            /docs/create_your_website/page_parameters/event_page_parameters/
         </loc>
         
             <lastmod>
@@ -1554,6 +1571,23 @@
         
         <loc>
             /docs/create_your_website/setup_github/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/git_gotchas/
         </loc>
         
             <lastmod>
@@ -1791,6 +1825,23 @@
     <url>
         
         <loc>
+            /docs/create_your_website/modify_templates/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /workshops/workshop10/
         </loc>
         
@@ -1944,7 +1995,7 @@
     <url>
         
         <loc>
-            /docs/create_your_website/page_parameters/presentations_page_parameters/
+            /docs/create_your_website/page_parameters/presentation_page_parameters/
         </loc>
         
             <lastmod>
@@ -1961,7 +2012,7 @@
     <url>
         
         <loc>
-            /docs/create_your_website/page_parameters/publications_page_parameters/
+            /docs/create_your_website/page_parameters/publication_page_parameters/
         </loc>
         
             <lastmod>
@@ -2012,7 +2063,24 @@
     <url>
         
         <loc>
-            /docs/create_your_website/page_parameters/reviews_page_parameters/
+            /docs/create_your_website/page_parameters/review_page_parameters/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /docs/create_your_website/google_cloud_storage/
         </loc>
         
             <lastmod>
@@ -2199,7 +2267,7 @@
     <url>
         
         <loc>
-            /docs/create_your_website/page_parameters/thoughts_page_parameters/
+            /docs/create_your_website/page_parameters/thought_page_parameters/
         </loc>
         
             <lastmod>
@@ -2301,7 +2369,7 @@
     <url>
         
         <loc>
-            /docs/create_your_website/page_parameters/workshops_page_parameters/
+            /docs/create_your_website/page_parameters/workshop_page_parameters/
         </loc>
         
             <lastmod>
@@ -3493,7 +3561,7 @@
     <url>
         
         <loc>
-            /subjects/management/
+            /topics/management/
         </loc>
         
             <lastmod>
@@ -3514,7 +3582,7 @@
     <url>
         
         <loc>
-            /topics/management/
+            /subjects/management/
         </loc>
         
             <lastmod>
@@ -3679,6 +3747,27 @@
     <url>
         
         <loc>
+            /tags/programming/
+        </loc>
+        
+            <lastmod>
+                2018-07-17T23:40:05+05:30
+            </lastmod>
+        
+        
+        
+            <priority>
+                0
+            </priority>
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /categories/programming/
         </loc>
         
@@ -3701,27 +3790,6 @@
         
         <loc>
             /subjects/programming/
-        </loc>
-        
-            <lastmod>
-                2018-07-17T23:40:05+05:30
-            </lastmod>
-        
-        
-        
-            <priority>
-                0
-            </priority>
-        
-    </url>
-    
-    
-    
-    
-    <url>
-        
-        <loc>
-            /tags/programming/
         </loc>
         
             <lastmod>
@@ -4050,12 +4118,8 @@
     <url>
         
         <loc>
-            /reviewed_item_categories/technology/
+            /divisions/technology/
         </loc>
-        
-            <lastmod>
-                2018-06-08T19:44:35+05:30
-            </lastmod>
         
         
         
@@ -4071,8 +4135,12 @@
     <url>
         
         <loc>
-            /divisions/technology/
+            /reviewed_item_categories/technology/
         </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
         
         
         

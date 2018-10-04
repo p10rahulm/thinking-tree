@@ -27,7 +27,7 @@
     
 
     
-        Common Page Parameters &middot; Your Website Name
+        Git Gotchas &middot; Your Website Name
     
 
 </title>
@@ -47,7 +47,7 @@ Create your site in 10 easy steps">
     
     
 
-<meta itemprop="name" content="Common Page Parameters - Your Website Name">
+<meta itemprop="name" content="Git Gotchas - Your Website Name">
 <meta itemprop="description" content="
 Create your site in 10 easy steps">
 <meta itemprop="image" content="http://www.yourdomain.com/dog_popup_thanks3.jpg">
@@ -56,7 +56,7 @@ Create your site in 10 easy steps">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@yourWebsite">
-<meta name="twitter:title" content="Common Page Parameters - Your Website Name">
+<meta name="twitter:title" content="Git Gotchas - Your Website Name">
 <meta name="twitter:description" content="
 Create your site in 10 easy steps">
  <meta name="twitter:creator" content="@yourName" >
@@ -1665,7 +1665,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="page_right_section">
     
     <div class ="page_header_section">
-        <div class="page_title">Common Page Parameters</div>
+        <div class="page_title">Git Gotchas</div>
         <div class="page_author">Author: yourName</div>
         <div class="page_created_date">Friday, Jun 8, 2018</div>
     </div>
@@ -1694,9 +1694,67 @@ cd..
 # 5. reattempt a deploy
 ,/deploy.sh
 # 6. Verify it has worked. Open a browser and check update times on your github repository at https://github.com/yourusername/yourblogname
+</code></pre>
 
-</code></pre></li>
+<p>Above is based on <a href="https://stackoverflow.com/questions/10228760/fix-a-git-detached-head" target="_blank">this answer</a> on stackoverflow</p></li>
 </ol>
+
+<h3 id="public-folder-added-to-main-git-repo-instead-of-submodule">Public folder added to main git repo instead of submodule</h3>
+
+<p>Removing a folder from git is more trouble than it&rsquo;s worth, but without going into how this happened, let us look at how to extricate yourself from this problem</p>
+
+<pre><code class="language-bash"># The below steps might take time as git has to search all past versions to find the 'public' directory
+git filter-branch --tree-filter 'rm -rf public' --prune-empty HEAD
+git for-each-ref --format=&quot;%(refname)&quot; refs/original/ | xargs -n 1 git update-ref -d
+# Below two steps are not necessary (if public is a submodule)
+echo public/ &gt;&gt; .gitignore
+git add .gitignore
+# Below steps are necessary, so even if you skipped the above two steps continue here
+git commit -m 'Removing public from git history'
+git gc
+git push origin master --force
+</code></pre>
+
+<p>Note: You can skip the third and fourth step (.gitignore) since we are using a
+This <a href="https://help.github.com/articles/removing-sensitive-data-from-a-repository/" target="_blank">help from github</a> is a good resource to look at as is <a href="https://stackoverflow.com/questions/10067848/remove-folder-and-its-contents-from-git-githubs-history" target="_blank">this stackoverflow answer</a></p>
+
+<h3 id="remote-url-not-showing-correctly-in-submodule">Remote url not showing correctly in submodule</h3>
+
+<p>Say you typed <code>git remote -v</code> in the public folder, it should show the output repo that you created. If at any point it is still pointing to the template repo, one possible reason is that the submodule is not initialized
+In your main folder, try the following:</p>
+
+<pre><code class="language-bash">git submodule init
+git submodule update
+</code></pre>
+
+<p>or you can do both with <code>git submodule update --init</code></p>
+
+<h3 id="cloning-your-own-repos-once-initial-setup-is-done">Cloning your own repos once initial setup is done</h3>
+
+<p>You may work on multiple computers and git is well suited to this. Post the initial setup, when on a new machine, type, which gets the repo and its submodules</p>
+
+<pre><code class="language-bash">git clone --recurse-submodules -j8 https://github.com/your_username/yourWebsite.git
+</code></pre>
+
+<h3 id="remote-repository-url-for-git-submodule-not-changing">Remote repository url for git submodule not changing</h3>
+
+<p>If in spite of following the instructions <a href="/docs/create_your_website/download_template/">here</a>, your repository url has not changed, have a look at <a href="https://stackoverflow.com/questions/913701/how-to-change-the-remote-repository-for-a-git-submodule/914090" target="_blank">this SO answer</a> which may help</p>
+
+<ol>
+<li>Edit the .gitmodules file to update the URL. It should look like:</li>
+</ol>
+
+<pre><code class="language-bash">[submodule &quot;public&quot;]
+    path = public
+    url = git@github.com:p10rahulm/thinking-tree.git
+</code></pre>
+
+<ol>
+<li>sync the submodule</li>
+</ol>
+
+<pre><code class="language-bash">git submodule sync
+</code></pre>
 
             </div>
         </div>
@@ -1955,7 +2013,7 @@ cd..
             </button>
             <div class="sharer_socials" id="toggled_social_shares">
                 <a class="twitter"
-                   href="https://twitter.com/intent/tweet?text=Common%20Page%20Parameters&amp;url=%2fdocs%2fcreate_your_website%2fgit_gotchas%2f"
+                   href="https://twitter.com/intent/tweet?text=Git%20Gotchas&amp;url=%2fdocs%2fcreate_your_website%2fgit_gotchas%2f"
                    target="_blank" rel="noopener">
                     <i class="fa fa-twitter"></i>
                 </a>
@@ -1965,7 +2023,7 @@ cd..
                     <i class="fa fa-facebook"></i>
                 </a>
                 <a class="linkedin"
-                   href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fdocs%2fcreate_your_website%2fgit_gotchas%2f&amp;title=Common%20Page%20Parameters"
+                   href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fdocs%2fcreate_your_website%2fgit_gotchas%2f&amp;title=Git%20Gotchas"
                    target="_blank" rel="noopener">
                     <i class="fa fa-linkedin"></i>
                 </a>
@@ -1975,7 +2033,7 @@ cd..
                     <i class="fa fa-google-plus"></i>
                 </a>
                 <a class="mailto"
-                   href="mailto:?subject=Common%20Page%20Parameters&amp;body=%2fdocs%2fcreate_your_website%2fgit_gotchas%2f">
+                   href="mailto:?subject=Git%20Gotchas&amp;body=%2fdocs%2fcreate_your_website%2fgit_gotchas%2f">
                     <i class="fa fa-envelope"></i>
                 </a>
             </div>
@@ -1984,7 +2042,7 @@ cd..
 
     
         <div class="sharer_socials_fixed" id="fixed_social_shares">
-            <a href="https://twitter.com/intent/tweet?text=Common%20Page%20Parameters&amp;url=%2fdocs%2fcreate_your_website%2fgit_gotchas%2f"
+            <a href="https://twitter.com/intent/tweet?text=Git%20Gotchas&amp;url=%2fdocs%2fcreate_your_website%2fgit_gotchas%2f"
                target="_blank" rel="noopener">
                 <div class="twitter">
                     <i class="fa fa-twitter"></i>
@@ -1996,7 +2054,7 @@ cd..
                     <i class="fa fa-facebook"></i>
                 </div>
             </a>
-            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fdocs%2fcreate_your_website%2fgit_gotchas%2f&amp;title=Common%20Page%20Parameters"
+            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fdocs%2fcreate_your_website%2fgit_gotchas%2f&amp;title=Git%20Gotchas"
                target="_blank" rel="noopener">
                 <div class="linkedin">
                     <i class="fa fa-linkedin"></i>
@@ -2008,7 +2066,7 @@ cd..
                     <i class="fa fa-google-plus"></i>
                 </div>
             </a>
-            <a href="mailto:?subject=Common%20Page%20Parameters&amp;body=%2fdocs%2fcreate_your_website%2fgit_gotchas%2f">
+            <a href="mailto:?subject=Git%20Gotchas&amp;body=%2fdocs%2fcreate_your_website%2fgit_gotchas%2f">
                 <div class="mailto">
                     <i class="fa fa-envelope"></i>
                 </div>

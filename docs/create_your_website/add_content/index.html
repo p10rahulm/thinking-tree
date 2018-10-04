@@ -1639,11 +1639,88 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <h2 id="common-page-parameters">Common Page Parameters</h2>
 
-<p>The term &lsquo;page configuration&rsquo; may be met with a little bit of trepidation. Not to worry, these are most innocuous. Common page paramters include title, author, date, caption_image,summary_content,layout, tags, categories</p>
+<p>The term &lsquo;page configuration&rsquo; may be met with a little bit of trepidation. Not to worry, these are most innocuous. Common page paramters include title, author, date, caption_image,summary_content,layout, tags and categories. There are also two true/false (boolean) parameters for &lsquo;enable_comments&rsquo; and &lsquo;featured&rsquo; on front page. You can read about these in further detail <a href="/docs/create_your_website/page_parameters/common_page_parameters/">here</a></p>
+
+<h2 id="individual-page-parameters">Individual Page Parameters</h2>
+
+<p>We saw above the common settings used across most single pages. Additionally, each page may have its own settings. Let&rsquo;s look at these below in order of alphabetical page types.</p>
+
+<ol>
+<li><a href="/docs/create_your_website/page_parameters/audio_page_parameters/">Audio Page Parameters</a></li>
+<li><a href="/docs/create_your_website/page_parameters/book_page_parameters/">Books Page Parameters</a></li>
+<li><a href="/docs/create_your_website/page_parameters/code_snippet_page_parameters/">Code Snippets Page Parameters</a></li>
+<li><a href="/docs/create_your_website/page_parameters/course_page_parameters/">Courses Page Parameters</a></li>
+<li><a href="/docs/create_your_website/page_parameters/event_page_parameters/">Events Page Parameters</a></li>
+<li>Notes Page Parameters: No additional parameters apart from <a href="/docs/create_your_website/page_parameters/common_page_parameters/">common ones</a></li>
+<li><a href="/docs/create_your_website/page_parameters/people_page_parameters/">People Page Parameters</a></li>
+<li>Posts Page Parameters: No additional parameters apart from <a href="/docs/create_your_website/page_parameters/common_page_parameters/">common ones</a></li>
+<li><a href="/docs/create_your_website/page_parameters/presentation_page_parameters/">Presentations Page Parameters</a></li>
+<li><a href="/docs/create_your_website/page_parameters/publication_page_parameters/">Publications Page Parameters</a></li>
+<li><a href="/docs/create_your_website/page_parameters/review_page_parameters/">Reviews Page Parameters</a></li>
+<li><a href="/docs/create_your_website/page_parameters/thought_page_parameters/">Thoughts Page Parameters</a></li>
+<li><a href="/docs/create_your_website/page_parameters/workshop_page_parameters/">Workshops Page Parameters</a></li>
+<li><a href="/docs/create_your_website/page_parameters/doc_page_parameters/">Documentation Page Parameters</a></li>
+</ol>
+
+<h2 id="template-creation-example">Template Creation Example</h2>
+
+<p>We will go through an example of template creation which should give you a good idea of how to go about creating your own template if required. We take up an <a href="/docs/create_your_website/create_template_example/">example template creation for actors</a> <strong><em>which you should peruse</em></strong></p>
+
+<h2 id="template-creation">Template Creation</h2>
+
+<p>Now, having gone through the example, you may want to take the next step of creating your own templates. I strongly suggest viewing these <a href="https://www.youtube.com/watch?v=G7umPCU-8xc" target="_blank">giraffe academy videos</a> before you create as it will save you time later. Also, prior to that deep dive into the videos, <a href="/docs/create_your_website/modify_templates/">this page</a> gives you a further idea on what is possible.</p>
+
+<h2 id="making-changes-to-website-from-multiple-locations">Making changes to website from multiple locations</h2>
+
+<p>If you are making changes to your website from multiple locations, it is important to have them all with the same working files</p>
+
+<ol>
+<li>First time setup on a new computer
+
+<ol>
+<li>Do all setup like downloading <a href="https://git-scm.com/downloads" target="_blank">git bash</a> and a good text editor like <a href="https://atom.io/" target="_blank">Atom</a> or <a href="https://code.visualstudio.com/" target="_blank">VS Code</a></li>
+<li>Create a directory where you want to host your files, say <code>c:\users\username\website\</code></li>
+<li>Open your git bash and cd to this new directory</li>
+<li>type <code>git clone  --recurse-submodules -j8 https://github.com/your_username/yourWebsite.git .</code></li>
+<li>This should download all your files from the remote directory <em>including the submodule</em></li>
+<li>To ensure that everything is in order, you can further type <code>./pull.sh</code> and all your files should be synced</li>
+</ol></li>
+<li>Continue to make changes are required in your favorite text editor</li>
+<li>When you are done
+
+<ol>
+<li>Save the files you have created or worked on</li>
+<li>Open the bash/terminal and cd into your website directory</li>
+<li>type <code>./commit.sh</code></li>
+<li>If you further want to your changes to pass to the live website as well, type <code>./deploy.sh</code></li>
+<li>You will find that your website is updated with latest changes</li>
+<li>Note on partial changes: If you have only made partial changes to some site page want to continue working on it without updating the live website then skip <code>./deploy.sh</code></li>
+</ol></li>
+<li>When you want to get changes made on any other computer (and if initial setup has already been done):
+
+<ol>
+<li>Open the bash/terminal and cd into your website directory</li>
+<li>type <code>./pull.sh</code></li>
+</ol></li>
+</ol>
 
 <h2 id="git-gotchas">Git gotchas</h2>
 
 <p>In a lifetime of using git, you are likely to face at some point some major or minor errors. While the causes for these may not be immediately apparent, the fixes shouldn&rsquo;t be that hard. We will cover some of these glitches and their fixes in <a href="/docs/create_your_website/git_gotchas/">this page</a>. For everything else, use <a href="https://stackoverflow.com" target="_blank">stack-overflow</a></p>
+
+<h2 id="working-with-google-cloud-storage-instead-of-github">Working with Google Cloud Storage instead of github</h2>
+
+<p>Github is good. While good, you may find many reasons not to use it like: (a) It may be slow to serve website in your country, or (b) github is good but you can&rsquo;t get your head around <em>git</em>. Therefore there are many reasons why you may not want to work with github. If so an alternative is Google Cloud Storage. We detail instructions for cloud storage setup <a href="/docs/create_your_website/google_cloud_storage/">in this page</a>.</p>
+
+<h2 id="last-remarks">Last remarks</h2>
+
+<p>It would not be in order if i didn&rsquo;t mention why I created this website template. My main motivation was that I didn&rsquo;t like facebook. I wanted my output to be on the internet, but didn&rsquo;t want it lost in the thousands and thousands of posts that go on facebook. Facebook can be used to spread ideas, not to host them. I wanted my own address.</p>
+
+<p>I tried Wordpress for a while. In fact it was the first place of stop when I didn&rsquo;t know the least bit about coding. But i realized it was inefficient. Wordpress was not a good way to create sites. Further it was costing me every month. A bit later I found that the majority of content on wordpress sites was static but were hosted dynamically. This lead to my interest in static sites - especially given wordpress was hosting 20 percent of all sites on the internet.</p>
+
+<p>Building a website should not be hard at all. If your grandpa asks you to build a site, you should be able to tell him - it&rsquo;s really simple - here are the instructions, why don&rsquo;t you try? Also, apart from your domain name, it&rsquo;s free. This was my motivation.</p>
+
+<p>Given this motivation, these docs are aimed at people who don&rsquo;t have their own websites currently. Therefore the intention is to be free of technical jargon. There is a high likelihood that I have failed in this attempt. Therefore, if you find improvements to code or to docs, do send in.</p>
 
             </div>
         </div>

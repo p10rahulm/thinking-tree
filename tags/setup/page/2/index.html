@@ -1292,10 +1292,25 @@ nav .navbar-container {
         <div id="taxonomy-setup_cards" class="cardList">
             
             <div class ="details_cards">
-                <a href="/docs/create_your_website/page_parameters/publications_page_parameters/">
+                <a href="/docs/create_your_website/page_parameters/review_page_parameters/">
+                    <img src="/placeholder.jpg" data-src="/img/dog_popup_thanks3.jpg" class="card_img lazy" alt="Reviews Page Parameters">
+                </a>
+                <a href="/docs/create_your_website/page_parameters/review_page_parameters/">
+                    <div class="card_title left_align">
+                        Reviews Page Parameters
+                    </div>
+                </a>
+                    <div class="card_summary left_align">
+                        Create your site in 10 easy steps
+                    </div>
+
+            </div>
+            
+            <div class ="details_cards">
+                <a href="/docs/create_your_website/page_parameters/publication_page_parameters/">
                     <img src="/placeholder.jpg" data-src="/img/dog_popup_thanks3.jpg" class="card_img lazy" alt="Publications Page Parameters">
                 </a>
-                <a href="/docs/create_your_website/page_parameters/publications_page_parameters/">
+                <a href="/docs/create_your_website/page_parameters/publication_page_parameters/">
                     <div class="card_title left_align">
                         Publications Page Parameters
                     </div>
@@ -1307,10 +1322,10 @@ nav .navbar-container {
             </div>
             
             <div class ="details_cards">
-                <a href="/docs/create_your_website/page_parameters/presentations_page_parameters/">
+                <a href="/docs/create_your_website/page_parameters/presentation_page_parameters/">
                     <img src="/placeholder.jpg" data-src="/img/dog_popup_thanks3.jpg" class="card_img lazy" alt="Presentations Page Parameters">
                 </a>
-                <a href="/docs/create_your_website/page_parameters/presentations_page_parameters/">
+                <a href="/docs/create_your_website/page_parameters/presentation_page_parameters/">
                     <div class="card_title left_align">
                         Presentations Page Parameters
                     </div>
@@ -1351,25 +1366,11 @@ nav .navbar-container {
 
             </div>
             
-            <div class ="details_cards">
-                <a href="/docs/create_your_website/plan_website/">
-                    <img src="/placeholder.jpg" data-src="/img/dog_popup_thanks3.jpg" class="card_img lazy" alt="Plan your website and contents">
-                </a>
-                <a href="/docs/create_your_website/plan_website/">
-                    <div class="card_title left_align">
-                        Plan your website and contents
-                    </div>
-                </a>
-                    <div class="card_summary left_align">
-                        Create your site in 10 easy steps
-                    </div>
-
-            </div>
-            
         </div>
 
     </div>
 </section>
+
 
 
 
@@ -1479,6 +1480,8 @@ nav .navbar-container {
         
             <li class="paginationed_list"><a href="/tags/setup/page/7/" >7</a></li>
         
+            <li class="paginationed_list"><a href="/tags/setup/page/8/" >8</a></li>
+        
     </ul>
     <div class="page_load_status">
         <div class="loading_dots_container view_more_request">
@@ -1501,7 +1504,7 @@ var view_more_button_container = document.querySelector('.view_more_button_conta
 var loading_dots_container = document.querySelector('.loading_dots_container');
 var error_message_div = document.querySelector('.view_more_error');
 
-var total_pages = 7;
+var total_pages = 8;
 var current_page_num = 1;
 var num_errors = 0;
 
@@ -1521,6 +1524,8 @@ var pages = [];
     pages.push("/tags/setup/page/6/");
 
     pages.push("/tags/setup/page/7/");
+
+    pages.push("/tags/setup/page/8/");
 
  console.log("pages = " + pages);
 var jquery_request = function() {

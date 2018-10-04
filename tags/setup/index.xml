@@ -33,10 +33,10 @@
     
     <item>
       <title>Books Page Parameters</title>
-      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/books_page_parameters/</link>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/book_page_parameters/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/books_page_parameters/</guid>
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/book_page_parameters/</guid>
       <description>Some additional settings need to be specified for books pages
 # 1. tagline is some small snippet about the book that will come just below the title tagline = &amp;quot;The last book you&#39;ll ever need&amp;quot; # 2.</description>
     </item>
@@ -61,21 +61,12 @@
     
     <item>
       <title>Code-snippets Page Parameters</title>
-      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/code_snippets_page_parameters/</link>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/code_snippet_page_parameters/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/code_snippets_page_parameters/</guid>
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/code_snippet_page_parameters/</guid>
       <description>Code snippets need a small number of additional settings
 # 1. Do you use Math in the Code Page. If so, use math=true below. The math display is based on [mathjax](https://www.</description>
-    </item>
-    
-    <item>
-      <title>Common Page Parameters</title>
-      <link>http://www.yourdomain.com/docs/create_your_website/git_gotchas/</link>
-      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
-      
-      <guid>http://www.yourdomain.com/docs/create_your_website/git_gotchas/</guid>
-      <description>There are various things that can go wrong when updating git. Because github also hosts our site apart from being a version control system, we have to be doubly careful.</description>
     </item>
     
     <item>
@@ -127,12 +118,22 @@ The following settings need to be changed in the file:</description>
     
     <item>
       <title>Courses Page Parameters</title>
-      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/courses_page_parameters/</link>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/course_page_parameters/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/courses_page_parameters/</guid>
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/course_page_parameters/</guid>
       <description>Courses, similar to books, have a number of additional optional settings that may be input
 # 1. The &amp;quot;faculty&amp;quot; for the course is a similar option to author name in the regular pages faculty = &amp;quot;yourName and anotherName&amp;quot; # 2.</description>
+    </item>
+    
+    <item>
+      <title>Create an Actors Template</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/create_template_example/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/create_template_example/</guid>
+      <description>Let&amp;rsquo;s say you want to create a new page type called actor. You would want each page to have
+ Name of the actor Date of birth List of movies the actor has acted in A list of best dialogues of actor along with link to view them Profile write up about the actor  Representing above variables in page configuration First thing you want to do is to create configuration to hold the variables that we listed above.</description>
     </item>
     
     <item>
@@ -151,6 +152,15 @@ The following settings need to be changed in the file:</description>
       
       <guid>http://www.yourdomain.com/docs/create_your_website/what_page_templates/</guid>
       <description>My main motivation behind having this website was to have a space on the internet where I could share my work. Facebook and social media were good places to spread the message, but not host thoughts and work.</description>
+    </item>
+    
+    <item>
+      <title>Documentation Page Parameters</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/doc_page_parameters/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/doc_page_parameters/</guid>
+      <description>Documentation pages (like the one you are reading) contain a number of parameters that make it useful to navigate. Further there is a pageNumber option which is useful for sorting</description>
     </item>
     
     <item>
@@ -174,10 +184,10 @@ The following settings need to be changed in the file:</description>
     
     <item>
       <title>Events Page Parameters</title>
-      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/events_page_parameters/</link>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/event_page_parameters/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/events_page_parameters/</guid>
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/event_page_parameters/</guid>
       <description>The events pages unlike other pages do not contain many of the common settings. Instead they may contain a few additional (self-explanatory) settings
 # 1. A short description of the event that goes below the title tagline = &amp;quot;The beats are coming to town&amp;quot; # 2.</description>
     </item>
@@ -201,6 +211,15 @@ The following settings need to be changed in the file:</description>
     </item>
     
     <item>
+      <title>Git Gotchas</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/git_gotchas/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/git_gotchas/</guid>
+      <description>There are various things that can go wrong when updating git. Because github also hosts our site apart from being a version control system, we have to be doubly careful.</description>
+    </item>
+    
+    <item>
       <title>Implement your own static website with Godaddy and github in 10 easy steps</title>
       <link>http://www.yourdomain.com/docs/create_your_website/implement_static_website_godaddy_github/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
@@ -217,6 +236,15 @@ The following settings need to be changed in the file:</description>
       
       <guid>http://www.yourdomain.com/docs/create_your_website/modify_settings/</guid>
       <description>At this stage, you will want to modify all the settings like the site author name, website name, etc on the site to be your own.</description>
+    </item>
+    
+    <item>
+      <title>Modify Templates</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/modify_templates/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/modify_templates/</guid>
+      <description>When you are creating new single page templates or list templates, it may be easy to first copy an existing template. These are html files with additional hugo code.</description>
     </item>
     
     <item>
@@ -257,32 +285,41 @@ The following settings need to be changed in the file:</description>
     
     <item>
       <title>Presentations Page Parameters</title>
-      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/presentations_page_parameters/</link>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/presentation_page_parameters/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/presentations_page_parameters/</guid>
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/presentation_page_parameters/</guid>
       <description>The presentations pages are mainly about the presentation pdf itself. They may optionally contain some writeup below the presentation.
 # 1. The tagline goes below the title and is a brief description of the presentation tagline = &amp;quot;An in-depth look at management with a specific view on Marketing&amp;quot; # 2.</description>
     </item>
     
     <item>
       <title>Publications Page Parameters</title>
-      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/publications_page_parameters/</link>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/publication_page_parameters/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/publications_page_parameters/</guid>
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/publication_page_parameters/</guid>
       <description>The publications pages use a bunch of new parameters including a few categorizations.
 # 1. We list the authors in these pages with links to their personal pages (which could be outside of the site itself) authors = [ { name = &amp;quot;yourName&amp;quot;, url = &amp;quot;/people/person1&amp;quot; }, { name = &amp;quot;Ankit Mathgenius&amp;quot;, url = &amp;quot;/people/person2&amp;quot; }, { name = &amp;quot;Sailesh Tripper&amp;quot;, url = &amp;quot;/people/person3&amp;quot; } ] # 2.</description>
     </item>
     
     <item>
       <title>Reviews Page Parameters</title>
-      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/reviews_page_parameters/</link>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/review_page_parameters/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/reviews_page_parameters/</guid>
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/review_page_parameters/</guid>
       <description>The reviews pages mostly contain new configurations regarding the product or item being reviewed
 # 1. Firstly enter some basic details about the item being reviewed including the name, the maker, and the item link reviewed_item = &amp;quot;Opel Astra Car&amp;quot; reviewed_item_maker = &amp;quot;General Motors&amp;quot; reviewed_item_link = &amp;quot;https://en.</description>
+    </item>
+    
+    <item>
+      <title>Setup Google Cloud Storage with Hugo and Godaddy</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/google_cloud_storage/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/google_cloud_storage/</guid>
+      <description>Github Pages is easy to use and free. The only problem could be that it is slow in some countries (especially for large sites) compared to Google Cloud, Microsoft Azure or AWS.</description>
     </item>
     
     <item>
@@ -305,20 +342,20 @@ The following settings need to be changed in the file:</description>
     
     <item>
       <title>Thoughts Page Parameters</title>
-      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/thoughts_page_parameters/</link>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/thought_page_parameters/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/thoughts_page_parameters/</guid>
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/thought_page_parameters/</guid>
       <description>These are the only pages where the configurations include styling elements. The thought layout would contain some content placed on a background image
 # 1. Please change the image used for the background_image.</description>
     </item>
     
     <item>
       <title>Workshops Page Parameters</title>
-      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/workshops_page_parameters/</link>
+      <link>http://www.yourdomain.com/docs/create_your_website/page_parameters/workshop_page_parameters/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
-      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/workshops_page_parameters/</guid>
+      <guid>http://www.yourdomain.com/docs/create_your_website/page_parameters/workshop_page_parameters/</guid>
       <description>Workshops pages contain a good number of new configurations apart from the common ones.We may have come across some of these in different Page Types already</description>
     </item>
     
