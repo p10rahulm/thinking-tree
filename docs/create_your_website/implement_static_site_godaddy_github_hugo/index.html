@@ -27,7 +27,7 @@
     
 
     
-        Connect github and Godaddy: the website goes live &middot; Your Website Name
+        Implement your own static website with Godaddy, Github and Hugo in 10 easy steps &middot; Your Website Name
     
 
 </title>
@@ -42,12 +42,12 @@ Create your site in 10 easy steps">
 <link rel="apple-touch-icon" type="image/jpeg" href="/favicon.jpg">
 
 <link rel="manifest" href="/manifest.json">
-<link rel="canonical" href="/docs/create_your_website/connect_github_godaddy/">
+<link rel="canonical" href="/docs/create_your_website/implement_static_site_godaddy_github_hugo/">
 
     
     
 
-<meta itemprop="name" content="Connect github and Godaddy: the website goes live - Your Website Name">
+<meta itemprop="name" content="Implement your own static website with Godaddy, Github and Hugo in 10 easy steps - Your Website Name">
 <meta itemprop="description" content="
 Create your site in 10 easy steps">
 <meta itemprop="image" content="http://www.yourdomain.com/dog_popup_thanks3.jpg">
@@ -56,7 +56,7 @@ Create your site in 10 easy steps">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@yourWebsite">
-<meta name="twitter:title" content="Connect github and Godaddy: the website goes live - Your Website Name">
+<meta name="twitter:title" content="Implement your own static website with Godaddy, Github and Hugo in 10 easy steps - Your Website Name">
 <meta name="twitter:description" content="
 Create your site in 10 easy steps">
  <meta name="twitter:creator" content="@yourName" >
@@ -66,7 +66,7 @@ Create your site in 10 easy steps">
 
 <meta property="og:title" content="@yourWebsite" >
 <meta property="og:type" content="article" >
-<meta property="og:url" content="/docs/create_your_website/connect_github_godaddy/" >
+<meta property="og:url" content="/docs/create_your_website/implement_static_site_godaddy_github_hugo/" >
 <meta property="og:image" content="http://www.yourdomain.com/dog_popup_thanks3.jpg">
 <meta property="og:description" content="
 Create your site in 10 easy steps">
@@ -1278,6 +1278,61 @@ nav .navbar-container {
     
 
     
+    
+    
+
+
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+
+
+
+
+
+    
+        
+        
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" ></script>
+
+
+        
+            
+            
+
+
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js" ></script>
+
+
+        
+            
+            
+
+
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/html.min.js" ></script>
+
+
+        
+            
+            
+
+
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/toml.min.js" ></script>
+
+
+        
+        <script type="text/javascript" async defer>
+            document.addEventListener('DOMContentLoaded', function(){
+    hljs.initHighlightingOnLoad();
+});
+        </script>
+    
+
 
 
 
@@ -1617,6 +1672,8 @@ document.addEventListener('DOMContentLoaded', function() {
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/upload_to_github/">Check site and Upload to github</a></div>
             
+            <div class="docs_menu_item"><a href="/docs/create_your_website/connect_github_godaddy/">Connect github and Godaddy</a></div>
+            
             <div class="docs_menu_item"><a href="/docs/create_your_website/plan_website/">Plan your website</a></div>
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/add_content/">Add your content to the website</a></div>
@@ -1626,14 +1683,323 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="page_right_section">
     
     <div class ="page_header_section">
-        <div class="page_title">Connect github and Godaddy: the website goes live</div>
+        <div class="page_title">Implement your own static website with Godaddy, Github and Hugo in 10 easy steps</div>
         <div class="page_author">Author: yourName</div>
         <div class="page_created_date">Friday, Jun 8, 2018</div>
     </div>
     <div class="mid_section">
         <div class = "page_main_section">
             <div class="page_content">
-                <p>Now your website is nearly ready to go live. All that remains is connecting github with godaddy. This consists of two parts:</p>
+                <p>These are a condensed version of the <a href="/docs/create_your_website/implement_static_website_godaddy_github/">documentation for creating static site</a>. You can go through that if you get stuck in any step here.</p>
+
+<p>The main steps for creating your own website are as follows:</p>
+
+<ol>
+<li><a href="/docs/create_your_website/download_essentials/">Download Git Bash, Hugo and a text editor</a></li>
+<li><a href="/docs/create_your_website/setup_github/">Setup Github</a></li>
+<li><a href="/docs/create_your_website/setup_godaddy/">Buy the domain and setup godaddy</a></li>
+<li><a href="/docs/create_your_website/download_template/">Download the template files</a></li>
+<li><a href="/docs/create_your_website/preview_site/">Preview the site</a></li>
+<li><a href="/docs/create_your_website/modify_settings/">Modify Basic Settings</a></li>
+<li><a href="/docs/create_your_website/upload_to_github/">Check site and Upload to github</a></li>
+<li><a href="/docs/create_your_website/connect_github_godaddy/">Connect github and Godaddy</a></li>
+<li><a href="/docs/create_your_website/plan_website/">Plan your website</a></li>
+<li><a href="/docs/create_your_website/add_content/">Add your own content</a></li>
+</ol>
+
+<p>Let us go through each of these in detail.</p>
+
+<h2 id="download-git-bash-hugo-and-a-text-editor-docs-create-your-website-download-essentials"><a href="/docs/create_your_website/download_essentials/">Download Git Bash, Hugo and a text editor</a></h2>
+
+<p>Download the following software</p>
+
+<ol>
+<li><a href="https://git-scm.com/downloads" target="_blank">Git Bash</a></li>
+<li><a href="https://github.com/gohugoio/hugo/releases" target="_blank">Hugo</a></li>
+<li>A good Text Editor:  Download one of <a href="https://atom.io/" target="_blank">Atom</a>,<a href="https://code.visualstudio.com/" target="_blank">VS Code</a>, <a href="https://www.jetbrains.com/webstorm/" target="_blank">Webstorm</a></li>
+</ol>
+
+<h2 id="setup-github-docs-create-your-website-setup-github"><a href="/docs/create_your_website/setup_github/">Setup Github</a></h2>
+
+<p>You will need to create <strong><em>two repositories</em></strong> at <a href="https://github.com/" target="_blank">github.com</a>. One for the output webpages and one for the input template pages that you will be working on.</p>
+
+<p>After signup at github, you will be taken to <a href="https://github.com/dashboard" target="_blank">your main github page</a>. If you are new to github, you will see a big green button on the left saying &lsquo;new repository&rsquo;. If you don&rsquo;t see this, you can click the &lsquo;+&rsquo; button on the top right menu and click on &lsquo;new repository&rsquo;</p>
+
+<h3 id="create-first-repository">Create first repository</h3>
+
+<ol>
+<li>Choose a repository name. This doesn&rsquo;t have to be unique across github, just unique to your username. Therefore choose something descriptive. Simple ones like <code>yourblogname</code> should be good enough.</li>
+<li>Choose public, it should be ok as your site is static and everyone can view all files anyway.</li>
+<li>Uncheck the box for &ldquo;Initialize repository with a README&rdquo;</li>
+<li>Add .gitignore should be None for now</li>
+<li>Add a license should be None for now. You can add these later if you feel like</li>
+</ol>
+
+<ul>
+<li>You will be taken to a page that looks like <code>https://github.com/yourusername/yourblogname</code>. Bookmark this page. Also note down the link to the git repository which should look like: <code>https://github.com/yourusername/yourblogname.git</code></li>
+</ul>
+
+<h3 id="create-second-repository">Create second repository</h3>
+
+<ol>
+<li>Follow the five steps above create another repository. This can be of a simple name like <code>yourblogname-template-files</code>. Post creating the repo, it should be available at the page <code>https://github.com/yourusername/yourblogname-template-files</code> and the git repository would be at <code>https://github.com/yourusername/yourblogname-template-files.git</code></li>
+</ol>
+
+<p>You should have at the end two repositories: (1) yourblogname which will be the repository for your output files and (2) yourblogname-template-files which will be the repository for the input files. Note these down, we will keep coming back to these.</p>
+
+<h2 id="buy-the-domain-and-setup-godaddy-docs-create-your-website-setup-godaddy"><a href="/docs/create_your_website/setup_godaddy/">Buy the domain and setup godaddy</a></h2>
+
+<p>There are two steps here: We need to buy a domain and forward requests from the naked domain to the www subdomain</p>
+
+<h3 id="go-buy-the-domain">Go buy the domain</h3>
+
+<ol>
+<li>Go to godaddy.com</li>
+<li>Search for preferred domain name</li>
+<li>Add to cart and buy. Just choose one domain for now, you can always add more later. Let&rsquo;s call this domain as &ldquo;your-domain.com&rdquo;. Of course note that &ldquo;.com&rdquo; could be any other suffix like &ldquo;.org&rdquo; or some such.</li>
+<li>Go to <a href="https://account.godaddy.com/products/" target="_blank">https://account.godaddy.com/products/</a></li>
+<li>You should be able to see your domain.</li>
+<li>Typically you may see three buttons here next to your domain: Privacy DNS and Manage.</li>
+<li>Click on the DNS button. It should open up another window with the domain you are managing. We will call this Your DNS page from now. Bookmark it if necessary or leave open.</li>
+</ol>
+
+<h3 id="create-a-forward-from-yourdomain-com-into-the-www-yourdomain-com">Create a forward from yourdomain.com into the www.yourdomain.com</h3>
+
+<ol>
+<li>On Your DNS page, if you scroll fown, you should see a Forwarding section.</li>
+<li>You are presently going to create a DNS forwarding from the yourdomain.com into the www.yourdomain.com</li>
+<li>Click on the button next to domain. The options to be input are as follows:
+
+<ol>
+<li>In the Forward to option, in the blank space next to http:// type &ldquo;www.your-domain.com&rdquo;. This means that it is going to forward from <a href="http://your-domain.com" target="_blank">http://your-domain.com</a> to <a href="http://www.your-domain.com" target="_blank">http://www.your-domain.com</a></li>
+<li>In options use forward type: Permanent (301)</li>
+<li>In options use settings: Forward only</li>
+</ol></li>
+<li>click on save</li>
+<li>Leave this browser window open as we will have to come back to this DNS page.</li>
+</ol>
+
+<h2 id="download-the-template-files-docs-create-your-website-download-template"><a href="/docs/create_your_website/download_template/">Download the template files</a></h2>
+
+<p>This is an important step, please follow the below steps in order and go to the reference link above in case of any failure</p>
+
+<ol>
+<li>Open a bash/terminal/command prompt</li>
+<li>create (mkdir) a folder where you want to keep your website files. For example, type <code>mkdir c:\users\yourname\website</code>. Note that you need to use forward slash if working in mac or linux environments.</li>
+<li>Go to that folder <code>cd c:\users\yourname\website</code></li>
+
+<li><p>Use git to download the files. <strong>It&rsquo;s important to follow the below steps in order</strong></p>
+
+<pre><code class="language-bash"># 1. Clone the site into your directory
+git clone https://github.com/p10rahulm/your-static-website.git .
+
+# 2. Change the remote url (origin) to the template repo you created
+git remote set-url origin https://github.com/yourusername/yourblogname-template-files.git
+
+# 3. Listing your existing remote urls should indicate whether the change was successful
+git remote -v
+
+# 4. The output files will eventually be created in a directory called 'public'.
+# #  We will add the submodule setting to the file called .gitmodules
+git config --file=.gitmodules submodule.public.url https://github.com/yourusername/yourblogname.git
+
+# 5. Sync and update the submodule to ensure all files (like .git/config) also 
+# #  have the updated setting
+git submodule sync
+git submodule init
+git submodule update
+# #  You should see 'warning: You appear to have cloned an empty repository.' and
+# #  'fatal: no matching remote head'. This is expected.
+
+# 6. Check the remote repository url in the public folder
+cd public
+git remote -v
+# This should show something like https://github.com/yourusername/yourblogname.git
+
+# 7. Go back to main directory
+cd ..
+
+# 8. Send your files into your git repository through script (you may have to
+# #  use backslash on windows). You may be asked for username and password now
+./commit.sh
+
+# 9. Now on your browser, check your template repository at
+# #  https://github.com/yourusername/yourblogname-template-files/
+# #  to see that everything is updated there
+</code></pre></li>
+</ol>
+
+<h2 id="preview-the-site-docs-create-your-website-preview-site"><a href="/docs/create_your_website/preview_site/">Preview the site</a></h2>
+
+<p>Check whether the website works as is. For this you need to locally create a hugo server. Thankfully, this is as simple as writing a simple command on your terminal/bash.</p>
+
+<ol>
+<li>Open bash/terminal and cd into the folder with your website files</li>
+
+<li><p>Type into the terminal:</p>
+
+<pre><code class="language-bash">hugo server -D -p 1313
+</code></pre></li>
+
+<li><p>This opens a server with all files including those which are in draft on port 1313</p></li>
+
+<li><p>Go to your favorite web browser (preferably Firefox or Chrome, i&rsquo;ve not tested on IE)</p></li>
+
+<li><p>Open <code>http://localhost:1313</code>. Even after checking that everything works, keep this tab open.</p></li>
+</ol>
+
+<h2 id="modify-basic-settings-docs-create-your-website-modify-settings"><a href="/docs/create_your_website/modify_settings/">Modify Basic Settings</a></h2>
+
+<p>The main files to be modified are:</p>
+
+<ol>
+<li><a href="/docs/create_your_website/config_files/config_toml/">config.toml</a></li>
+<li><a href="/docs/create_your_website/config_files/front_page_settings/">_index.md</a></li>
+<li><a href="/docs/create_your_website/config_files/contact_page/">contact.md</a></li>
+<li><a href="/docs/create_your_website/config_files/contact_success_page/">contact_success.md</a></li>
+<li><a href="/docs/create_your_website/config_files/popup_success_page/">popup_success.md</a></li>
+<li><a href="/docs/create_your_website/config_files/privacy_terms/">privacy.md</a></li>
+<li><a href="/docs/create_your_website/config_files/terms_of_service/">termservice.md</a></li>
+</ol>
+
+<p>You may want to go through the above links to know what each of the files do and how to modify them. The recommended method for settings modification is to peruse the files above and change them. There are some things that you would want to necessarily modify and some things that you can modify if you want.</p>
+
+<p>If you are in a hurry though, you should come back to the above later and for now do a find and replace to change settings based on some keywords that must be replaced.</p>
+
+<h3 id="how-to-modify-quickly">How to modify quickly</h3>
+
+<ol>
+<li>Before you start modifying the files, check your <code>public</code> folder. In case it has lots of directories, that means your the static files for site have been built. In that case, <em>you would want to delete the <code>public</code> folder</em> in case you have already built your site. Don&rsquo;t worry we&rsquo;ll get this folder back! (Thank you github!)
+
+<ul>
+<li>This is because a single config may be used in hundreds of output pages</li>
+<li>If you are doing a find and replace, then instead of finding every instance in the output page, you might as well just change the config and then rebuild the site</li>
+</ul></li>
+
+<li><p>At this stage, you should ensure you modify the following words to your own. You can choose to do a Replace All in your favorite text editor. Instructions for some text editors are in the <a href="#replace-all-instructions-in-different-text-editors">next section</a> below</p>
+
+<ul>
+<li>yourdomain.com</li>
+<li>Your Website Name</li>
+<li>your_username</li>
+<li>yourWebsite</li>
+<li>yourCompanyName</li>
+<li>yourRole</li>
+<li>yourName</li>
+<li>anotherName</li>
+<li>disqusShortname</li>
+<li>Company1, Company2, Company3, Company4, Company5</li>
+<li>University1, University2</li>
+<li>logo.jpg (to your logo file in static folder)</li>
+<li>googleAnalytics</li>
+<li>map_api_key, latitude, longitude (google maps)</li>
+<li>favicon.jpg (to your favicon file in static folder)</li>
+</ul>
+
+<p>Note that the context of usage at each occurance of above words may be different. For example yourName may occur for your email id as <em>yourName@gmail.com</em> or even as an author of website. So you may not want a simple replace all function without going through context of usage.</p></li>
+
+<li><p>You may have noticed that disqus Shortname, google analytics key and maps api key require you to go to the specific sites and get your own key</p>
+
+<ol>
+<li>disqusShortname:
+
+<ul>
+<li>disqus is the third party application we will be using for comments.</li>
+<li>Get your own disqus shortname here: <a href="https://disqus.com/admin/create/" target="_blank">https://disqus.com/admin/create/</a> and fill it in the place given</li>
+</ul></li>
+<li>googleAnalytics:
+
+<ul>
+<li>the static site uses a third party application - <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/" target="_blank">google analytics</a>, to enable analytics about the customer.</li>
+<li>These analytics can include things like what are the parts and pages of the website your visitor spent time on, how they arrived at your site, what geography they are from and sometimes even the demographics of the customer</li>
+<li>enabling Google Analytics on your site enables you to track site usage, referrers and various other statistics.</li>
+<li>See how to get your google analytics ID <a href="https://support.google.com/analytics/answer/1042508?hl=en" target="_blank">here</a> and fill it in config.toml at the place given for googleAnalytics</li>
+</ul></li>
+<li>maps_api_key:
+
+<ul>
+<li>We use a third party application, google maps, to show a map in the front page in the contact section</li>
+<li>Get your key from <a href="https://developers.google.com/maps/documentation/javascript/get-api-key" target="_blank">here</a> and fill it in the place requiring &lsquo;map_api_key&rsquo; in config.toml</li>
+<li>To get your coordinates, right-click on <a href="https://www.google.com/maps" target="_blank">Google Maps</a> and choose &ldquo;What&rsquo;s here?&rdquo;. The coords will show up at the bottom. Fill in &lsquo;latitude&rsquo; and &lsquo;longitude&rsquo; based on these</li>
+</ul></li>
+</ol></li>
+
+<li><p>Ensure favicon.jpg and logo.jpg are changed to your own</p></li>
+
+<li><p>After doing the replacements, in case you had deleted the <code>public</code> folder, you would want it back.</p>
+
+<ul>
+<li>Open bash/terminal and cd into your website folder</li>
+
+<li><p>Run the <code>rebuild_public.sh</code> script. In windows you may want to replace the forward slash with backslash</p>
+
+<pre><code class="language-bash">./rebuild_public.sh
+</code></pre></li>
+
+<li><p>Check to see that your public folder is back as normal</p></li>
+</ul></li>
+</ol>
+
+<h2 id="check-site-and-upload-to-github-docs-create-your-website-upload-to-github"><a href="/docs/create_your_website/upload_to_github/">Check site and Upload to github</a></h2>
+
+<p>The files are now updated with <em>your</em> settings and basic configurations. It&rsquo;s a good time to preview the site and then upload to github</p>
+
+<h3 id="preview-the-site">Preview the Site</h3>
+
+<ol>
+<li>Open a bash/terminal/command prompt and cd into your website folder
+
+<ul>
+<li>For example if your website files are at <code>c:\users\yourname\website</code>, then type <code>cd c:\users\yourname\website</code></li>
+</ul></li>
+
+<li><p>We will now create a server and check files. Type into the prompt</p>
+
+<pre><code class="language-bash">hugo server -D -p 1313
+</code></pre></li>
+
+<li><p>The above command will create a local server at port 1313. You can check your site by going to <code>http://localhost:1313</code> on your browser and perusing all the links there for sanity check</p></li>
+</ol>
+
+<h3 id="deploy-site-to-github">Deploy site to github</h3>
+
+<p>If your site looks good now, we can commit the templates and deploy the output to your <strong>github output repository</strong></p>
+
+<p>You have already gone through steps 1-4 below while <a href="/docs/create_your_website/download_template/">downloading the template</a>, but you can do it here again just in case</p>
+
+<pre><code>```bash
+# 1. Check your remote url for template folder. They should point to the 
+# #  repositories *you* created
+git remote -v
+# #  make sure you see something like 
+# #  https://github.com/yourusername/yourblogname-template-files.git here
+# 2. Check your remote url for public folder
+cd public
+
+git remote -v
+# #  make sure you see something like
+# #  https://github.com/yourusername/yourblogname.git here
+
+# 3. Go back to the main folder
+cd ..
+
+# 4. Deploy the files (replace forward with backslash in windows)
+./deploy.sh
+# # Note: Sometimes you will find that hugo fails on the first run throwing errors like 'runtime.throw(0xf5c376, 0x21)'. For such cases, stop the run where it is failing by pressing Ctrl+C and then rerun the command.
+
+# 5. Commit template files to github also
+./commit.sh
+
+# 6. Check your repos to see that everything is in place
+# #  Browse to https://github.com/yourusername/yourblogname-template-files/ 
+# #  and https://github.com/yourusername/yourblogname/ to see that everything
+# #  is updated recently there
+```
+</code></pre>
+
+<h2 id="connect-github-and-godaddy-docs-create-your-website-connect-github-godaddy"><a href="/docs/create_your_website/connect_github_godaddy/">Connect github and Godaddy</a></h2>
+
+<p>Now your website is nearly ready to go live. All that remains is connecting github with godaddy. This consists of two parts:</p>
 
 <ol>
 <li>Make github pages viewable</li>
@@ -1700,6 +2066,188 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <p><strong>Note</strong>: windows uses backslash instead of forward slash in the commands above.</p>
 
+<h2 id="plan-your-website-docs-create-your-website-plan-website"><a href="/docs/create_your_website/plan_website/">Plan your website</a></h2>
+
+<p>Go through the website that you have created at <a href="http://www.yourdomain.com" target="_blank">http://www.yourdomain.com</a>. You will get an idea of what the template can do for you. In this section we will go through two main questions - (b) What webpages can you create and (b) how you can create them</p>
+
+<h3 id="what-pages-can-you-create">What pages can you create</h3>
+
+<p>At this stage, you can create content for single pages, change the front page and modify list pages. Let us look at these below.</p>
+
+<h4 id="the-single-pages">The single pages</h4>
+
+<p>We have 15 different types of pages available. These are listed below in approximately alphabetical order:</p>
+
+<ol>
+<li><a href="https://template.thinkingtree.me/audios/" target="_blank">Audios</a>: This is for any recordings you might have taken including songs or podcasts</li>
+<li><a href="https://template.thinkingtree.me/books/" target="_blank">Books</a>: This is meant for any books you have written</li>
+<li><a href="https://template.thinkingtree.me/code-snippets/" target="_blank">Code-Snippets</a>: This is meant for a mix of content and code.</li>
+<li><a href="https://template.thinkingtree.me/courses/" target="_blank">Courses</a>: This is meant to showcase any courses that one has created</li>
+<li><a href="https://template.thinkingtree.me/docs/understand_static_sites/" target="_blank">Docs</a>: This is meant for any documentation. Like the one you are reading presently.</li>
+<li><a href="https://template.thinkingtree.me/events/" target="_blank">Events</a>: This page type can be used for showcasing events like concerts</li>
+<li><a href="https://template.thinkingtree.me/notes/" target="_blank">Notes</a>: This is meant for a short content piece. Comes without a banner image</li>
+<li><a href="https://template.thinkingtree.me/people/" target="_blank">People</a>: This is for writing about people, possibly in your team or company</li>
+<li><a href="https://template.thinkingtree.me/posts/" target="_blank">Posts</a>: This is meant for long generic content pieces. Comes with a banner image on top</li>
+<li><a href="https://template.thinkingtree.me/presentations/" target="_blank">Presentations</a>: This is meant to showcase presentation pdfs that you may have made</li>
+<li><a href="https://template.thinkingtree.me/publications/" target="_blank">Publications</a>: You can link any publications (journals or otherwise) that you have made here</li>
+<li><a href="https://template.thinkingtree.me/reviews/" target="_blank">Reviews</a>: You can review any kinds of websites, products, movies etc here.</li>
+<li><a href="https://template.thinkingtree.me/thoughts/" target="_blank">Thoughts</a>: This is meant for noting down any (profound) thoughts you may have</li>
+<li><a href="https://template.thinkingtree.me/workshops/" target="_blank">Workshops</a>: You can showcase any workshops (short courses) in these pages.</li>
+<li>Default: This is a default setting for simple markdown.</li>
+</ol>
+
+<p>Given these page types, for starters, you may want to add <em>content that you have already created before</em> that falls into these categories. Further you may find that some kinds of pages, even if they don&rsquo;t directly fit into the above scheme may be coaxed into them. Lastly if you feel there are certain kinds of pages that just don&rsquo;t have a solution in the above pages, leave a comment below and I&rsquo;ll look to add them into the template.</p>
+
+<h4 id="the-front-page">The front page</h4>
+
+<p>The most important part of your website may be your front page, and it&rsquo;s possible you may want to have certain sections and leave out others. You may also want to change the text and content to be your own. You can make these changes in <a href="/docs/create_your_website/config_files/front_page_settings/">_index.md</a></p>
+
+<h4 id="the-list-pages">The list pages</h4>
+
+<p>We have 17 different types of list layouts, three types of pagination and various other settings that you can change. The defaults of these are set already, so this is not necessary at the setup stage, but for reference, you can have a look at <a href="/docs/create_your_website/config_files/list_index_file">how to change these settings</a>.</p>
+
+<h4 id="how-to-add-content-to-your-site">How to add content to your site</h4>
+
+<p>At this point, let&rsquo;s say you know what content you want to put on your website. In such a case, what are the steps to adding content to your website?</p>
+
+<p>1) Delete existing single page content
+2) Create a new content piece</p>
+
+<h4 id="delete-existing-single-page-content">Delete existing single page content</h4>
+
+<p>We have a script for this which should allow you to view and delete <strong><em>all</em></strong> single page content without removing the directory structure or the _index (list layout) files for each content folder.</p>
+
+<ol>
+<li>Open your bash/terminal/command prompt and cd into your website directory</li>
+
+<li><p>Type the below into your prompt</p>
+
+<pre><code class="language-bash"># 1. View the files that you are going to be deleting
+./find_non_index_content_files.sh
+# 2. Delete the files once you are satisfied that none of your personal files are in the list
+./delete_non_index_content_files.sh
+</code></pre></li>
+
+<li><p>Note that on windows you may need backslash instead of forward slash</p></li>
+
+<li><p>Open a file explorer and check to see that all the files from the content subfolders (for example <code>content/posts/post1.md</code>) are indeed gone</p></li>
+</ol>
+
+<h4 id="create-a-new-single-page-content-piece">Create a new single page content piece</h4>
+
+<p>Hugo provides us with archetypes for each kind of page that you simply need to modify rather than writing the whole settings for each page out yourself. Adding a new page is simple in hugo. Let us take an example type <code>post</code> that you want to create called <code>My New Post</code></p>
+
+<ol>
+<li>Open your bash/terminal/command prompt and cd into your website directory. For example, if your website files are at <code>c:\users\yourname\website</code>, type
+<code>bash
+cd c:\users\yourname\website
+</code></li>
+
+<li><p>type the below into your prompt</p>
+
+<pre><code class="language-bash">hugo new posts/my-new-post.md
+</code></pre></li>
+
+<li><p>You should have a new file at <code>c:\users\yourname\website\content\posts\my-new-post-md</code>. Open this with your favorite text editor</p></li>
+
+<li><p>You would find a whole set of options are already filled in. We will look at what they mean in the next section. For now, you can just leave them as is.</p></li>
+
+<li><p>Note that between the three plus signs on the top of the page and the three plus signs at the bottom of that page are where the <code>page configurations</code> are found. All parameters that are set here can be used to generate the html content.</p></li>
+
+<li><p>At the bottom of the page, below the three plus marks <code>+++</code> is where you can fill in your content. The content can contain formatting in <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">markdown</a></p></li>
+</ol>
+
+<h4 id="deploying-your-pages">Deploying your pages</h4>
+
+<p>Keep adding pages till you like. At any point, if you want to view it on your live website, you can deploy it.</p>
+
+<ol>
+<li>Open a bash/terminal/command prompt and cd into your website directory</li>
+<li>type <code>./deploy.sh</code> and then <code>./commit.sh</code></li>
+<li>If you added a post called my-new-post.md (as mentioned in the last section), then you should find this on your website at <a href="https://www.yourdomain.com/posts/my-new-post/" target="_blank">https://www.yourdomain.com/posts/my-new-post/</a></li>
+</ol>
+
+<p><strong>Note</strong>: If you want to create this post at a different location (inside <a href="https://www.yourdomain.com/posts" target="_blank">https://www.yourdomain.com/posts</a>), then you would have to place it in the appropriate directory in the content folder</p>
+
+<ul>
+<li>For example, let&rsquo;s say you want to create a new post named &ldquo;My New Post&rdquo; in a directory called <code>politics</code>, then when creating the file, you would have to type into your prompt
+<code>bash
+hugo new posts/politics/my-new-post.md
+</code></li>
+<li>Then the output file can be viewed (after <code>deploy.sh</code>) at <a href="https://www.yourdomain.com/posts/politics/my-new-post/" target="_blank">https://www.yourdomain.com/posts/politics/my-new-post/</a></li>
+</ul>
+
+<h2 id="add-your-own-content-docs-create-your-website-add-content"><a href="/docs/create_your_website/add_content/">Add your own content</a></h2>
+
+<p>At this stage you are ready to start running your website on your own. We will in this last section look at some more things that you may want to know - how to modify single page settings, template creation, using multiple computers and gotchas with respect to git</p>
+
+<h2 id="common-page-parameters">Common Page Parameters</h2>
+
+<p>The term &lsquo;page configuration&rsquo; may be met with a little bit of trepidation. Not to worry, these are most innocuous. Common page paramters include title, author, date, caption_image,summary_content,layout, tags and categories. There are also two true/false (boolean) parameters for &lsquo;enable_comments&rsquo; and &lsquo;featured&rsquo; on front page. You can read about these in further detail <a href="/docs/create_your_website/page_parameters/common_page_parameters/">here</a></p>
+
+<h2 id="individual-page-parameters">Individual Page Parameters</h2>
+
+<p>We saw above the common settings used across most single pages. Additionally, each page may have its own settings. Let&rsquo;s look at these below in order of alphabetical page types.</p>
+
+<ol>
+<li><a href="/docs/create_your_website/page_parameters/audio_page_parameters/">Audio Page Parameters</a></li>
+<li><a href="/docs/create_your_website/page_parameters/book_page_parameters/">Books Page Parameters</a></li>
+<li><a href="/docs/create_your_website/page_parameters/code_snippet_page_parameters/">Code Snippets Page Parameters</a></li>
+<li><a href="/docs/create_your_website/page_parameters/course_page_parameters/">Courses Page Parameters</a></li>
+<li><a href="/docs/create_your_website/page_parameters/event_page_parameters/">Events Page Parameters</a></li>
+<li>Notes Page Parameters: No additional parameters apart from <a href="/docs/create_your_website/page_parameters/common_page_parameters/">common ones</a></li>
+<li><a href="/docs/create_your_website/page_parameters/people_page_parameters/">People Page Parameters</a></li>
+<li>Posts Page Parameters: No additional parameters apart from <a href="/docs/create_your_website/page_parameters/common_page_parameters/">common ones</a></li>
+<li><a href="/docs/create_your_website/page_parameters/presentation_page_parameters/">Presentations Page Parameters</a></li>
+<li><a href="/docs/create_your_website/page_parameters/publication_page_parameters/">Publications Page Parameters</a></li>
+<li><a href="/docs/create_your_website/page_parameters/review_page_parameters/">Reviews Page Parameters</a></li>
+<li><a href="/docs/create_your_website/page_parameters/thought_page_parameters/">Thoughts Page Parameters</a></li>
+<li><a href="/docs/create_your_website/page_parameters/workshop_page_parameters/">Workshops Page Parameters</a></li>
+<li><a href="/docs/create_your_website/page_parameters/doc_page_parameters/">Documentation Page Parameters</a></li>
+</ol>
+
+<h2 id="template-creation-example">Template Creation Example</h2>
+
+<p>We will go through an example of template creation which should give you a good idea of how to go about creating your own template if required. We take up an <a href="/docs/create_your_website/create_template_example/">example template creation for actors</a> <strong><em>which you should peruse</em></strong></p>
+
+<h2 id="making-changes-to-website-from-multiple-locations">Making changes to website from multiple locations</h2>
+
+<p>If you are making changes to your website from multiple locations, it is important to have them all with the same working files</p>
+
+<ol>
+<li>First time setup on a new computer
+
+<ol>
+<li>Do all setup like downloading <a href="https://git-scm.com/downloads" target="_blank">git bash</a> and a good text editor like <a href="https://atom.io/" target="_blank">Atom</a> or <a href="https://code.visualstudio.com/" target="_blank">VS Code</a></li>
+<li>Create a directory where you want to host your files, say <code>c:\users\username\website\</code></li>
+<li>Open your git bash and cd to this new directory</li>
+<li>type <code>git clone  --recurse-submodules -j8 https://github.com/your_username/yourWebsite.git .</code></li>
+<li>This should download all your files from the remote directory <em>including the submodule</em></li>
+<li>To ensure that everything is in order, you can further type <code>./pull.sh</code> and all your files should be synced</li>
+</ol></li>
+<li>Continue to make changes are required in your favorite text editor</li>
+<li>When you are done
+
+<ol>
+<li>Save the files you have created or worked on</li>
+<li>Open the bash/terminal and cd into your website directory</li>
+<li>type <code>./commit.sh</code></li>
+<li>If you further want to your changes to pass to the live website as well, type <code>./deploy.sh</code></li>
+<li>You will find that your website is updated with latest changes</li>
+<li>Note on partial changes: If you have only made partial changes to some site page want to continue working on it without updating the live website then skip <code>./deploy.sh</code></li>
+</ol></li>
+<li>When you want to get changes made on any other computer (and if initial setup has already been done):
+
+<ol>
+<li>Open the bash/terminal and cd into your website directory</li>
+<li>type <code>./pull.sh</code></li>
+</ol></li>
+</ol>
+
+<h2 id="git-gotchas">Git gotchas</h2>
+
+<p>In a lifetime of using git, you are likely to face at some point some major or minor errors. While the causes for these may not be immediately apparent, the fixes shouldn&rsquo;t be that hard. We will cover some of these glitches and their fixes in <a href="/docs/create_your_website/git_gotchas/">this page</a>. For everything else, use <a href="https://stackoverflow.com" target="_blank">stack-overflow</a></p>
+
             </div>
         </div>
     </div>
@@ -1710,11 +2258,11 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="prev_next_page">
             <div class="previous_page">
             
-            <a href="/docs/create_your_website/upload_to_github/"><i class="fa fa-chevron-left icon_left"></i> Check site and Upload to github</a>
+            <a href="/docs/understand_static_sites/introduction/"><i class="fa fa-chevron-left icon_left"></i> Learn about Static Websites</a>
             
             </div>
             
-            <div class="next_page"><a href="/docs/create_your_website/plan_website/">Plan your website<i class="fa fa-chevron-right icon_right"></i></a></div>
+            <div class="next_page"><a href="/docs/create_your_website/implement_static_website_godaddy_github/">Implement Static Site with Godaddy &amp; github<i class="fa fa-chevron-right icon_right"></i></a></div>
             
         </div>
 
@@ -1959,27 +2507,27 @@ document.addEventListener('DOMContentLoaded', function() {
             </button>
             <div class="sharer_socials" id="toggled_social_shares">
                 <a class="twitter"
-                   href="https://twitter.com/intent/tweet?text=Connect%20github%20and%20Godaddy%3a%20the%20website%20goes%20live&amp;url=%2fdocs%2fcreate_your_website%2fconnect_github_godaddy%2f"
+                   href="https://twitter.com/intent/tweet?text=Implement%20your%20own%20static%20website%20with%20Godaddy%2c%20Github%20and%20Hugo%20in%2010%20easy%20steps&amp;url=%2fdocs%2fcreate_your_website%2fimplement_static_site_godaddy_github_hugo%2f"
                    target="_blank" rel="noopener">
                     <i class="fa fa-twitter"></i>
                 </a>
                 <a class="facebook"
-                   href="https://www.facebook.com/sharer.php?u=%2fdocs%2fcreate_your_website%2fconnect_github_godaddy%2f"
+                   href="https://www.facebook.com/sharer.php?u=%2fdocs%2fcreate_your_website%2fimplement_static_site_godaddy_github_hugo%2f"
                    target="_blank" rel="noopener">
                     <i class="fa fa-facebook"></i>
                 </a>
                 <a class="linkedin"
-                   href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fdocs%2fcreate_your_website%2fconnect_github_godaddy%2f&amp;title=Connect%20github%20and%20Godaddy%3a%20the%20website%20goes%20live"
+                   href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fdocs%2fcreate_your_website%2fimplement_static_site_godaddy_github_hugo%2f&amp;title=Implement%20your%20own%20static%20website%20with%20Godaddy%2c%20Github%20and%20Hugo%20in%2010%20easy%20steps"
                    target="_blank" rel="noopener">
                     <i class="fa fa-linkedin"></i>
                 </a>
                 <a class="googleplus"
-                   href="https://plus.google.com/share?url=%2fdocs%2fcreate_your_website%2fconnect_github_godaddy%2f"
+                   href="https://plus.google.com/share?url=%2fdocs%2fcreate_your_website%2fimplement_static_site_godaddy_github_hugo%2f"
                    target="_blank" rel="noopener">
                     <i class="fa fa-google-plus"></i>
                 </a>
                 <a class="mailto"
-                   href="mailto:?subject=Connect%20github%20and%20Godaddy%3a%20the%20website%20goes%20live&amp;body=%2fdocs%2fcreate_your_website%2fconnect_github_godaddy%2f">
+                   href="mailto:?subject=Implement%20your%20own%20static%20website%20with%20Godaddy%2c%20Github%20and%20Hugo%20in%2010%20easy%20steps&amp;body=%2fdocs%2fcreate_your_website%2fimplement_static_site_godaddy_github_hugo%2f">
                     <i class="fa fa-envelope"></i>
                 </a>
             </div>
@@ -1988,31 +2536,31 @@ document.addEventListener('DOMContentLoaded', function() {
 
     
         <div class="sharer_socials_fixed" id="fixed_social_shares">
-            <a href="https://twitter.com/intent/tweet?text=Connect%20github%20and%20Godaddy%3a%20the%20website%20goes%20live&amp;url=%2fdocs%2fcreate_your_website%2fconnect_github_godaddy%2f"
+            <a href="https://twitter.com/intent/tweet?text=Implement%20your%20own%20static%20website%20with%20Godaddy%2c%20Github%20and%20Hugo%20in%2010%20easy%20steps&amp;url=%2fdocs%2fcreate_your_website%2fimplement_static_site_godaddy_github_hugo%2f"
                target="_blank" rel="noopener">
                 <div class="twitter">
                     <i class="fa fa-twitter"></i>
                 </div>
             </a>
-            <a href="https://www.facebook.com/sharer.php?u=%2fdocs%2fcreate_your_website%2fconnect_github_godaddy%2f"
+            <a href="https://www.facebook.com/sharer.php?u=%2fdocs%2fcreate_your_website%2fimplement_static_site_godaddy_github_hugo%2f"
                target="_blank" rel="noopener">
                 <div class="facebook">
                     <i class="fa fa-facebook"></i>
                 </div>
             </a>
-            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fdocs%2fcreate_your_website%2fconnect_github_godaddy%2f&amp;title=Connect%20github%20and%20Godaddy%3a%20the%20website%20goes%20live"
+            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fdocs%2fcreate_your_website%2fimplement_static_site_godaddy_github_hugo%2f&amp;title=Implement%20your%20own%20static%20website%20with%20Godaddy%2c%20Github%20and%20Hugo%20in%2010%20easy%20steps"
                target="_blank" rel="noopener">
                 <div class="linkedin">
                     <i class="fa fa-linkedin"></i>
                 </div>
             </a>
-            <a href="https://plus.google.com/share?url=%2fdocs%2fcreate_your_website%2fconnect_github_godaddy%2f"
+            <a href="https://plus.google.com/share?url=%2fdocs%2fcreate_your_website%2fimplement_static_site_godaddy_github_hugo%2f"
                target="_blank" rel="noopener">
                 <div class="googleplus">
                     <i class="fa fa-google-plus"></i>
                 </div>
             </a>
-            <a href="mailto:?subject=Connect%20github%20and%20Godaddy%3a%20the%20website%20goes%20live&amp;body=%2fdocs%2fcreate_your_website%2fconnect_github_godaddy%2f">
+            <a href="mailto:?subject=Implement%20your%20own%20static%20website%20with%20Godaddy%2c%20Github%20and%20Hugo%20in%2010%20easy%20steps&amp;body=%2fdocs%2fcreate_your_website%2fimplement_static_site_godaddy_github_hugo%2f">
                 <div class="mailto">
                     <i class="fa fa-envelope"></i>
                 </div>
@@ -2383,7 +2931,7 @@ $(document).scroll(function() {
                         
                         <br>
                         
-                        <input type="hidden" name="_next" value="/docs/create_your_website/connect_github_godaddy/">
+                        <input type="hidden" name="_next" value="/docs/create_your_website/implement_static_site_godaddy_github_hugo/">
                         
                         
                         <input type="hidden" name="_subject" value="New subscription for your site!">

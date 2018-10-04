@@ -1292,6 +1292,21 @@ nav .navbar-container {
         <div id="taxonomy-website_cards" class="cardList">
             
             <div class ="details_cards">
+                <a href="/docs/create_your_website/setup_godaddy/">
+                    <img src="/placeholder.jpg" data-src="/img/dog_popup_thanks3.jpg" class="card_img lazy" alt="Buy the domain and setup godaddy">
+                </a>
+                <a href="/docs/create_your_website/setup_godaddy/">
+                    <div class="card_title left_align">
+                        Buy the domain and setup godaddy
+                    </div>
+                </a>
+                    <div class="card_summary left_align">
+                        Create your site in 10 easy steps
+                    </div>
+
+            </div>
+            
+            <div class ="details_cards">
                 <a href="/docs/create_your_website/page_parameters/book_page_parameters/">
                     <img src="/placeholder.jpg" data-src="/img/dog_popup_thanks3.jpg" class="card_img lazy" alt="Books Page Parameters">
                 </a>
@@ -1347,21 +1362,6 @@ nav .navbar-container {
                 </a>
                     <div class="card_summary left_align">
                         Create your site in 10 easy steps
-                    </div>
-
-            </div>
-            
-            <div class ="details_cards">
-                <a href="/docs/understand_static_sites/static_generator_example_hugo/">
-                    <img src="/placeholder.jpg" data-src="/img/dog_popup_thanks3.jpg" class="card_img lazy" alt="A Static Website Generator Example: Hugo">
-                </a>
-                <a href="/docs/understand_static_sites/static_generator_example_hugo/">
-                    <div class="card_title left_align">
-                        A Static Website Generator Example: Hugo
-                    </div>
-                </a>
-                    <div class="card_summary left_align">
-                        Hugo, the best way to create your own website
                     </div>
 
             </div>
@@ -1484,6 +1484,8 @@ nav .navbar-container {
         
             <li class="paginationed_list active"><a href="/categories/website/page/9/" class="active">9</a></li>
         
+            <li class="paginationed_list"><a href="/categories/website/page/10/" >10</a></li>
+        
     </ul>
     <div class="page_load_status">
         <div class="loading_dots_container view_more_request">
@@ -1506,7 +1508,7 @@ var view_more_button_container = document.querySelector('.view_more_button_conta
 var loading_dots_container = document.querySelector('.loading_dots_container');
 var error_message_div = document.querySelector('.view_more_error');
 
-var total_pages = 9;
+var total_pages = 10;
 var current_page_num = 1;
 var num_errors = 0;
 
@@ -1530,6 +1532,8 @@ var pages = [];
     pages.push("/categories/website/page/8/");
 
     pages.push("/categories/website/page/9/");
+
+    pages.push("/categories/website/page/10/");
 
  console.log("pages = " + pages);
 var jquery_request = function() {

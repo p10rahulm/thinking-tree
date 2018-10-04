@@ -1638,6 +1638,23 @@
     <url>
         
         <loc>
+            /docs/create_your_website/implement_static_site_godaddy_github_hugo/
+        </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
+        
+        
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
             /docs/understand_static_sites/introduction/
         </loc>
         
@@ -3747,27 +3764,6 @@
     <url>
         
         <loc>
-            /tags/programming/
-        </loc>
-        
-            <lastmod>
-                2018-07-17T23:40:05+05:30
-            </lastmod>
-        
-        
-        
-            <priority>
-                0
-            </priority>
-        
-    </url>
-    
-    
-    
-    
-    <url>
-        
-        <loc>
             /subjects/programming/
         </loc>
         
@@ -3789,7 +3785,7 @@
     <url>
         
         <loc>
-            /categories/programming/
+            /tags/programming/
         </loc>
         
             <lastmod>
@@ -3811,6 +3807,27 @@
         
         <loc>
             /projects/programming/
+        </loc>
+        
+            <lastmod>
+                2018-07-17T23:40:05+05:30
+            </lastmod>
+        
+        
+        
+            <priority>
+                0
+            </priority>
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /categories/programming/
         </loc>
         
             <lastmod>
@@ -4118,8 +4135,12 @@
     <url>
         
         <loc>
-            /divisions/technology/
+            /reviewed_item_categories/technology/
         </loc>
+        
+            <lastmod>
+                2018-06-08T19:44:35+05:30
+            </lastmod>
         
         
         
@@ -4135,12 +4156,8 @@
     <url>
         
         <loc>
-            /reviewed_item_categories/technology/
+            /divisions/technology/
         </loc>
-        
-            <lastmod>
-                2018-06-08T19:44:35+05:30
-            </lastmod>
         
         
         

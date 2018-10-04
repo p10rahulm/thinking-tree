@@ -27,7 +27,7 @@
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
       <guid>http://www.yourdomain.com/docs/create_your_website/add_content/</guid>
-      <description>At this stage you are ready to start running your website on your own. We will in this last section look at some more things that you may want to know - how to modify single page settings, gotchas with respect to git</description>
+      <description>At this stage you are ready to start running your website on your own. We will in this last section look at some more things that you may want to know - how to modify single page settings, template creation, using multiple computers and gotchas with respect to git</description>
     </item>
     
     <item>
@@ -75,7 +75,7 @@ Stage 1: Load Site level configuration  Load all the site level configuration de
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
       <guid>http://www.yourdomain.com/docs/create_your_website/upload_to_github/</guid>
-      <description>So the files are now all with your settings and basic configurations have been changed, it&amp;rsquo;s a good time to preview the site and then upload to github</description>
+      <description>The files are now updated with your settings and basic configurations. It&amp;rsquo;s a good time to preview the site and then upload to github</description>
     </item>
     
     <item>
@@ -246,6 +246,15 @@ The following settings need to be changed in the file:</description>
       <guid>http://www.yourdomain.com/docs/create_your_website/implement_static_website_godaddy_github/</guid>
       <description>The main steps for creating your own website are as follows:
  Download Git Bash, Hugo and a text editor Setup Github Buy the domain and setup godaddy Download the template files Preview the site Modify Basic Settings Check site and Upload to github Connect github and Godaddy Plan your website Add your own content  </description>
+    </item>
+    
+    <item>
+      <title>Implement your own static website with Godaddy, Github and Hugo in 10 easy steps</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/implement_static_site_godaddy_github_hugo/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/implement_static_site_godaddy_github_hugo/</guid>
+      <description>These are a condensed version of the documentation for creating static site. You can go through that if you get stuck in any step here.</description>
     </item>
     
     <item>

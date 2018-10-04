@@ -1661,8 +1661,6 @@ document.addEventListener('DOMContentLoaded', function() {
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/modify_settings/">Modify Site Settings</a></div>
             
-            <div class="docs_menu_item"><a href="/docs/create_your_website/upload_to_github/">Check site and Upload to github</a></div>
-            
             <div class="docs_menu_item"><a href="/docs/create_your_website/connect_github_godaddy/">Connect github and Godaddy</a></div>
             
             <div class="docs_menu_item"><a href="/docs/create_your_website/plan_website/">Plan your website</a></div>
@@ -1681,7 +1679,9 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="mid_section">
         <div class = "page_main_section">
             <div class="page_content">
-                <p>So the files are now all with your settings and basic configurations have been changed, it&rsquo;s a good time to preview the site and then upload to github</p>
+                <p>The files are now updated with <em>your</em> settings and basic configurations. It&rsquo;s a good time to preview the site and then upload to github</p>
+
+<h3 id="preview-the-site">Preview the Site</h3>
 
 <ol>
 <li>Open a bash/terminal/command prompt and cd into your website folder
@@ -1696,12 +1696,16 @@ document.addEventListener('DOMContentLoaded', function() {
 </code></pre></li>
 
 <li><p>The above command will create a local server at port 1313. You can check your site by going to <code>http://localhost:1313</code> on your browser and perusing all the links there for sanity check</p></li>
+</ol>
 
-<li><p>Now if all the files are fine, we can commit the templates and deploy the output to our output repository</p></li>
+<h3 id="deploy-site-to-github">Deploy site to github</h3>
 
-<li><p>You have already gone through steps 1-4 below while <a href="/docs/create_your_website/download_template/">downloading the template</a>, so you can skip it here if you want</p>
+<p>If your site looks good now, we can commit the templates and deploy the output to your <strong>github output repository</strong></p>
 
-<pre><code class="language-bash"># 1. Check your remote url for template folder. They should point to the 
+<p>You have already gone through steps 1-4 below while <a href="/docs/create_your_website/download_template/">downloading the template</a>, but you can do it here again just in case</p>
+
+<pre><code>```bash
+# 1. Check your remote url for template folder. They should point to the 
 # #  repositories *you* created
 git remote -v
 # #  make sure you see something like 
@@ -1727,8 +1731,8 @@ cd ..
 # #  Browse to https://github.com/yourusername/yourblogname-template-files/ 
 # #  and https://github.com/yourusername/yourblogname/ to see that everything
 # #  is updated recently there
-</code></pre></li>
-</ol>
+```
+</code></pre>
 
 <h3 id="in-case-of-error">In case of error</h3>
 
