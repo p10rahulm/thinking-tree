@@ -157,15 +157,6 @@ The following settings need to be changed in the file:</description>
     
     <item>
       <title>Deciding what to put on your website: My experience</title>
-      <link>http://www.yourdomain.com/docs/create_your_website/config_files/list_index_file/</link>
-      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
-      
-      <guid>http://www.yourdomain.com/docs/create_your_website/config_files/list_index_file/</guid>
-      <description>There are different options available in the _index.md in any content folder. I have already set these based on defaults, so this section is completely optional.</description>
-    </item>
-    
-    <item>
-      <title>Deciding what to put on your website: My experience</title>
       <link>http://www.yourdomain.com/docs/create_your_website/what_page_templates/</link>
       <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
       
@@ -264,6 +255,15 @@ The following settings need to be changed in the file:</description>
       
       <guid>http://www.yourdomain.com/docs/understand_static_sites/introduction/</guid>
       <description>This document is aimed at someone who has not built a website before, so if this is too simple, then bear with me, or skim through this section.</description>
+    </item>
+    
+    <item>
+      <title>List Index File Settings</title>
+      <link>http://www.yourdomain.com/docs/create_your_website/config_files/list_index_file/</link>
+      <pubDate>Fri, 08 Jun 2018 19:44:35 +0530</pubDate>
+      
+      <guid>http://www.yourdomain.com/docs/create_your_website/config_files/list_index_file/</guid>
+      <description>There are different options available in the _index.md in any content folder. I have already set these based on defaults, so this section is completely optional.</description>
     </item>
     
     <item>
