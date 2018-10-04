@@ -1721,15 +1721,14 @@ cd ..
 <p>Note:</p>
 
 <ol>
-<li><p>The first time you use a git command to upload, it will ask you for your username and password. The password should appear in a small additional popup window that maintains encryption. It should only ask for your password the first time you are uploading. More advanced users may want to use ssh method for login, but that will not be covered here. You can find <a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/" target="_blank">good resources</a> from github on how to do this at a later point.</p></li>
-
-<li><p>You have another repository at <a href="https://github.com/yourusername/yourblogname/" target="_blank">https://github.com/yourusername/yourblogname/</a> for our output files. As of now we have not yet deployed our site and so this will not be updated. We will come back here in the <a href="/docs/create_your_website/upload_to_github/">Upload to github</a> step</p></li>
+<li>The first time you use a git command to upload, it will ask you for your username and password. The password should appear in a small additional popup window that maintains encryption. It should only ask for your password the first time you are uploading. More advanced users may want to use ssh method for login, but that will not be covered here. You can find <a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/" target="_blank">good resources</a> from github on how to do this at a later point.</li>
+<li>You have another repository at <a href="https://github.com/yourusername/yourblogname/" target="_blank">https://github.com/yourusername/yourblogname/</a> for our output files. As of now we have not yet deployed our site and so this will not be updated. We will come back here in the <a href="/docs/create_your_website/upload_to_github/">Upload to github</a> step</li>
 
 <li><p>If some part of above has failed, it is likely due to the step 4. We can do this manually by creating adding the following text to the <code>.gitmodules</code> file in the main website folder</p>
 
 <pre><code class="language-bash">[submodule &quot;public&quot;]
-path = public
-url = https://github.com/yourusername/yourblogname.git
+    path = public
+    url = https://github.com/yourusername/yourblogname.git
 </code></pre></li>
 </ol>
 

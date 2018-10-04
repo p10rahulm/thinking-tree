@@ -3561,7 +3561,7 @@
     <url>
         
         <loc>
-            /topics/management/
+            /subjects/management/
         </loc>
         
             <lastmod>
@@ -3582,7 +3582,7 @@
     <url>
         
         <loc>
-            /subjects/management/
+            /topics/management/
         </loc>
         
             <lastmod>
@@ -3747,27 +3747,6 @@
     <url>
         
         <loc>
-            /tags/programming/
-        </loc>
-        
-            <lastmod>
-                2018-07-17T23:40:05+05:30
-            </lastmod>
-        
-        
-        
-            <priority>
-                0
-            </priority>
-        
-    </url>
-    
-    
-    
-    
-    <url>
-        
-        <loc>
             /categories/programming/
         </loc>
         
@@ -3789,7 +3768,7 @@
     <url>
         
         <loc>
-            /subjects/programming/
+            /tags/programming/
         </loc>
         
             <lastmod>
@@ -3811,6 +3790,27 @@
         
         <loc>
             /projects/programming/
+        </loc>
+        
+            <lastmod>
+                2018-07-17T23:40:05+05:30
+            </lastmod>
+        
+        
+        
+            <priority>
+                0
+            </priority>
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /subjects/programming/
         </loc>
         
             <lastmod>
