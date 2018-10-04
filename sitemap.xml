@@ -3747,27 +3747,6 @@
     <url>
         
         <loc>
-            /categories/programming/
-        </loc>
-        
-            <lastmod>
-                2018-07-17T23:40:05+05:30
-            </lastmod>
-        
-        
-        
-            <priority>
-                0
-            </priority>
-        
-    </url>
-    
-    
-    
-    
-    <url>
-        
-        <loc>
             /tags/programming/
         </loc>
         
@@ -3789,7 +3768,7 @@
     <url>
         
         <loc>
-            /projects/programming/
+            /subjects/programming/
         </loc>
         
             <lastmod>
@@ -3810,7 +3789,28 @@
     <url>
         
         <loc>
-            /subjects/programming/
+            /categories/programming/
+        </loc>
+        
+            <lastmod>
+                2018-07-17T23:40:05+05:30
+            </lastmod>
+        
+        
+        
+            <priority>
+                0
+            </priority>
+        
+    </url>
+    
+    
+    
+    
+    <url>
+        
+        <loc>
+            /projects/programming/
         </loc>
         
             <lastmod>
