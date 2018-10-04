@@ -1534,6 +1534,7 @@ h1, h2, h3, h4, h5, h6 {
         visibility: hidden;
         position: relative;
         font-size: 0;
+        margin-right: 3px;
     }
 
     .docs_menu_heading_button:after {
@@ -1698,11 +1699,7 @@ function loadScript(url, callback){
     script.src = url;
     document.getElementsByTagName("head")[0].appendChild(script);
 }
-document.addEventListener('DOMContentLoaded', function() {
-    if( 1000 >  window.innerWidth){
-        document.getElementById("docs-menu").style.overflow = "visible"
-    }
-}, false);
+
 var isFirefox = typeof InstallTrigger !== 'undefined';
 if(isFirefox){
 if(window.innerWidth > 1000 ){
